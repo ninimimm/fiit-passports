@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="FIIT_Passport.MvcApplication" Language="C#" %>
