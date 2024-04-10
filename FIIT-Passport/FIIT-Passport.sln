@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIIT-Passport", "FIIT-Passport\FIIT-Passport.csproj", "{65BC2878-0803-4AB8-9CCE-A6E1C69867D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiit-passport", "Fiit-passport\Fiit-passport.csproj", "{A2DA2BDC-76FF-4FD3-9942-8F54B3A6808C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{65BC2878-0803-4AB8-9CCE-A6E1C69867D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65BC2878-0803-4AB8-9CCE-A6E1C69867D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65BC2878-0803-4AB8-9CCE-A6E1C69867D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65BC2878-0803-4AB8-9CCE-A6E1C69867D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DA2BDC-76FF-4FD3-9942-8F54B3A6808C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DA2BDC-76FF-4FD3-9942-8F54B3A6808C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DA2BDC-76FF-4FD3-9942-8F54B3A6808C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DA2BDC-76FF-4FD3-9942-8F54B3A6808C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

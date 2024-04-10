@@ -6,31 +6,17 @@ C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-pass
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Fiit-passport.runtimeconfig.json
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Fiit-passport.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Fiit-passport.pdb
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Humanizer.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -38,14 +24,6 @@ C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-pass
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Composition.Hosting.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -98,18 +76,6 @@ C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-pass
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\obj\Debug\net8.0\Fiit-passport.csproj.AssemblyReference.cache
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\obj\Debug\net8.0\Fiit-passport.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\obj\Debug\net8.0\Fiit-passport.AssemblyInfoInputs.cache
@@ -137,3 +103,108 @@ C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-pass
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\obj\Debug\net8.0\ref\Fiit-passport.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Npgsql.dll
 C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\FIIT-Passport.staticwebassets.runtime.json
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\FIIT-Passport.exe
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\FIIT-Passport.deps.json
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\FIIT-Passport.runtimeconfig.json
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\FIIT-Passport.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\FIIT-Passport.pdb
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Humanizer.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Npgsql.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.csproj.AssemblyReference.cache
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.AssemblyInfoInputs.cache
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.AssemblyInfo.cs
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.RazorAssemblyInfo.cache
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.RazorAssemblyInfo.cs
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.sourcelink.json
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\staticwebassets\msbuild.FIIT-Passport.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\staticwebassets\msbuild.build.FIIT-Passport.props
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FIIT-Passport.props
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FIIT-Passport.props
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\scopedcss\bundle\FIIT-Passport.styles.css
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\scopedcss\projectbundle\FIIT-Passport.bundle.scp.css
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Pas.41F035EF.Up2Date
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\refint\FIIT-Passport.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.pdb
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.genruntimeconfig.cache
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\ref\FIIT-Passport.dll

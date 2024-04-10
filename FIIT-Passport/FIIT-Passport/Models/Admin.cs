@@ -4,22 +4,28 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Fiit_passport.Models;
 
 [Table("admins")]
-public class Admins : IAdmins
+public class Admin : IAdmin
 {
     [Key]
     [Required]
-    [Column("telegramtag")]
-    [MaxLength(33)]
-    [MinLength(2)]
-    public string TelegramTag { get; set; }
+    [Column("admin_telegram_tag")]
+    [StringLength(33, MinimumLength = 2,
+        ErrorMessage = "Длина имени пользователя telegram должна быть от 2 до 33 символов")]
+    [RegularExpression(@"@[A-Za-z0-9]+",
+        ErrorMessage = "Имя пользователя telegram должно начинаться с @ и содержать только" +
+                       "буквы и цифры латинского алфавита")]
+    //[Remote(action: "CheckEmail", controller: "Home", ErrorMessage ="Email уже используется")]
+    public string AdminTelegramTag { get; set; }
+    
     [Required]
-    [Column("adminlink")]
+    [Column("admin_link")]
     [MaxLength(255)]
+    [Url (ErrorMessage = "Некорректная ссылка")]
     public string AdminLink { get; set; }
 
-    public Admins(string telegramTag, string adminLink)
+    public Admin(string adminTelegramTag, string adminLink)
     {
-        TelegramTag = telegramTag;
+        AdminTelegramTag = adminTelegramTag;
         AdminLink = adminLink;
     }
 }
