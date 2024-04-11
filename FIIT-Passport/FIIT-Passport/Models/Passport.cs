@@ -51,6 +51,7 @@ public class Passport : IPassport
     [Required]
     [MinLength(1, ErrorMessage = "Место встречи не может быть пустым")]
     [Column("meeting_location")]
+    [MaxLength(100)]
     public string MeetingLocation { get; set; }
     
     [Required]
@@ -66,14 +67,16 @@ public class Passport : IPassport
     [EmailAddress (ErrorMessage = "Некорректный адрес")]
     [DefaultValue("Не указана")]
     [Column("email")]
+    [MaxLength(1000)]
     public string Email { get; set; }
     
     [Phone(ErrorMessage = "Некорректный номер")]
     [DefaultValue("Не указан")]
     [Column("phone_number")]
+    [MaxLength(50)]
     public string PhoneNumber { get; set; }
     
-    public virtual Connect Connect { get; set; }
+    public virtual ConnectSession? ConnectSession { get; set; }
 
     #region ConstructorForTable
     public Passport (string sessionId, string ordererName, string projectName, string projectDescription, string goal, string result, string acceptanceCriteria, int copiesNumber, string meetingLocation, string name, string surname, string email, string phoneNumber)

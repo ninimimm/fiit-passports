@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FIIT-Passport")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Fiit-passport")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf011cdcff486a4351148e69235ebfa5843147a6")]
-[assembly: System.Reflection.AssemblyProductAttribute("FIIT-Passport")]
-[assembly: System.Reflection.AssemblyTitleAttribute("FIIT-Passport")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2b1bcf7ca468ee75ca07586d4449490d23b7dd9")]
+[assembly: System.Reflection.AssemblyProductAttribute("Fiit-passport")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Fiit-passport")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

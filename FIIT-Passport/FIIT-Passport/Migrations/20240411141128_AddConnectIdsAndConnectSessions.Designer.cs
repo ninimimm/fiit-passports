@@ -2,6 +2,7 @@
 using Fiit_passport.Databased;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Fiit_passport.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240411141128_AddConnectIdsAndConnectSessions")]
+    partial class AddConnectIdsAndConnectSessions
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -54,7 +57,7 @@ namespace Fiit_passport.Migrations
 
                     b.HasKey("UserTelegramTag");
 
-                    b.ToTable("connect_ids");
+                    b.ToTable("ConnectIds");
                 });
 
             modelBuilder.Entity("Fiit_passport.Models.ConnectSession", b =>
@@ -74,7 +77,7 @@ namespace Fiit_passport.Migrations
                     b.HasIndex("SessionId")
                         .IsUnique();
 
-                    b.ToTable("connect_sessions");
+                    b.ToTable("connects");
                 });
 
             modelBuilder.Entity("Fiit_passport.Models.Passport", b =>

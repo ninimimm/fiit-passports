@@ -208,3 +208,5 @@ C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.pdb
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\FIIT-Passport.genruntimeconfig.cache
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\FIIT-Passport\obj\Debug\net8.0\ref\FIIT-Passport.dll
+C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport\bin\Debug\net8.0\Telegram.Bot.dll
