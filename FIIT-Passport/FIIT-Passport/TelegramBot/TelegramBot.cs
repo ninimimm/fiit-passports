@@ -1,12 +1,11 @@
-﻿using System.Collections.Concurrent;
-using Telegram.Bot;
+﻿using Telegram.Bot;
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Polling;
 
 
-namespace Fiit_passport.TelegrammBot;
+namespace Fiit_passport.TelegramBot;
 
 public static class TelegramBot
 {
@@ -35,7 +34,7 @@ public static class TelegramBot
                 {
                     case "/start":
                     {
-                        TelegramDbContext.AddConnectId(userTag, userId);
+                        await TelegramDbContext.AddConnectId(userTag, userId);
                         if (BotTools.AuthenticationTriggers.TryGetValue(userTag, out _))
                         {
                             BotTools.TelegramUserIdMapping[userTag] = userId;
@@ -56,13 +55,14 @@ public static class TelegramBot
         }
     }
 
-    private static async Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
+    private static Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
     {
         var errorMessage = exception switch
         {
             ApiRequestException apiRequestException => $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}",
             _ => exception.ToString()
         };
+        return Task.CompletedTask;
     }
 
     public static async void RunBot()

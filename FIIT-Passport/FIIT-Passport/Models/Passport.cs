@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using Fiit_passport.Models.Interfaces;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Fiit_passport.Models;
@@ -11,37 +12,37 @@ public class Passport : IPassport
     [Required]
     [StringLength(10, ErrorMessage = "Длина сессии должна быть 10 символов")]
     [Column("session_id")]
-    public string SessionId { get; set; }
+    public string? SessionId { get; set; }
     
     [Required]
     [StringLength(100, MinimumLength = 1, ErrorMessage = "Название организации и заказчика должны быть от 1 до 100 символов")]
     [Column("orderer_name")]
-    public string OrdererName { get; set; }
+    public string? OrdererName { get; set; }
     
     [Required]
     [StringLength(100, MinimumLength = 1, ErrorMessage = "Название проекта должно быть от 1 до 100 символов")]
     [Column("project_name")]
-    public string ProjectName { get; set; }
+    public string? ProjectName { get; set; }
     
     [Required]
     [MinLength(1, ErrorMessage = "Описание не может быть пустым")]
     [Column("project_description")]
-    public string ProjectDescription { get; set; }
+    public string? ProjectDescription { get; set; }
     
     [Required]
     [MinLength(1, ErrorMessage = "Продукт не может быть без цели 🤨")]
     [Column("goal")]
-    public string Goal { get; set; }
+    public string? Goal { get; set; }
     
     [Required]
     [MinLength(1, ErrorMessage = "Описание результата продукта не может быть пустым")]
     [Column("result")]
-    public string Result { get; set; }
+    public string? Result { get; set; }
     
     [Required]
     [MinLength(1, ErrorMessage = "Критерии приемки продукта не могут быть пустыми")]
     [Column("error_message")]
-    public string AcceptanceCriteria { get; set; }
+    public string? AcceptanceCriteria { get; set; }
     
     [Required]
     [Range(1, 5, ErrorMessage = "Недопустимое количество команд")]
@@ -52,29 +53,29 @@ public class Passport : IPassport
     [MinLength(1, ErrorMessage = "Место встречи не может быть пустым")]
     [Column("meeting_location")]
     [MaxLength(100)]
-    public string MeetingLocation { get; set; }
+    public string? MeetingLocation { get; set; }
     
     [Required]
     [StringLength(50, MinimumLength = 1, ErrorMessage = "Длина строки должна быть от 1 до 50 символов")]
     [Column("name")]
-    public string Name { get; set; }
+    public string? Name { get; set; }
     
     [Required]
     [StringLength(50, MinimumLength = 1, ErrorMessage = "Длина строки должна быть от 1 до 50 символов")]
     [Column("surname")]
-    public string Surname { get; set; }
+    public string? Surname { get; set; }
     
     [EmailAddress (ErrorMessage = "Некорректный адрес")]
     [DefaultValue("Не указана")]
     [Column("email")]
     [MaxLength(1000)]
-    public string Email { get; set; }
+    public string? Email { get; set; }
     
     [Phone(ErrorMessage = "Некорректный номер")]
     [DefaultValue("Не указан")]
     [Column("phone_number")]
     [MaxLength(50)]
-    public string PhoneNumber { get; set; }
+    public string? PhoneNumber { get; set; }
     
     public virtual ConnectSession? ConnectSession { get; set; }
 

@@ -1,7 +1,7 @@
 ﻿using Fiit_passport.Databased;
 using Fiit_passport.Models;
 
-namespace Fiit_passport.TelegrammBot;
+namespace Fiit_passport.TelegramBot;
 
 public class TelegramDbContext
 {
@@ -12,22 +12,23 @@ public class TelegramDbContext
         DbContext = db;
     }
 
-    public static void AddConnectId(string userTag, string userId)
+    public static async Task AddConnectId(string userTag, string userId)
     {
-        if (CheckUser(userTag, out _))
+        if (await CheckUser(userTag))
             return;
-        DbContext!.ConnectIds.Add(new ConnectId(userTag, userId));
+        await DbContext!.ConnectIds.AddAsync(new ConnectId(userTag, userId));
+        await DbContext.SaveChangesAsync();
     }
 
-    public static bool CheckUser(string userTag, out string userId)
+    public static async Task<bool> CheckUser(string userTag)
     {
-        var user = DbContext!.ConnectIds.Find(userTag);
-        if (user is null)
-        {
-            userId = string.Empty;
-            return false;
-        }
-        userId = user.UserTelegramId;
-        return true;
+        var user = await DbContext!.ConnectIds.FindAsync(userTag);
+        return user is not null;
+    }
+
+    public static async Task<string> GetUserId(string userTag)
+    {
+        var user = await DbContext!.ConnectIds.FindAsync(userTag);
+        return user!.UserTelegramId;
     }
 }

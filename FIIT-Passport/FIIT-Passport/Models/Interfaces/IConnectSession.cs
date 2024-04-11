@@ -1,4 +1,4 @@
-﻿namespace Fiit_passport.Models;
+﻿namespace Fiit_passport.Models.Interfaces;
 
 public interface IConnectSession
 {

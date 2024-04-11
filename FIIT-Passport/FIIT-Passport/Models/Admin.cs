@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Fiit_passport.Models.Interfaces;
 
 namespace Fiit_passport.Models;
+
 
 [Table("admins")]
 public class Admin : IAdmin

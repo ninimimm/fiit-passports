@@ -1,10 +1,9 @@
 ﻿using System.Collections.Concurrent;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Telegram.Bot;
-using Telegram.Bot.Types;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace Fiit_passport.TelegrammBot;
+namespace Fiit_passport.TelegramBot;
 
 public static class BotTools
 {
@@ -21,9 +20,10 @@ public static class BotTools
     {
         private static async Task AuthenticationUser(string telegramTag,  ITempDataDictionary tempData)
         {
-            if (TelegramDbContext.CheckUser(telegramTag, out var telegramId))
+            if (await TelegramDbContext.CheckUser(telegramTag))
             {
-                SendButton(telegramId);
+                await SendButton(await TelegramDbContext.GetUserId(telegramTag));
+                await AuthenticationTriggers[telegramTag].WaitAsync();
                 return;
             }
                 
@@ -42,13 +42,12 @@ public static class BotTools
                 AuthenticationTriggers.TryRemove(telegramTag, out _);
                 return;
             }
-            
-            SendButton(telegramId);
+            await SendButton(await TelegramDbContext.GetUserId(telegramTag));
 
             await AuthenticationTriggers[telegramTag].WaitAsync();
         }
 
-        private static async void SendButton(string telegramId)
+        private static async Task SendButton(string telegramId)
         {
             var confirmButton = new KeyboardButton("Подтвердить личность");
             var replyMarkup = new ReplyKeyboardMarkup(new[] { confirmButton });

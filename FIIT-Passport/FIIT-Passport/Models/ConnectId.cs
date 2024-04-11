@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Fiit_passport.Models.Interfaces;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Fiit_passport.Models;
