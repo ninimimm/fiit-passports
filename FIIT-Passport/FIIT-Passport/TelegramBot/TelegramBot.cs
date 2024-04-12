@@ -7,19 +7,21 @@ using Telegram.Bot.Polling;
 
 namespace Fiit_passport.TelegramBot;
 
-public static class TelegramBot
+public class TelegramBot
 {
-
+    private readonly BotTools _botTools;
+    
+    public TelegramBot(BotTools botTools)
+    {
+        _botTools = botTools;
+    }
+    
     private static readonly ConfigurationManager Configuration = new ();
     
-    private static readonly string Token = Configuration.GetTelegramSecrets("Token")!;
+    private static readonly string Token = Configuration.GetSection("TelegramSecrets")["Token"]!;
     public static readonly ITelegramBotClient BotClient = new TelegramBotClient(Token);
-    private static readonly CancellationToken CancellationToken = new CancellationTokenSource().Token;
-
-    private static string? GetTelegramSecrets(this ConfigurationManager configuration, string name) =>
-        configuration.GetSection("Telegram")[name];
     
-    private static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
+    public async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
     {
         if (update.Type != UpdateType.Message)
             return;
@@ -28,23 +30,24 @@ public static class TelegramBot
         {
             if (message!.Text is not null)
             {
+                Console.WriteLine(message.Text);
                 var userTag = message.Chat.Username!;
                 var userId = message.Chat.Id.ToString();
                 switch (message.Text)
                 {
                     case "/start":
                     {
-                        await TelegramDbContext.AddConnectId(userTag, userId);
-                        if (BotTools.AuthenticationTriggers.TryGetValue(userTag, out _))
+                        await _botTools.Repo.AddConnectId($"@{userTag}", userId);
+                        if (_botTools.AuthenticationTriggers.TryGetValue(userTag, out _))
                         {
-                            BotTools.TelegramUserIdMapping[userTag] = userId;
-                            BotTools.AuthenticationTriggers[userTag].Release();
+                            _botTools.TelegramUserIdMapping[userTag] = userId;
+                            _botTools.AuthenticationTriggers[userTag].Release();
                         }
                     } break;
                     case "Подтвердить личность":
                     {
-                        if (BotTools.AuthenticationTriggers.TryGetValue(userTag, out _))
-                            BotTools.AuthenticationTriggers[userTag].Release();
+                        if (_botTools.AuthenticationTriggers.TryGetValue(userTag, out _))
+                            _botTools.AuthenticationTriggers[userTag].Release();
                     } break;
                 }
             }
@@ -55,7 +58,7 @@ public static class TelegramBot
         }
     }
 
-    private static Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
+    public Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
     {
         var errorMessage = exception switch
         {
@@ -63,14 +66,5 @@ public static class TelegramBot
             _ => exception.ToString()
         };
         return Task.CompletedTask;
-    }
-
-    public static async void RunBot()
-    {
-        var me = BotClient.GetMeAsync().Result;
-        BotClient.StartReceiving(new DefaultUpdateHandler(HandleUpdateAsync, HandleErrorAsync));
-        Console.ReadLine();
-        try { await Task.Delay(-1, CancellationToken); }
-        catch (TaskCanceledException) { }
     }
 }

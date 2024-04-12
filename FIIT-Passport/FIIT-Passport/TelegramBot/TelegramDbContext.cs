@@ -1,34 +1,35 @@
 ﻿using Fiit_passport.Databased;
 using Fiit_passport.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Fiit_passport.TelegramBot;
 
 public class TelegramDbContext
 {
-    private static ApplicationDbContext? DbContext { get; set; }
+    private readonly ApplicationDbContext? _dbContext;
 
-    private protected TelegramDbContext(ApplicationDbContext db)
+    public TelegramDbContext(ApplicationDbContext db)
     {
-        DbContext = db;
+        _dbContext = db;
     }
 
-    public static async Task AddConnectId(string userTag, string userId)
+    public async Task AddConnectId(string userTag, string userId)
     {
         if (await CheckUser(userTag))
             return;
-        await DbContext!.ConnectIds.AddAsync(new ConnectId(userTag, userId));
-        await DbContext.SaveChangesAsync();
+        await _dbContext!.ConnectIds.AddAsync(new ConnectId(userTag, userId));
+        await _dbContext.SaveChangesAsync();
     }
 
-    public static async Task<bool> CheckUser(string userTag)
+    public async Task<bool> CheckUser(string userTag)
     {
-        var user = await DbContext!.ConnectIds.FindAsync(userTag);
+        var user = await _dbContext!.ConnectIds.FindAsync(userTag);
         return user is not null;
     }
 
-    public static async Task<string> GetUserId(string userTag)
+    public async Task<string> GetUserId(string userTag)
     {
-        var user = await DbContext!.ConnectIds.FindAsync(userTag);
+        var user = await _dbContext!.ConnectIds.FindAsync(userTag);
         return user!.UserTelegramId;
     }
 }

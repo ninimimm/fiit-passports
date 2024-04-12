@@ -5,53 +5,52 @@ using Telegram.Bot.Types.ReplyMarkups;
 
 namespace Fiit_passport.TelegramBot;
 
-public static class BotTools
+public class BotTools
 {
-    public static readonly ConcurrentDictionary<string, SemaphoreSlim> AuthenticationTriggers;
-    public static readonly ConcurrentDictionary<string, string> TelegramUserIdMapping;
+    public readonly ConcurrentDictionary<string, SemaphoreSlim> AuthenticationTriggers;
+    public readonly ConcurrentDictionary<string, string> TelegramUserIdMapping;
+    public readonly TelegramDbContext Repo;
 
-    static BotTools()
+    public BotTools(TelegramDbContext repo)
     {
+        Repo = repo;
         AuthenticationTriggers = new ConcurrentDictionary<string, SemaphoreSlim>();
         TelegramUserIdMapping = new ConcurrentDictionary<string, string>();
     }
     
-    private static class Authentication
+    private async Task AuthenticationUser(string telegramTag,  ITempDataDictionary tempData)
     {
-        private static async Task AuthenticationUser(string telegramTag,  ITempDataDictionary tempData)
+        if (await Repo.CheckUser(telegramTag))
         {
-            if (await TelegramDbContext.CheckUser(telegramTag))
-            {
-                await SendButton(await TelegramDbContext.GetUserId(telegramTag));
-                await AuthenticationTriggers[telegramTag].WaitAsync();
-                return;
-            }
+            await SendButton(await Repo.GetUserId(telegramTag));
+            await AuthenticationTriggers[telegramTag].WaitAsync();
+            return;
+        }
                 
             
-            if (!AuthenticationTriggers.ContainsKey(telegramTag))
-                AuthenticationTriggers[telegramTag] = new SemaphoreSlim(0);
-            else
-            {
-                tempData["error"] = "Наш бот ждет вас";
-                return;
-            }
-
-            if (!await AuthenticationTriggers[telegramTag].WaitAsync(TimeSpan.FromHours(1)))
-            {
-                tempData["error"] = "Превышение времени ожидания";
-                AuthenticationTriggers.TryRemove(telegramTag, out _);
-                return;
-            }
-            await SendButton(await TelegramDbContext.GetUserId(telegramTag));
-
-            await AuthenticationTriggers[telegramTag].WaitAsync();
-        }
-
-        private static async Task SendButton(string telegramId)
+        if (!AuthenticationTriggers.ContainsKey(telegramTag))
+            AuthenticationTriggers[telegramTag] = new SemaphoreSlim(0);
+        else
         {
-            var confirmButton = new KeyboardButton("Подтвердить личность");
-            var replyMarkup = new ReplyKeyboardMarkup(new[] { confirmButton });
-            await TelegramBot.BotClient.SendTextMessageAsync(int.Parse(telegramId), null!, replyMarkup: replyMarkup);
+            tempData["error"] = "Наш бот ждет вас";
+            return;
         }
+
+        if (!await AuthenticationTriggers[telegramTag].WaitAsync(TimeSpan.FromHours(1)))
+        {
+            tempData["error"] = "Превышение времени ожидания";
+            AuthenticationTriggers.TryRemove(telegramTag, out _);
+            return;
+        }
+        await SendButton(await Repo.GetUserId(telegramTag));
+
+        await AuthenticationTriggers[telegramTag].WaitAsync();
+    }
+
+    private async Task SendButton(string telegramId)
+    {
+        var confirmButton = new KeyboardButton("Подтвердить личность");
+        var replyMarkup = new ReplyKeyboardMarkup(new[] { confirmButton });
+        await TelegramBot.BotClient.SendTextMessageAsync(int.Parse(telegramId), null!, replyMarkup: replyMarkup);
     }
 }

@@ -1,20 +1,30 @@
 using System.Diagnostics;
+using Fiit_passport.Databased;
 using Microsoft.AspNetCore.Mvc;
 using Fiit_passport.Models;
+using Fiit_passport.TelegramBot;
 
 namespace Fiit_passport.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    // private readonly ILogger<HomeController> _logger;
+    //
+    // public HomeController(ILogger<HomeController> logger)
+    // {
+    //     _logger = logger;
+    // }
 
-    public HomeController(ILogger<HomeController> logger)
+    private readonly ApplicationDbContext _repo;
+    
+    public HomeController(ApplicationDbContext repo)
     {
-        _logger = logger;
+        _repo = repo;
     }
 
     public IActionResult Index()
     {
+        var l = _repo;
         return View();
     }
 
