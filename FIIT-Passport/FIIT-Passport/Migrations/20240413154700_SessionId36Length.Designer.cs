@@ -2,6 +2,7 @@
 using Fiit_passport.Databased;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Fiit_passport.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240413154700_SessionId36Length")]
+    partial class SessionId36Length
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -85,6 +88,7 @@ namespace Fiit_passport.Migrations
                         .HasColumnName("session_id");
 
                     b.Property<string>("AcceptanceCriteria")
+                        .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("error_message");
 
@@ -98,20 +102,24 @@ namespace Fiit_passport.Migrations
                         .HasColumnName("email");
 
                     b.Property<string>("Goal")
+                        .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("goal");
 
                     b.Property<string>("MeetingLocation")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)")
                         .HasColumnName("meeting_location");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)")
                         .HasColumnName("name");
 
                     b.Property<string>("OrdererName")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)")
                         .HasColumnName("orderer_name");
@@ -122,19 +130,23 @@ namespace Fiit_passport.Migrations
                         .HasColumnName("phone_number");
 
                     b.Property<string>("ProjectDescription")
+                        .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("project_description");
 
                     b.Property<string>("ProjectName")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)")
                         .HasColumnName("project_name");
 
                     b.Property<string>("Result")
+                        .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("result");
 
                     b.Property<string>("Surname")
+                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)")
                         .HasColumnName("surname");

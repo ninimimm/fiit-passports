@@ -24,7 +24,6 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var l = _repo;
         return View();
     }
 

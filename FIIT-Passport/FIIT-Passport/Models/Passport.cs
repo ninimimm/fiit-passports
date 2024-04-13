@@ -10,57 +10,47 @@ public class Passport : IPassport
 {
     [Key]
     [Required]
-    [StringLength(10, ErrorMessage = "Длина сессии должна быть 10 символов")]
+    [StringLength(36, ErrorMessage = "Длина сессии должна быть 10 символов")]
     [Column("session_id")]
     public string? SessionId { get; set; }
     
-    [Required]
     [StringLength(100, MinimumLength = 1, ErrorMessage = "Название организации и заказчика должны быть от 1 до 100 символов")]
     [Column("orderer_name")]
     public string? OrdererName { get; set; }
     
-    [Required]
     [StringLength(100, MinimumLength = 1, ErrorMessage = "Название проекта должно быть от 1 до 100 символов")]
     [Column("project_name")]
     public string? ProjectName { get; set; }
     
-    [Required]
     [MinLength(1, ErrorMessage = "Описание не может быть пустым")]
     [Column("project_description")]
     public string? ProjectDescription { get; set; }
     
-    [Required]
     [MinLength(1, ErrorMessage = "Продукт не может быть без цели 🤨")]
     [Column("goal")]
     public string? Goal { get; set; }
     
-    [Required]
     [MinLength(1, ErrorMessage = "Описание результата продукта не может быть пустым")]
     [Column("result")]
     public string? Result { get; set; }
     
-    [Required]
     [MinLength(1, ErrorMessage = "Критерии приемки продукта не могут быть пустыми")]
     [Column("error_message")]
     public string? AcceptanceCriteria { get; set; }
     
-    [Required]
     [Range(1, 5, ErrorMessage = "Недопустимое количество команд")]
     [Column("copies_number")]
     public int CopiesNumber { get; set; }
     
-    [Required]
     [MinLength(1, ErrorMessage = "Место встречи не может быть пустым")]
     [Column("meeting_location")]
     [MaxLength(100)]
     public string? MeetingLocation { get; set; }
     
-    [Required]
     [StringLength(50, MinimumLength = 1, ErrorMessage = "Длина строки должна быть от 1 до 50 символов")]
     [Column("name")]
     public string? Name { get; set; }
     
-    [Required]
     [StringLength(50, MinimumLength = 1, ErrorMessage = "Длина строки должна быть от 1 до 50 символов")]
     [Column("surname")]
     public string? Surname { get; set; }
@@ -97,9 +87,17 @@ public class Passport : IPassport
         PhoneNumber = phoneNumber;
     }
     #endregion
+
+    public Passport() { }
     
+    public Passport(string sessionId)
+    {
+        SessionId = sessionId;
+    }
     
-    public Passport(Dictionary<string, object> data)
+    public Passport(Dictionary<string, object> data) => Update(data);
+    
+    public Passport Update(Dictionary<string, object> data)
     {
         var type = GetType();
         foreach (var kvp in data)
@@ -108,5 +106,6 @@ public class Passport : IPassport
             if (prop != null && prop.CanWrite)
                 prop.SetValue(this, kvp.Value);
         }
+        return this;
     }
 }

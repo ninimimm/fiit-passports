@@ -1,0 +1,11 @@
+﻿@model Fiit_passport.Models.Passport?
+
+
+
+<form method="post" asp-controller="Passport" asp-action="UpdatePassport1">
+    <label asp-for="SessionId"></label>
+    <input asp-for="SessionId" value="@Model.SessionId">
+    <label asp-for="OrdererName"></label>
+    <input asp-for="OrdererName">
+    <button type="submit">Update</button>
+</form>
