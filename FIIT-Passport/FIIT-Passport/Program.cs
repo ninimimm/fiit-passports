@@ -11,16 +11,14 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<TelegramDbContext>();
 
-builder.Services.AddScoped<BotTools>();
-
 builder.Services.AddScoped<TelegramBot>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(
     builder.Configuration.GetConnectionString("DefaultConnection")
 ));
 
-builder.Services.AddSingleton<ITelegramBotClient>(_ =>
-     new TelegramBotClient(builder.Configuration.GetSection("TelegramSecrets")["Token"]!)
+builder.Services.AddSingleton<TelegramBotClient>(_ =>
+     new TelegramBotClient("6599160966:AAEPk4mP04rI5jzHQJr65a4xlyHRQIUCygk")
 );
 
 var app = builder.Build();
@@ -46,13 +44,7 @@ app.MapControllerRoute(
 
 
 var telegramBot =  app.Services.CreateScope().ServiceProvider.GetRequiredService<TelegramBot>();
-var bot = app.Services.GetRequiredService<ITelegramBotClient>();
+var bot = app.Services.GetRequiredService<TelegramBotClient>();
 bot.StartReceiving(new DefaultUpdateHandler(telegramBot.HandleUpdateAsync, telegramBot.HandleErrorAsync));
-
-
-
-
-// try { await Task.Delay(-1, new CancellationTokenSource().Token); }
-// catch (TaskCanceledException) { }
 
 app.Run();

@@ -2,24 +2,26 @@
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
-using Telegram.Bot.Polling;
+using System.Collections.Concurrent;
+using Telegram.Bot.Types.ReplyMarkups;
 
 
 namespace Fiit_passport.TelegramBot;
 
 public class TelegramBot
 {
-    private readonly BotTools _botTools;
+    private readonly ConcurrentDictionary<string, SemaphoreSlim> _authenticationTriggersStart;
+    private readonly ConcurrentDictionary<string, SemaphoreSlim> _authenticationTriggersConfirm;
+    private readonly TelegramDbContext _repo;
+    private readonly TelegramBotClient _botClient;
     
-    public TelegramBot(BotTools botTools)
+    public TelegramBot(TelegramDbContext repo, TelegramBotClient botClient)
     {
-        _botTools = botTools;
+        _repo = repo;
+        _authenticationTriggersStart = new ConcurrentDictionary<string, SemaphoreSlim>();
+        _authenticationTriggersConfirm = new ConcurrentDictionary<string, SemaphoreSlim>();
+        _botClient = botClient;
     }
-    
-    private static readonly ConfigurationManager Configuration = new ();
-    
-    private static readonly string Token = Configuration.GetSection("TelegramSecrets")["Token"]!;
-    public static readonly ITelegramBotClient BotClient = new TelegramBotClient(Token);
     
     public async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
     {
@@ -31,23 +33,20 @@ public class TelegramBot
             if (message!.Text is not null)
             {
                 Console.WriteLine(message.Text);
-                var userTag = message.Chat.Username!;
+                var userTag = $"@{message.Chat.Username!}";
                 var userId = message.Chat.Id.ToString();
                 switch (message.Text)
                 {
                     case "/start":
                     {
-                        await _botTools.Repo.AddConnectId($"@{userTag}", userId);
-                        if (_botTools.AuthenticationTriggers.TryGetValue(userTag, out _))
-                        {
-                            _botTools.TelegramUserIdMapping[userTag] = userId;
-                            _botTools.AuthenticationTriggers[userTag].Release();
-                        }
+                        await _repo.AddConnectId(userTag, userId);
+                        if (_authenticationTriggersStart.TryGetValue(userTag, out _))
+                            _authenticationTriggersStart[userTag].Release();
                     } break;
                     case "Подтвердить личность":
                     {
-                        if (_botTools.AuthenticationTriggers.TryGetValue(userTag, out _))
-                            _botTools.AuthenticationTriggers[userTag].Release();
+                        if (_authenticationTriggersConfirm.TryGetValue(userTag, out _))
+                            _authenticationTriggersConfirm[userTag].Release();
                     } break;
                 }
             }
@@ -66,5 +65,57 @@ public class TelegramBot
             _ => exception.ToString()
         };
         return Task.CompletedTask;
+    }
+
+
+    private async Task CheckConfirmUser(string telegramTag)
+    {
+        await SendButton(await _repo.GetUserId(telegramTag));
+        if (!_authenticationTriggersConfirm.ContainsKey(telegramTag))
+            _authenticationTriggersConfirm[telegramTag] = new SemaphoreSlim(0);
+        if (!await _authenticationTriggersConfirm[telegramTag].WaitAsync(TimeSpan.FromSeconds(10)))
+        {
+            // tempData["error"] = "Превышение времени ожидания";
+            Console.WriteLine("Превышение времени ожидания");
+            _authenticationTriggersConfirm.TryRemove(telegramTag, out _);
+            return;
+        }
+        await _repo.AddAuthenticatedUser(telegramTag);
+    }
+
+    private async Task CheckStartUser(string telegramTag)
+    {
+        if (!_authenticationTriggersStart.ContainsKey(telegramTag))
+            _authenticationTriggersStart[telegramTag] = new SemaphoreSlim(0);
+        else
+        {
+            // tempData["error"] = "Наш бот ждет вас";
+            return;
+        }
+
+        if (!await _authenticationTriggersStart[telegramTag].WaitAsync(TimeSpan.FromSeconds(5)))
+        {
+            // tempData["error"] = "Превышение времени ожидания";
+            Console.WriteLine("Превышение времени ожидания");
+            _authenticationTriggersStart.TryRemove(telegramTag, out _);
+        }
+    }
+    
+    public async Task AuthenticationUser(string telegramTag)
+    {
+        if (await _repo.CheckUser(telegramTag))
+        {
+            await CheckConfirmUser(telegramTag);
+            return;
+        }
+        await CheckStartUser(telegramTag);
+        await CheckConfirmUser(telegramTag);
+    }
+
+    private async Task SendButton(string telegramId)
+    {
+        var confirmButton = new KeyboardButton("Подтвердить личность");
+        var replyMarkup = new ReplyKeyboardMarkup(new[] { confirmButton });
+        await _botClient.SendTextMessageAsync(int.Parse(telegramId), "1", replyMarkup: replyMarkup);
     }
 }

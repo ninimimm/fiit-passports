@@ -2,6 +2,7 @@
 using Fiit_passport.Databased;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Fiit_passport.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240413180822_TelegramTagCanBeNull")]
+    partial class TelegramTagCanBeNull
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -37,18 +40,6 @@ namespace Fiit_passport.Migrations
                     b.HasKey("AdminTelegramTag");
 
                     b.ToTable("admins");
-                });
-
-            modelBuilder.Entity("Fiit_passport.Models.AuthenticatedUsers", b =>
-                {
-                    b.Property<string>("TelegramTag")
-                        .HasMaxLength(33)
-                        .HasColumnType("character varying(33)")
-                        .HasColumnName("user_telegram_tag");
-
-                    b.HasKey("TelegramTag");
-
-                    b.ToTable("authenticated_users");
                 });
 
             modelBuilder.Entity("Fiit_passport.Models.ConnectId", b =>

@@ -55,6 +55,15 @@ public class Passport : IPassport
     [Column("surname")]
     public string? Surname { get; set; }
     
+    [Column("telegram_tag")]
+    [StringLength(33, MinimumLength = 2,
+        ErrorMessage = "Длина имени пользователя telegram должна быть от 2 до 33 символов")]
+    [RegularExpression(@"@[A-Za-z0-9]+",
+        ErrorMessage = "Имя пользователя telegram должно начинаться с @ и содержать только" +
+                       "буквы и цифры латинского алфавита")]
+    //[Remote(action: "CheckEmail", controller: "Home", ErrorMessage ="Email уже используется")]
+    public string? TelegramTag { get; set; }
+    
     [EmailAddress (ErrorMessage = "Некорректный адрес")]
     [DefaultValue("Не указана")]
     [Column("email")]
@@ -66,11 +75,12 @@ public class Passport : IPassport
     [Column("phone_number")]
     [MaxLength(50)]
     public string? PhoneNumber { get; set; }
-    
-    public virtual ConnectSession? ConnectSession { get; set; }
 
     #region ConstructorForTable
-    public Passport (string sessionId, string ordererName, string projectName, string projectDescription, string goal, string result, string acceptanceCriteria, int copiesNumber, string meetingLocation, string name, string surname, string email, string phoneNumber)
+    public Passport (string sessionId, string ordererName, string projectName,
+        string projectDescription, string goal, string result, string acceptanceCriteria,
+        int copiesNumber, string meetingLocation, string name, string surname,
+        string telegramTag, string email, string phoneNumber)
     {
         SessionId = sessionId;
         OrdererName = ordererName;
@@ -83,6 +93,7 @@ public class Passport : IPassport
         MeetingLocation = meetingLocation;
         Name = name;
         Surname = surname;
+        TelegramTag = telegramTag;
         Email = email;
         PhoneNumber = phoneNumber;
     }

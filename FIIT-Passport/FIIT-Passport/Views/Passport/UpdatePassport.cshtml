@@ -1,11 +1,23 @@
-﻿@model Fiit_passport.Models.Passport?
+﻿@model Fiit_passport.Models.Passport
 
-
-
-<form method="post" asp-controller="Passport" asp-action="UpdatePassport1">
+<form id="passportForm" method="post" asp-controller="Passport" asp-action="UpdatePassport1">
     <label asp-for="SessionId"></label>
     <input asp-for="SessionId" value="@Model.SessionId">
     <label asp-for="OrdererName"></label>
     <input asp-for="OrdererName">
+    <input type="hidden" id="telegramTag" name="telegramTag">
     <button type="submit">Update</button>
 </form>
+
+<form id="authenticationForm" method="post" asp-controller="Passport" asp-action="AuthenticationUser">
+    <label asp-for="TelegramTag"></label>
+    <input asp-for="TelegramTag">
+    <button type="submit">Authentication</button>
+</form>
+
+@* <script> *@
+@*     document.getElementById('passportForm').addEventListener('submit', function(event) { *@
+@*         document.getElementById('telegramTag').value = document.getElementById('TelegramTag').value; *@
+@*         event.preventDefault(); *@
+@*     }); *@
+@* </script> *@

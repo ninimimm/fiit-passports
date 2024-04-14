@@ -8,14 +8,22 @@ namespace Fiit_passport.Controllers;
 public class PassportController : Controller
 {
     private readonly TelegramDbContext _repo;
+    private readonly TelegramBot.TelegramBot _telegramBot;
     
-    public PassportController(TelegramDbContext repo)
+    public PassportController(TelegramDbContext repo, TelegramBot.TelegramBot botTools)
     {
+        _telegramBot = botTools;
         _repo = repo;
     }
     
 
     public string CreateIdSession() => Guid.NewGuid().ToString();
+
+    [HttpPost]
+    public async Task AuthenticationUser(Passport passport)
+    {
+        await _telegramBot.AuthenticationUser(passport.TelegramTag);
+    }
         
     
     public async Task<IActionResult> UpdatePassport()
