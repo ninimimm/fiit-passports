@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'FontRegular';
-    src: url('golos/Golos Text_Regular.ttf') format('ttf'),
-    url('golos/Golos Text_Regular.ttf') format('truetype');
+    src: url('font/Golos Text_Regular.ttf') format('ttf'),
+    url('font/Golos Text_Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'FontMedium';
-    src: url('golos/Golos Text_Medium.ttf') format('ttf'),
-    url('golos/Golos Text_Medium.ttf') format('truetype');
+    src: url('font/Golos Text_Medium.ttf') format('ttf'),
+    url('font/Golos Text_Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'FontDemiBold';
-    src: url('golos/Golos Text_DemiBold.ttf') format('ttf'),
-    url('golos/Golos Text_DemiBold.ttf') format('truetype');
+    src: url('font/Golos Text_DemiBold.ttf') format('ttf'),
+    url('font/Golos Text_DemiBold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'FontBold';
-    src: url('golos/Golos Text_Bold.ttf') format('ttf'),
-    url('golos/Golos Text_Bold.ttf') format('truetype');
+    src: url('font/Golos Text_Bold.ttf') format('ttf'),
+    url('font/Golos Text_Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'FontBlack';
-    src: url('golos/Golos Text_Black.ttf') format('ttf'),
-    url('golos/Golos Text_Black.ttf') format('truetype');
+    src: url('font/Golos Text_Black.ttf') format('ttf'),
+    url('font/Golos Text_Black.ttf') format('truetype');
 }
 
 * {
@@ -44,7 +44,7 @@ body, header, footer {
 }
 
 .loading_page {
-    background-image: url("gradient.jpg");
+    background-image: url("../html/img/gradient.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
