@@ -202,6 +202,7 @@ body, header, footer {
     margin-bottom: 7vw;
 
     &:hover {
+        background-color: #5FCAE2;
         box-shadow: 0 10px 50px 15px rgb(3, 8, 27, 0.15);
     }
 
@@ -213,8 +214,8 @@ body, header, footer {
 .status_bar {
     width: 100vw;
     height: 5vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 2.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -263,7 +264,7 @@ body, header, footer {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    margin-bottom: 7vw;
+    margin-bottom: 5vw;
 }
 
 .about_project_block, .details_project_block, .others_project_block, .contacts_block {
@@ -275,7 +276,7 @@ body, header, footer {
     box-sizing: border-box;
     box-shadow: 0 0 50px 15px rgb(3, 8, 27, 0.1);
     border-radius: 30px;
-    padding-bottom: 3.5vw;
+    padding-bottom: 2.5vw;
 }
 
 .head_form {
@@ -283,22 +284,22 @@ body, header, footer {
     justify-content: flex-start;
     align-items: center;
     width: 71vw;
-    height: 7vw;
-    margin-top: 3vw;
+    height: 5vw;
+    margin-top: 2.5vw;
 }
 
 .fiit_logo_head {
     width: auto;
-    height: 7vw;
+    height: 5vw;
 }
 
 .head_form_text {
-    font: 3vw FontBold;
+    font: 2.5vw FontBold;
     margin-left: 3vw;
 }
 
 .name_customer_form, .name_form, .last_name_form, .telegram_form, .email_form, .phone_form {
-    margin-top: 2.5vw;
+    margin-top: 1.5vw;
     display: flex;
     align-items: center;
     width: 71vw;
@@ -339,7 +340,7 @@ body, header, footer {
 .name_project_form, .result_project_form{
     width: 71vw;
     height: max-content;
-    margin-top: 2.5vw;
+    margin-top: 1.5vw;
     display: flex;
 }
 
@@ -374,7 +375,7 @@ body, header, footer {
 .description_project_form, .goal_project_form{
     width: 71vw;
     height: max-content;
-    margin-top: 2.5vw;
+    margin-top: 1.5vw;
     display: flex;
 }
 
@@ -421,7 +422,7 @@ body, header, footer {
 
 .examples_head {
     color: #1AB3D5;
-    font: 2.5vw FontBold;
+    font: 2vw FontBold;
     margin-left: 11vw;
     width: 31vw;
 }
@@ -431,14 +432,14 @@ body, header, footer {
     align-items: stretch;
     width: 100vw;
     height: max-content;
-    margin-bottom: 7vw;
+    margin-bottom: 5vw;
 }
 
 .example_block {
     width: 78vw;
     height: max-content;
     box-sizing: border-box;
-    padding: 3vw;
+    padding: 2.5vw;
     margin-top: 2.5vw;
     box-shadow: 0 0 50px 15px rgb(3, 8, 27, 0.1);
     border-radius: 30px;
@@ -519,7 +520,7 @@ body, header, footer {
     width: 46vw;
     height: max-content;
     margin-left: 1.5vw;
-    margin-bottom: 2.5vw;
+    margin-bottom: 1.5vw;
 }
 
 .description_project_text, .criteria_project_text {
@@ -585,7 +586,7 @@ body, header, footer {
 .criteria_project_form {
     width: 71vw;
     height: max-content;
-    margin-top: 2.5vw;
+    margin-top: 1.5vw;
     display: flex;
 }
 
@@ -620,7 +621,7 @@ body, header, footer {
     width: 71vw;
     height: 5vw;
     display: flex;
-    margin-top: 2.5vw;
+    margin-top: 1.5vw;
 }
 
 .max_label, .address_label{
@@ -709,7 +710,7 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 71vw;
     height: 9vw;
     display: flex;
-    margin-top: 2.5vw;
+    margin-top: 1.5vw;
 }
 
 .address_input {
@@ -760,7 +761,7 @@ input[type="number"]::-webkit-outer-spin-button {
     box-sizing: border-box;
     box-shadow: 0 0 50px 15px rgb(3, 8, 27, 0.1);
     border-radius: 30px;
-    padding-bottom: 3.5vw;
+    padding-bottom: 2.5vw;
     margin-left: 6vw;
 }
 
@@ -777,14 +778,36 @@ input[type="number"]::-webkit-outer-spin-button {
     cursor: pointer;
     box-shadow: none;
     transition: box-shadow 0.2s;
-    margin-top: 7vw;
-    margin-bottom: 7vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 
     &:hover {
+        background-color: #5FCAE2;
         box-shadow: 0 10px 50px 15px rgb(3, 8, 27, 0.15);
     }
 
     &:active {
         background-color: #0C4C65;
     }
+}
+
+.request_send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.request_send_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 78vw;
+    height: max-content;
+    box-sizing: border-box;
+    box-shadow: 0 0 50px 20px rgb(26, 179, 213, 0.3);
+    border-radius: 30px;
+    padding-bottom: 3.5vw;
+    margin-top:4vw;
+    margin-bottom: 7vw;
 }
