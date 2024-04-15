@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Как с вами связаться?</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <section class="status_bar">
+            <span class="digit past_digit">1</span>
+            <span class="line"></span>
+            <span class="digit past_digit">2</span>
+            <span class="line"></span>
+            <span class="digit past_digit">3</span>
+            <span class="line"></span>
+            <span class="digit current_digit">4</span>
+            <span class="line"></span>
+            <span class="digit">5</span>
+        </section>
+    </header>
+    <section class="contacts">
+        <form action="" method="post">
+            <button type="submit" class="button_back" formaction="others_project.html">
+                <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
+            </button>
+        </form>
+        <div class="contacts_block">
+            <div class="head_form">
+                <img src="img/major_logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+                <h1 class="head_form_text">Как с вами связаться?</h1>
+            </div>
+            <form action="" method="post" class="name_form">
+                <label for="name_input" class="name_label">Имя</label>
+                <input type="text" name="name" id="name_input" class="name_input" placeholder="Иван">
+            </form>
+            <form action="" method="post" class="last_name_form">
+                <label for="last_name_input" class="last_name_label">Фамилия</label>
+                <input type="text" name="last_name" id="last_name_input" class="last_name_input" placeholder="Иванов">
+            </form>
+            <form action="" method="post" class="telegram_form">
+                <label for="telegram_input" class="telegram_label">Telegram</label>
+                <input type="text" name="telegram" id="telegram_input" class="telegram_input" placeholder="@user" pattern="^@.*$">
+            </form>
+            <form action="" method="post" class="email_form">
+                <label for="email_input" class="email_label">Email</label>
+                <input type="email" name="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru">
+            </form>
+            <form action="" method="post" class="phone_form">
+                <label for="phone_input" class="phone_label">Телефон</label>
+                <input type="tel" name="phone" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" pattern="^\+7[1-9]{10}$">
+            </form>
+        </div>
+        <form action="" method="post">
+            <button type="submit" class="button_next" formaction="check_request.html">
+                <img src="img/arrow-c-right-32-regular-white.png" alt="Вперед">
+            </button>
+        </form>
+    </section>
+</body>
+</html>
