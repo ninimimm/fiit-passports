@@ -1,4 +1,4 @@
-using Fiit_passport.Databased;
+using Fiit_passport.Database;
 using Microsoft.EntityFrameworkCore;
 using Telegram.Bot;
 using Telegram.Bot.Polling;
@@ -17,9 +17,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql
     builder.Configuration.GetConnectionString("DefaultConnection")
 ));
 
-builder.Services.AddSingleton<TelegramBotClient>(_ =>
-     new TelegramBotClient("6599160966:AAEPk4mP04rI5jzHQJr65a4xlyHRQIUCygk")
-);
+builder.Services.AddSingleton<ITelegramBotClient>(provider =>
+    new TelegramBotClient(provider.GetRequiredService<IConfiguration>().GetSection("TelegramSecrets")["Token"]!
+));
+
 
 var app = builder.Build();
 
@@ -44,7 +45,7 @@ app.MapControllerRoute(
 
 
 var telegramBot =  app.Services.CreateScope().ServiceProvider.GetRequiredService<TelegramBot>();
-var bot = app.Services.GetRequiredService<TelegramBotClient>();
-bot.StartReceiving(new DefaultUpdateHandler(telegramBot.HandleUpdateAsync, telegramBot.HandleErrorAsync));
+var bot = app.Services.GetRequiredService<ITelegramBotClient>();
+bot.StartReceiving(new DefaultUpdateHandler(telegramBot.HandleUpdateAsync, TelegramBot.HandleErrorAsync));
 
 app.Run();

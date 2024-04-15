@@ -1,17 +1,29 @@
 ﻿@model Fiit_passport.Models.Passport
 
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}
+
 <form id="passportForm" method="post" asp-controller="Passport" asp-action="UpdatePassport1">
     <label asp-for="SessionId"></label>
     <input asp-for="SessionId" value="@Model.SessionId">
+    <span asp-validation-for="SessionId" class="text-danger"></span>
     <label asp-for="OrdererName"></label>
-    <input asp-for="OrdererName">
+    <input asp-for="OrdererName" value="">
+    <span asp-validation-for="OrdererName" class="text-danger"></span>
+    <label asp-for="TelegramTag"></label>
+    <input asp-for="TelegramTag" value="">
+    <span asp-validation-for="TelegramTag" class="text-danger"></span>
     <input type="hidden" id="telegramTag" name="telegramTag">
     <button type="submit">Update</button>
 </form>
 
 <form id="authenticationForm" method="post" asp-controller="Passport" asp-action="AuthenticationUser">
     <label asp-for="TelegramTag"></label>
-    <input asp-for="TelegramTag">
+    <input asp-for="TelegramTag" value="">
+    <span asp-validation-for="TelegramTag" class="text-danger"></span>
     <button type="submit">Authentication</button>
 </form>
 

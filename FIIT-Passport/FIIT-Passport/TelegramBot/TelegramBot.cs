@@ -5,25 +5,14 @@ using Telegram.Bot.Types.Enums;
 using System.Collections.Concurrent;
 using Telegram.Bot.Types.ReplyMarkups;
 
-
 namespace Fiit_passport.TelegramBot;
 
-public class TelegramBot
+public class TelegramBot(TelegramDbContext repo, ITelegramBotClient botClient)
 {
-    private readonly ConcurrentDictionary<string, SemaphoreSlim> _authenticationTriggersStart;
-    private readonly ConcurrentDictionary<string, SemaphoreSlim> _authenticationTriggersConfirm;
-    private readonly TelegramDbContext _repo;
-    private readonly TelegramBotClient _botClient;
-    
-    public TelegramBot(TelegramDbContext repo, TelegramBotClient botClient)
-    {
-        _repo = repo;
-        _authenticationTriggersStart = new ConcurrentDictionary<string, SemaphoreSlim>();
-        _authenticationTriggersConfirm = new ConcurrentDictionary<string, SemaphoreSlim>();
-        _botClient = botClient;
-    }
-    
-    public async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
+    private readonly ConcurrentDictionary<string, SemaphoreSlim> _authenticationTriggersStart = new();
+    private readonly ConcurrentDictionary<string, SemaphoreSlim> _authenticationTriggersConfirm = new();
+
+    public async Task HandleUpdateAsync(ITelegramBotClient bot, Update update, CancellationToken cancellationToken)
     {
         if (update.Type != UpdateType.Message)
             return;
@@ -39,7 +28,7 @@ public class TelegramBot
                 {
                     case "/start":
                     {
-                        await _repo.AddConnectId(userTag, userId);
+                        await repo.AddConnectId(userTag, userId);
                         if (_authenticationTriggersStart.TryGetValue(userTag, out _))
                             _authenticationTriggersStart[userTag].Release();
                     } break;
@@ -57,7 +46,7 @@ public class TelegramBot
         }
     }
 
-    public Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
+    public static Task HandleErrorAsync(ITelegramBotClient bot, Exception exception, CancellationToken cancellationToken)
     {
         var errorMessage = exception switch
         {
@@ -70,7 +59,7 @@ public class TelegramBot
 
     private async Task CheckConfirmUser(string telegramTag)
     {
-        await SendButton(await _repo.GetUserId(telegramTag));
+        await SendButton(await repo.GetUserId(telegramTag));
         if (!_authenticationTriggersConfirm.ContainsKey(telegramTag))
             _authenticationTriggersConfirm[telegramTag] = new SemaphoreSlim(0);
         if (!await _authenticationTriggersConfirm[telegramTag].WaitAsync(TimeSpan.FromSeconds(10)))
@@ -80,7 +69,7 @@ public class TelegramBot
             _authenticationTriggersConfirm.TryRemove(telegramTag, out _);
             return;
         }
-        await _repo.AddAuthenticatedUser(telegramTag);
+        await repo.AddAuthenticatedUser(telegramTag);
     }
 
     private async Task CheckStartUser(string telegramTag)
@@ -103,7 +92,7 @@ public class TelegramBot
     
     public async Task AuthenticationUser(string telegramTag)
     {
-        if (await _repo.CheckUser(telegramTag))
+        if (await repo.CheckUser(telegramTag))
         {
             await CheckConfirmUser(telegramTag);
             return;
@@ -116,6 +105,6 @@ public class TelegramBot
     {
         var confirmButton = new KeyboardButton("Подтвердить личность");
         var replyMarkup = new ReplyKeyboardMarkup(new[] { confirmButton });
-        await _botClient.SendTextMessageAsync(int.Parse(telegramId), "1", replyMarkup: replyMarkup);
+        await botClient.SendTextMessageAsync(int.Parse(telegramId), "1", replyMarkup: replyMarkup);
     }
 }

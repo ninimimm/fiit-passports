@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Fiit_passport.Models.Interfaces;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Fiit_passport.Models;
 
@@ -23,18 +24,22 @@ public class Passport : IPassport
     public string? ProjectName { get; set; }
     
     [MinLength(1, ErrorMessage = "Описание не может быть пустым")]
+    [MaxLength(100000, ErrorMessage = "Слишком большое сообщение")]
     [Column("project_description")]
     public string? ProjectDescription { get; set; }
     
     [MinLength(1, ErrorMessage = "Продукт не может быть без цели 🤨")]
+    [MaxLength(100000, ErrorMessage = "Слишком большое сообщение")]
     [Column("goal")]
     public string? Goal { get; set; }
     
     [MinLength(1, ErrorMessage = "Описание результата продукта не может быть пустым")]
+    [MaxLength(100000, ErrorMessage = "Слишком большое сообщение")]
     [Column("result")]
     public string? Result { get; set; }
     
     [MinLength(1, ErrorMessage = "Критерии приемки продукта не могут быть пустыми")]
+    [MaxLength(100000, ErrorMessage = "Слишком большое сообщение")]
     [Column("error_message")]
     public string? AcceptanceCriteria { get; set; }
     
@@ -55,14 +60,15 @@ public class Passport : IPassport
     [Column("surname")]
     public string? Surname { get; set; }
     
+    [Required(ErrorMessage = "Имя пользователя telegram не может быть пустым")]
     [Column("telegram_tag")]
     [StringLength(33, MinimumLength = 2,
         ErrorMessage = "Длина имени пользователя telegram должна быть от 2 до 33 символов")]
     [RegularExpression(@"@[A-Za-z0-9]+",
         ErrorMessage = "Имя пользователя telegram должно начинаться с @ и содержать только" +
-                       "буквы и цифры латинского алфавита")]
+                       "буквы и цифры латинского алфавита")] 
     //[Remote(action: "CheckEmail", controller: "Home", ErrorMessage ="Email уже используется")]
-    public string? TelegramTag { get; set; }
+    public string? TelegramTag { get; init; }
     
     [EmailAddress (ErrorMessage = "Некорректный адрес")]
     [DefaultValue("Не указана")]
@@ -75,48 +81,11 @@ public class Passport : IPassport
     [Column("phone_number")]
     [MaxLength(50)]
     public string? PhoneNumber { get; set; }
-
-    #region ConstructorForTable
-    public Passport (string sessionId, string ordererName, string projectName,
-        string projectDescription, string goal, string result, string acceptanceCriteria,
-        int copiesNumber, string meetingLocation, string name, string surname,
-        string telegramTag, string email, string phoneNumber)
-    {
-        SessionId = sessionId;
-        OrdererName = ordererName;
-        ProjectName = projectName;
-        ProjectDescription = projectDescription;
-        Goal = goal;
-        Result = result;
-        AcceptanceCriteria = acceptanceCriteria;
-        CopiesNumber = copiesNumber;
-        MeetingLocation = meetingLocation;
-        Name = name;
-        Surname = surname;
-        TelegramTag = telegramTag;
-        Email = email;
-        PhoneNumber = phoneNumber;
-    }
-    #endregion
-
+    
     public Passport() { }
     
     public Passport(string sessionId)
     {
         SessionId = sessionId;
-    }
-    
-    public Passport(Dictionary<string, object> data) => Update(data);
-    
-    public Passport Update(Dictionary<string, object> data)
-    {
-        var type = GetType();
-        foreach (var kvp in data)
-        {
-            var prop = type.GetProperty(kvp.Key);
-            if (prop != null && prop.CanWrite)
-                prop.SetValue(this, kvp.Value);
-        }
-        return this;
     }
 }

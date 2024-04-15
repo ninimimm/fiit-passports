@@ -5,46 +5,40 @@ using Fiit_passport.TelegramBot;
 
 namespace Fiit_passport.Controllers;
 
-public class PassportController : Controller
+public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot botTools) : Controller
 {
-    private readonly TelegramDbContext _repo;
-    private readonly TelegramBot.TelegramBot _telegramBot;
-    
-    public PassportController(TelegramDbContext repo, TelegramBot.TelegramBot botTools)
-    {
-        _telegramBot = botTools;
-        _repo = repo;
-    }
-    
-
     public string CreateIdSession() => Guid.NewGuid().ToString();
 
     [HttpPost]
     public async Task AuthenticationUser(Passport passport)
     {
-        await _telegramBot.AuthenticationUser(passport.TelegramTag);
+        await botTools.AuthenticationUser(passport.TelegramTag!);
     }
         
     
     public async Task<IActionResult> UpdatePassport()
     {
         var idSession = CreateIdSession();
-        await _repo.CreatePassport(idSession);
-        if (!await _repo.CheckPassport(idSession))
+        await repo.CreatePassport(idSession);
+        if (!await repo.CheckPassport(idSession))
             return NotFound();
         Console.WriteLine("я тут");
-        return View(await _repo.GetPassport(idSession));
+        return View(await repo.GetPassport(idSession));
     }
     
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> UpdatePassport1 (Passport passport)
     {
-        Console.WriteLine("update");
-        await _repo.UpdatePassport(passport);
-        return RedirectToAction("");
+        if (ModelState.IsValid)
+        {
+            Console.WriteLine("update");
+            await repo.UpdatePassport(passport);
+            return RedirectToAction("");
+        }
+        return RedirectToAction("UpdatePassport");
     }
-
+    
     public IActionResult Privacy()
     {
         return View();

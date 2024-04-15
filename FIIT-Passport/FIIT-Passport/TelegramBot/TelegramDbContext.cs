@@ -1,66 +1,57 @@
-﻿using Fiit_passport.Databased;
+﻿using Fiit_passport.Database;
 using Fiit_passport.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Fiit_passport.TelegramBot;
 
-public class TelegramDbContext
+public class TelegramDbContext(ApplicationDbContext db)
 {
-    private readonly ApplicationDbContext _dbContext;
-
-    public TelegramDbContext(ApplicationDbContext db)
-    {
-        _dbContext = db;
-    }
-
     public async Task AddConnectId(string userTag, string userId)
     {
         if (await CheckUser(userTag))
             return;
-        await _dbContext.ConnectIds.AddAsync(new ConnectId(userTag, userId));
-        await _dbContext.SaveChangesAsync();
+        await db.ConnectIds.AddAsync(new ConnectId(userTag, userId));
+        await db.SaveChangesAsync();
     }
 
     public async Task<bool> CheckUser(string userTag)
     {
-        var user = await _dbContext.ConnectIds.FindAsync(userTag);
+        var user = await db.ConnectIds.FindAsync(userTag);
         return user is not null;
     }
 
     public async Task<string> GetUserId(string userTag)
     {
-        var user = await _dbContext.ConnectIds.FindAsync(userTag);
+        var user = await db.ConnectIds.FindAsync(userTag);
         return user!.UserTelegramId;
     }
 
     public async Task CreatePassport(string sessionId)
     {
-        await _dbContext.Passports.AddAsync(new Passport(sessionId));
-        await _dbContext.SaveChangesAsync();
+        await db.Passports.AddAsync(new Passport(sessionId));
+        await db.SaveChangesAsync();
     }
 
     public async Task<bool> CheckPassport(string idSession)
     {
-        var passport = await _dbContext.Passports.FindAsync(idSession);
+        var passport = await db.Passports.FindAsync(idSession);
         return passport is not null;
     }
 
-    public async Task<Passport?> GetPassport(string idSession) => await _dbContext.Passports.FindAsync(idSession);
+    public async Task<Passport?> GetPassport(string idSession) => await db.Passports.FindAsync(idSession);
 
     public async Task UpdatePassport(Passport passport)
     {
         if (!await CheckPassport(passport.SessionId!))
             return;
-        var ps = await GetPassport(passport.SessionId);
-        _dbContext.Passports.Remove(ps);
-        await _dbContext.Passports.AddAsync(passport);
-        await _dbContext.SaveChangesAsync();
+        var ps = await GetPassport(passport.SessionId!);
+        db.Passports.Remove(ps!);
+        await db.Passports.AddAsync(passport);
+        await db.SaveChangesAsync();
     }
 
     public async Task AddAuthenticatedUser(string telegramTag)
     {
-        await _dbContext.AuthenticatedUsers.AddAsync(new AuthenticatedUsers(telegramTag));
-        await _dbContext.SaveChangesAsync();
+        await db.AuthenticatedUsers.AddAsync(new AuthenticatedUsers(telegramTag));
+        await db.SaveChangesAsync();
     }
 }

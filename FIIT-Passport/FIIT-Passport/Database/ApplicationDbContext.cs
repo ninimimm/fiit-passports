@@ -1,15 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using Fiit_passport.Models;
+﻿using Fiit_passport.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Fiit_passport.Databased;
+namespace Fiit_passport.Database;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
-
-    public DbSet<Admin> Admins { get; set; }
-    public DbSet<Passport> Passports { get; set; }
-    public DbSet<ConnectId> ConnectIds { get; set; }
-    public DbSet<AuthenticatedUsers> AuthenticatedUsers { get; set; }
+    public DbSet<Admin> Admins { get; init; }
+    public DbSet<Passport> Passports { get; init; }
+    public DbSet<ConnectId> ConnectIds { get; init; }
+    public DbSet<AuthenticatedUsers> AuthenticatedUsers { get; init; }
 }

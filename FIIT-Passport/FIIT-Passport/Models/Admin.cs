@@ -6,7 +6,7 @@ namespace Fiit_passport.Models;
 
 
 [Table("admins")]
-public class Admin : IAdmin
+public class Admin(string adminTelegramTag, string adminLink) : IAdmin
 {
     [Key]
     [Required]
@@ -17,17 +17,11 @@ public class Admin : IAdmin
         ErrorMessage = "Имя пользователя telegram должно начинаться с @ и содержать только" +
                        "буквы и цифры латинского алфавита")]
     //[Remote(action: "CheckEmail", controller: "Home", ErrorMessage ="Email уже используется")]
-    public string AdminTelegramTag { get; set; }
-    
+    public string AdminTelegramTag { get; set; } = adminTelegramTag;
+
     [Required]
     [Column("admin_link")]
     [MaxLength(255)]
     [Url (ErrorMessage = "Некорректная ссылка")]
-    public string AdminLink { get; set; }
-
-    public Admin(string adminTelegramTag, string adminLink)
-    {
-        AdminTelegramTag = adminTelegramTag;
-        AdminLink = adminLink;
-    }
+    public string AdminLink { get; set; } = adminLink;
 }

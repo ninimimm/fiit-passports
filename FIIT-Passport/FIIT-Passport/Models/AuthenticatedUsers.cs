@@ -6,7 +6,7 @@ using Fiit_passport.Models.Interfaces;
 namespace Fiit_passport.Models;
 
 [Table("authenticated_users")]
-public class AuthenticatedUsers : IAuthenticatedUsers
+public class AuthenticatedUsers(string telegramTag) : IAuthenticatedUsers
 {
     [Key]
     [Required]
@@ -18,10 +18,5 @@ public class AuthenticatedUsers : IAuthenticatedUsers
                        "буквы и цифры латинского алфавита")]
     [NotNull]
     //[Remote(action: "CheckEmail", controller: "Home", ErrorMessage ="Email уже используется")]
-    public string? TelegramTag { get; set; }
-
-    public AuthenticatedUsers(string telegramTag)
-    {
-        TelegramTag = telegramTag;
-    }
+    public string? TelegramTag { get; set; } = telegramTag;
 }

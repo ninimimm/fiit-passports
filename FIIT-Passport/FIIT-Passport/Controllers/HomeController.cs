@@ -1,5 +1,5 @@
 using System.Diagnostics;
-using Fiit_passport.Databased;
+using Fiit_passport.Database;
 using Microsoft.AspNetCore.Mvc;
 using Fiit_passport.Models;
 using Fiit_passport.TelegramBot;
@@ -15,12 +15,12 @@ public class HomeController : Controller
     //     _logger = logger;
     // }
 
-    private readonly ApplicationDbContext _repo;
-    
-    public HomeController(ApplicationDbContext repo)
-    {
-        _repo = repo;
-    }
+    // private readonly ApplicationDbContext _repo;
+    //
+    // public HomeController(ApplicationDbContext repo)
+    // {
+    //     _repo = repo;
+    // }
 
     public IActionResult Index()
     {

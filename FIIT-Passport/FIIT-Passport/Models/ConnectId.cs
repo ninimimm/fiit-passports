@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Fiit_passport.Models;
 
 [Table("connect_ids")]
-public class ConnectId : IConnectId
+public class ConnectId(string userTelegramTag, string userTelegramId) : IConnectId
 {
     [Key]
     [Required]
@@ -16,17 +16,11 @@ public class ConnectId : IConnectId
         ErrorMessage = "Имя пользователя telegram должно начинаться с @ и содержать только" +
                        "буквы и цифры латинского алфавита")]
     //[Remote(action: "CheckEmail", controller: "Home", ErrorMessage ="Email уже используется")]
-    public string UserTelegramTag { get; set; }
-    
+    public string UserTelegramTag { get; set; } = userTelegramTag;
+
     [Required]
     [MinLength(1, ErrorMessage = "Телеграмм id не может быть пустым")]
     [MaxLength(255)]
     [Column("user_telegram_id")]
-    public string UserTelegramId { get; set; }
-
-    public ConnectId(string userTelegramTag, string userTelegramId)
-    {
-        UserTelegramTag = userTelegramTag;
-        UserTelegramId = userTelegramId;
-    }
+    public string UserTelegramId { get; set; } = userTelegramId;
 }
