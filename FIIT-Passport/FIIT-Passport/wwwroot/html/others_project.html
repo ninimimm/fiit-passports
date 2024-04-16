@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дополнительно</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <section class="status_bar">
+            <span class="digit past_digit">1</span>
+            <span class="line"></span>
+            <span class="digit past_digit">2</span>
+            <span class="line"></span>
+            <span class="digit current_digit">3</span>
+            <span class="line"></span>
+            <span class="digit">4</span>
+            <span class="line"></span>
+            <span class="digit">5</span>
+        </section>
+    </header>
+    <section class="others_project">
+        <form action="" method="post">
+            <button type="submit" class="button_back" formaction="details_project.html">
+                <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
+            </button>
+        </form>
+        <div class="others_project_block">
+            <div class="head_form">
+                <img src="img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+                <h1 class="head_form_text">Дополнительно</h1>
+            </div>
+            <form class="max_form">
+                <label for="max_input" class="max_label">Максимальное количество экземпляров проекта</label>
+                <button type="button" class="max_minus" id="max_minus">
+                    <img src="img/minus-32-regular.png">
+                </button>
+                <input type="number" name="max" id="max_input" value="1" min="1" class="max_input">
+                <button type="button" class="max_plus" id="max_plus">
+                    <img src="img/plus-32-regular.png">
+                </button>
+            </form>
+            <p class="max_text">По умолчанию мы ставим 1. Поменяйте количество, если вы готовы работать более чем с одной командой. Это более затратно по времени, но из преимуществ — несколько вариантов продукта, из которых можно выбрать лучший</p>
+            <form action="" method="post" class="address_form">
+                <label for="address_input" class="address_label">Адрес для прохождения практической подготовки в форме проектного обучения</label>
+                <input type="text" name="address" id="address_input" class="address_input" placeholder="Реализуется на территории УрФУ" value="Реализуется на территории УрФУ">
+            </form>
+            <p class="address_text">Если в какой-то части студенческий проект будет выполняться на территории вашей компании – укажите адрес офиса. Иначе укажите «Реализуется на территории УрФУ»</p>
+        </div>
+        <form action="" method="post">
+            <button type="submit" class="button_next" formaction="contacts.html">
+                <img src="img/arrow-c-right-32-regular-white.png" alt="Вперед">
+            </button>
+        </form>
+    </section>
+<script src="../js/enter.js"></script>
+<script src="../js/max.js"></script>
+</body>
+</html>
