@@ -5,12 +5,168 @@
       "PackagePath": "staticwebassets\\Fiit-passport.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_Black.ttf",
+      "PackagePath": "staticwebassets\\css\\font\\Golos Text_Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_Bold.ttf",
+      "PackagePath": "staticwebassets\\css\\font\\Golos Text_Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_DemiBold.ttf",
+      "PackagePath": "staticwebassets\\css\\font\\Golos Text_DemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_Medium.ttf",
+      "PackagePath": "staticwebassets\\css\\font\\Golos Text_Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\font\\Golos Text_Regular.ttf"
+    },
+    {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\about_project.html",
+      "PackagePath": "staticwebassets\\html\\about_project.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\check_request.html",
+      "PackagePath": "staticwebassets\\html\\check_request.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\contacts.html",
+      "PackagePath": "staticwebassets\\html\\contacts.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\details_project.html",
+      "PackagePath": "staticwebassets\\html\\details_project.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular-white.png",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-left-32-regular-white.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-left-32-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular_gray.png",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-left-32-regular_gray.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular-white.png",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-right-32-regular-white.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-right-32-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular_gray.png",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-right-32-regular_gray.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\background.svg",
+      "PackagePath": "staticwebassets\\html\\img\\background.svg"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\brackets.png",
+      "PackagePath": "staticwebassets\\html\\img\\brackets.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\brackets.svg",
+      "PackagePath": "staticwebassets\\html\\img\\brackets.svg"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\comment-rect-plus-32-regular.png",
+      "PackagePath": "staticwebassets\\html\\img\\comment-rect-plus-32-regular.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\comment-rect-plus-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\comment-rect-plus-32-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\gradient.jpg",
+      "PackagePath": "staticwebassets\\html\\img\\gradient.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\logo_dark.png",
+      "PackagePath": "staticwebassets\\html\\img\\major-logo\\logo_dark.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo.png",
+      "PackagePath": "staticwebassets\\html\\img\\major-logo\\major_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo_dark.png",
+      "PackagePath": "staticwebassets\\html\\img\\major-logo\\major_logo_dark.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo_en.png",
+      "PackagePath": "staticwebassets\\html\\img\\major-logo\\major_logo_en.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\minus-32-regular.png",
+      "PackagePath": "staticwebassets\\html\\img\\minus-32-regular.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\minus-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\minus-32-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular-white.png",
+      "PackagePath": "staticwebassets\\html\\img\\plus-32-regular-white.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular.png",
+      "PackagePath": "staticwebassets\\html\\img\\plus-32-regular.png"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\plus-32-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\loading.html",
+      "PackagePath": "staticwebassets\\html\\loading.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\others_project.html",
+      "PackagePath": "staticwebassets\\html\\others_project.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\html\\start.html",
+      "PackagePath": "staticwebassets\\html\\start.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\js\\autoresize.js",
+      "PackagePath": "staticwebassets\\js\\autoresize.js"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\js\\enter.js",
+      "PackagePath": "staticwebassets\\js\\enter.js"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\js\\examples.js",
+      "PackagePath": "staticwebassets\\js\\examples.js"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\js\\max.js",
+      "PackagePath": "staticwebassets\\js\\max.js"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\js\\phone_mask.js",
+      "PackagePath": "staticwebassets\\js\\phone_mask.js"
     },
     {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\FIIT-Passport\\Fiit-passport\\wwwroot\\js\\site.js",

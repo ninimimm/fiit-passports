@@ -2,7 +2,6 @@
 using System.ComponentModel.DataAnnotations;
 using Fiit_passport.Models.Interfaces;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Diagnostics.CodeAnalysis;
 
 namespace Fiit_passport.Models;
 
@@ -15,6 +14,7 @@ public class Passport : IPassport
     [Column("session_id")]
     public string? SessionId { get; set; }
     
+    // [Required(ErrorMessage = "Назавнаие организации не может быть пустым")]
     [StringLength(100, MinimumLength = 1, ErrorMessage = "Название организации и заказчика должны быть от 1 до 100 символов")]
     [Column("orderer_name")]
     public string? OrdererName { get; set; }
@@ -60,7 +60,7 @@ public class Passport : IPassport
     [Column("surname")]
     public string? Surname { get; set; }
     
-    [Required(ErrorMessage = "Имя пользователя telegram не может быть пустым")]
+    // [Required(ErrorMessage = "Имя пользователя telegram не может быть пустым")]
     [Column("telegram_tag")]
     [StringLength(33, MinimumLength = 2,
         ErrorMessage = "Длина имени пользователя telegram должна быть от 2 до 33 символов")]

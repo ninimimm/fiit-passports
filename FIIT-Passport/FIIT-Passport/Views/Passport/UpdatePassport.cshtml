@@ -1,4 +1,5 @@
-﻿@model Fiit_passport.Models.Passport
+﻿@using Fiit_passport.TelegramBot
+@model Fiit_passport.Models.Passport
 
 @section Scripts {
     @{
@@ -18,6 +19,7 @@
     <span asp-validation-for="TelegramTag" class="text-danger"></span>
     <input type="hidden" id="telegramTag" name="telegramTag">
     <button type="submit">Update</button>
+    @* <button type="button" asp-action="AuthenticationUser" asp-controller="Passport" asp-route-passport="@Model"></button> *@
 </form>
 
 <form id="authenticationForm" method="post" asp-controller="Passport" asp-action="AuthenticationUser">
@@ -27,9 +29,9 @@
     <button type="submit">Authentication</button>
 </form>
 
-@* <script> *@
-@*     document.getElementById('passportForm').addEventListener('submit', function(event) { *@
-@*         document.getElementById('telegramTag').value = document.getElementById('TelegramTag').value; *@
-@*         event.preventDefault(); *@
-@*     }); *@
-@* </script> *@
+<script>
+    document.getElementById('passportForm').addEventListener('submit', function(event) {
+        document.getElementById('telegramTag').value = document.getElementById('TelegramTag').value;
+        event.preventDefault();
+    });
+</script>

@@ -10,9 +10,10 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
     public string CreateIdSession() => Guid.NewGuid().ToString();
 
     [HttpPost]
-    public async Task AuthenticationUser(Passport passport)
+    public async Task<IActionResult> AuthenticationUser(Passport passport)
     {
-        await botTools.AuthenticationUser(passport.TelegramTag!);
+        await botTools.AuthenticationUser(passport.TelegramTag!, TempData);
+        return RedirectToAction("UpdatePassport");
     }
         
     
@@ -22,7 +23,6 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
         await repo.CreatePassport(idSession);
         if (!await repo.CheckPassport(idSession))
             return NotFound();
-        Console.WriteLine("я тут");
         return View(await repo.GetPassport(idSession));
     }
     
@@ -30,23 +30,13 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> UpdatePassport1 (Passport passport)
     {
-        if (ModelState.IsValid)
-        {
-            Console.WriteLine("update");
-            await repo.UpdatePassport(passport);
-            return RedirectToAction("");
-        }
-        return RedirectToAction("UpdatePassport");
+        await repo.UpdatePassport(passport);
+        return RedirectToAction("");
     }
     
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+    public IActionResult Privacy() => View();
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
+    public IActionResult Error() =>
+        View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 }
