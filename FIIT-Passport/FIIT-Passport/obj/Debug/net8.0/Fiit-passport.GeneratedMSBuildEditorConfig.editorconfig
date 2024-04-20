@@ -18,20 +18,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\nik_chern\Desktop\Проект для команды ФИИТ\fiit-passports\FIIT-Passport\Fiit-passport
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Passport/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcUHJpdmFjeS5jc2h0bWw=
+[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Passport/AboutProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcQWJvdXRQcm9qZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Passport/UpdatePassport.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcVXBkYXRlUGFzc3BvcnQuY3NodG1s
+[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Passport/CheckRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcQ2hlY2tSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Passport/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcQ29udGFjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Passport/DetailsProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcRGV0YWlsc1Byb2plY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Passport/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcSG9tZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Passport/OthersProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcT3RoZXJzUHJvamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Passport/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/FIIT-Passport/Fiit-passport/Views/Shared/Error.cshtml]

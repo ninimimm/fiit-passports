@@ -1,0 +1,120 @@
+﻿@model Passport
+
+<header>
+    <section class="status_bar">
+        <span class="digit current_digit">1</span>
+        <span class="line"></span>
+        <span class="digit">2</span>
+        <span class="line"></span>
+        <span class="digit">3</span>
+        <span class="line"></span>
+        <span class="digit">4</span>
+        <span class="line"></span>
+        <span class="digit">5</span>
+    </section>
+</header>
+<section class="about_project">
+    <form method="post" class="about_project_block">
+        <button type="submit" class="button_back" asp-action="AboutProjectToHome" asp-controller="Passport">
+            <img src="~/html/img/arrow-c-left-32-regular-white.png" alt="Назад">
+        </button>
+        <div class="head_form">
+            <img src="~/html/img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+            <h1 class="head_form_text">О проекте</h1>
+        </div>
+        <div class="name_customer_form" hidden="hidden">
+            <label class="name_customer_label" asp-for="SessionId">Сессия</label>
+            <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="SessionId">
+        </div>
+        <div class="name_customer_form">
+            <label class="name_customer_label" asp-for="OrdererName">Имя организации/имя заказчика</label>
+            <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="OrdererName">
+        </div>
+        <div class="name_project_form">
+            <label class="name_project_label" asp-for="ProjectName">Название проекта</label>
+            <textarea id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов" asp-for="ProjectName"></textarea>
+        </div>
+        <div class="description_project_form">
+            <label class="description_project_label" asp-for="ProjectDescription">Описание проекта</label>
+            <textarea id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)" asp-for="ProjectDescription"></textarea>
+        </div>
+        <button type="submit" class="button_next" asp-action="AboutProjectToDetails" asp-controller="Passport">
+            <img src="~/html/img/arrow-c-right-32-regular-white.png" alt="Вперед">
+        </button>
+    </form>
+</section>
+<section class="examples">
+    <h2 class="examples_head">Примеры заполнения:</h2>
+    <div class="example_blocks">
+        <form>
+            <button type="button" class="ex_left_block">
+                <img src="~/html/img/arrow-c-left-32-regular_gray.png" class="back_block" alt="Предыдущий блок">
+            </button>
+        </form>
+        <div class="example_block">
+            <div class="name_project_block">
+                <p class="name_project">Название проекта</p>
+                <p class="name_project_text">Сервис для создания комиксов с помощью Kandinsky и GigaChat</p>
+            </div>
+            <div class="description_project_block">
+                <p class="description_project">Описание проекта</p>
+                <p class="description_project_text">Роли:<br>
+                    - 1 тимлид/PM<br>
+                    - 1 аналитик (либо совмещение с ролью тимлида/PMа)<br>
+                    - 1-2 бэкендера<br>
+                    - 1-2 фронтендера/дизайнер<br>
+                    Всего 3-5 человека<br>
+                    Со стороны заказчика есть куратор, который будет формировать итоговый образ продукта и направлять команду к нему.</p>
+            </div>
+        </div>
+        <div class="example_block">
+            <div class="name_project_block">
+                <p class="name_project">Название проекта</p>
+                <p class="name_project_text">Skipper</p>
+            </div>
+            <div class="description_project_block">
+                <p class="description_project">Описание проекта</p>
+                <p class="description_project_text">Технологии:<br>
+                    - для фронтенда - React JS / Angular<br>
+                    - для бэкенда - GO, Java/Kotlin (Spring framework)<br>
+                    Место развертывания бэкэнда не имеет особого значения (можно использовать как бесплатные, так и лицензионные решения, если такие имеются).</p>
+            </div>
+        </div>
+        <div class="example_block">
+            <div class="name_project_block">
+                <p class="name_project">Название проекта</p>
+                <p class="name_project_text">Logica: Задачник по Логическому Программированию</p>
+            </div>
+            <div class="description_project_block">
+                <p class="description_project">Описание проекта</p>
+                <p class="description_project_text">Роли:<br>
+                    - Python разработчик для обработки и загрузки данных в PostgreSQL.<br>
+                    - Технический писатель ответственный за понятные и интересные формулировки<br>
+                    - Специалист по Logica (например: прошли курс по Logica. При большом энтузиазме можно выучить по ходу)<br>
+                    - Лидер проекта.<br>
+                    (реальный человек может совмещать/делить несколько ролей)</p>
+            </div>
+        </div>
+        <div class="example_block">
+            <div class="name_project_block">
+                <p class="name_project">Название проекта</p>
+                <p class="name_project_text">Платформа Polaris для анализа финансовых рынков</p>
+            </div>
+            <div class="description_project_block">
+                <p class="description_project">Описание проекта</p>
+                <p class="description_project_text">Роли:<br>
+                    - Фронтендер (React)<br>
+                    - ML<br>
+                    - Квант (специалист по количественному анализу в финансах)<br>
+                    Опциональные роли, при количестве участников больше 3<br>
+                    - Бэкэнд C# разработчик<br>
+                    - Бэкэнд Python разработчик</p>
+            </div>
+        </div>
+        <form>
+            <button type="button" class="ex_right_block">
+                <img src="~/html/img/arrow-c-right-32-regular_gray.png" class="next_block" alt="Следующий блок">
+            </button>
+        </form>
+    </div>
+</section>

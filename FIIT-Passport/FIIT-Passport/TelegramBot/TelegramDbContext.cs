@@ -25,27 +25,30 @@ public class TelegramDbContext(ApplicationDbContext db)
         return user!.UserTelegramId;
     }
 
-    public async Task CreatePassport(string sessionId)
+    public async Task<Passport> CreatePassport(string? sessionId)
     {
-        await db.Passports.AddAsync(new Passport(sessionId));
+        var passport = new Passport(sessionId);
+        await db.Passports.AddAsync(passport);
         await db.SaveChangesAsync();
+        return passport;
     }
 
-    public async Task<bool> CheckPassport(string idSession)
+    public async Task<bool> CheckPassport(string? idSession)
     {
         var passport = await db.Passports.FindAsync(idSession);
         return passport is not null;
     }
 
-    public async Task<Passport?> GetPassport(string idSession) => await db.Passports.FindAsync(idSession);
+    public async Task<Passport?> GetPassport(string? idSession) => await db.Passports.FindAsync(idSession);
 
     public async Task UpdatePassport(Passport passport)
     {
         if (!await CheckPassport(passport.SessionId!))
             return;
         var ps = await GetPassport(passport.SessionId!);
-        db.Passports.Remove(ps!);
-        await db.Passports.AddAsync(passport);
+        ps!.Update(passport);
+        // db.Passports.Remove(passport);
+        // await db.Passports.AddAsync(passport);
         await db.SaveChangesAsync();
     }
 

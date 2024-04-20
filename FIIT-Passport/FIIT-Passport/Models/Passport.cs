@@ -68,7 +68,7 @@ public class Passport : IPassport
         ErrorMessage = "Имя пользователя telegram должно начинаться с @ и содержать только" +
                        "буквы и цифры латинского алфавита")] 
     //[Remote(action: "CheckEmail", controller: "Home", ErrorMessage ="Email уже используется")]
-    public string? TelegramTag { get; init; }
+    public string? TelegramTag { get; set; }
     
     [EmailAddress (ErrorMessage = "Некорректный адрес")]
     [DefaultValue("Не указана")]
@@ -84,8 +84,26 @@ public class Passport : IPassport
     
     public Passport() { }
     
-    public Passport(string sessionId)
+    public Passport(string? sessionId)
     {
         SessionId = sessionId;
+    }
+
+    public void Update(Passport passport)
+    {
+        OrdererName = passport.OrdererName ?? OrdererName;
+        ProjectName = passport.ProjectName ?? ProjectName;
+        ProjectDescription = passport.ProjectDescription ?? ProjectDescription;
+        Goal = passport.Goal ?? Goal;
+        Result = passport.Result ?? Result;
+        AcceptanceCriteria = passport.AcceptanceCriteria ?? AcceptanceCriteria;
+        if (passport.CopiesNumber > 0)
+            CopiesNumber = passport.CopiesNumber;
+        MeetingLocation = passport.MeetingLocation ?? MeetingLocation;
+        Name = passport.Name ?? Name;
+        Surname = passport.Surname ?? Surname;
+        TelegramTag = passport.TelegramTag ?? TelegramTag;
+        Email = passport.Email ?? Email;
+        PhoneNumber = passport.PhoneNumber ?? PhoneNumber;
     }
 }
