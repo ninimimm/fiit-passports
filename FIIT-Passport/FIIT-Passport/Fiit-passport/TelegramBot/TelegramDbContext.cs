@@ -51,16 +51,4 @@ public class TelegramDbContext(ApplicationDbContext db)
         // await db.Passports.AddAsync(passport);
         await db.SaveChangesAsync();
     }
-
-    public async Task AddAuthenticatedUser(string telegramTag)
-    {
-        await db.AuthenticatedUsers.AddAsync(new AuthenticatedUsers(telegramTag));
-        await db.SaveChangesAsync();
-    }
-
-    public async Task<bool> CheckUserAuthentication(string telegramTag)
-    {
-        var user = await db.AuthenticatedUsers.FindAsync(telegramTag);
-        return user is not null;
-    }
 }

@@ -2,16 +2,12 @@
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
-using System.Collections.Concurrent;
-using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Telegram.Bot.Types.ReplyMarkups;
 
 namespace Fiit_passport.TelegramBot;
 
 public class TelegramBot(TelegramDbContext repo, ITelegramBotClient botClient)
 {
-    private readonly ConcurrentDictionary<string, SemaphoreSlim> _authenticationTriggersStart = new();
-    private readonly ConcurrentDictionary<string, SemaphoreSlim> _authenticationTriggersConfirm = new();
 
     public async Task HandleUpdateAsync(ITelegramBotClient bot, Update update, CancellationToken cancellationToken)
     {
@@ -29,11 +25,17 @@ public class TelegramBot(TelegramDbContext repo, ITelegramBotClient botClient)
                     case "/start":
                     {
                         await repo.AddConnectId(userTag, userId);
-                        await SendButton(userId);
+                        await botClient.SendTextMessageAsync(userId, "Нажмите кнопку проверить личность на сайте", cancellationToken: cancellationToken);
                     } break;
-                    case "Подтвердить личность":
+                    default:
                     {
-                        await repo.AddAuthenticatedUser(userTag);
+                        if (await repo.CheckPassport(message.Text))
+                        {
+                            var passport = await repo.GetPassport(message.Text);
+                            passport!.AuthenticatedTelegramTag = userTag;
+                            await repo.UpdatePassport(passport);
+                            await botClient.SendTextMessageAsync(userId, "Аутентификация пройдена", cancellationToken: cancellationToken);
+                        }
                     } break;
                 }
             }
@@ -54,10 +56,10 @@ public class TelegramBot(TelegramDbContext repo, ITelegramBotClient botClient)
         return Task.CompletedTask;
     }
 
-    public async Task SendButton(string telegramId)
+    public async Task SendButton(string telegramId, string sessionId)
     {
-        var confirmButton = new KeyboardButton("Подтвердить личность");
+        var confirmButton = new KeyboardButton(sessionId);
         var replyMarkup = new ReplyKeyboardMarkup(new[] { confirmButton });
-        await botClient.SendTextMessageAsync(int.Parse(telegramId), "1", replyMarkup: replyMarkup);
+        await botClient.SendTextMessageAsync(int.Parse(telegramId), "Нажмите кнопку подтвердить", replyMarkup: replyMarkup);
     }
 }

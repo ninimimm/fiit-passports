@@ -69,6 +69,9 @@ public class Passport : IPassport
                        "буквы и цифры латинского алфавита")] 
     //[Remote(action: "CheckEmail", controller: "Home", ErrorMessage ="Email уже используется")]
     public string? TelegramTag { get; set; }
+
+    [Column("authenticated_telegram_tag")]
+    public string? AuthenticatedTelegramTag { get; set; }
     
     [EmailAddress (ErrorMessage = "Некорректный адрес")]
     [DefaultValue("Не указана")]
@@ -103,6 +106,7 @@ public class Passport : IPassport
         Name = passport.Name ?? Name;
         Surname = passport.Surname ?? Surname;
         TelegramTag = passport.TelegramTag ?? TelegramTag;
+        AuthenticatedTelegramTag = passport.AuthenticatedTelegramTag ?? AuthenticatedTelegramTag;
         Email = passport.Email ?? Email;
         PhoneNumber = passport.PhoneNumber ?? PhoneNumber;
     }

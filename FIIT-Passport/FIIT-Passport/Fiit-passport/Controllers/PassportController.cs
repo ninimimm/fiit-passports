@@ -12,15 +12,19 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
     
     public async Task<IActionResult> AuthenticationUser(Passport passport)
     {
-        if (!await repo.CheckUser(passport.TelegramTag))
-            TempData["error"] = "Наш бот с нетерпением ждёт вашего сообщения";
-        else if (!await repo.CheckUserAuthentication(passport.TelegramTag))
+        var correctPassport = await repo.GetPassport(passport.SessionId);
+        if (!await repo.CheckUser(passport.TelegramTag!))
+            TempData["error"] = $"Наш бот ждет команды /start от пользователя {passport.TelegramTag}";
+        else if (correctPassport!.AuthenticatedTelegramTag != passport.TelegramTag)
         {
-            TempData["error"] = "Нажмите кнопку \"Подтвердить\"";
-            await botTools.SendButton(await repo.GetUserId(passport.TelegramTag));
+            TempData["error"] = $"{passport.TelegramTag} нажмите подтвердить \"Подтвердить\"";
+            await botTools.SendButton(await repo.GetUserId(passport.TelegramTag!), passport.SessionId!);
         }
         else
+        {
             TempData["success"] = "Теперь всё готово к отправке проекта";
+        }
+            
         return await SaveAndRedirect("CheckRequest", passport);
     }
 
@@ -102,7 +106,7 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
         await SaveAndRedirect("OthersProject", passport);
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> ContactsToCheck(Passport passport) =>
+    public async Task<IActionResult> ContactsToCheck(Passport passport) => 
         await SaveAndRedirect("CheckRequest", passport);
     
     public IActionResult Contacts(Passport passport) => View(passport);
@@ -118,6 +122,17 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> CheckToHome(Passport passport)
     {
+        var correctPassport = await repo.GetPassport(passport.SessionId);
+        if (passport.TelegramTag is null)
+        {
+            TempData["error"] = "Имя пользователя telegram не может быть пустым";
+            return await SaveAndRedirect("CheckRequest", passport);
+        }
+        if (correctPassport.AuthenticatedTelegramTag != passport.TelegramTag)
+        {
+            TempData["error"] = $"Сначала подтвердите свою личность для пользователя {passport.TelegramTag}";
+            return await SaveAndRedirect("CheckRequest", passport);
+        }
         DeleteCookie("idSession");
         return await SaveAndRedirect("HomePage", passport);
     }

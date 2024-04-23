@@ -2,6 +2,7 @@
 using Fiit_passport.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Fiit_passport.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240423090258_AddIsAuthenticated")]
+    partial class AddIsAuthenticated
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -37,6 +40,18 @@ namespace Fiit_passport.Migrations
                     b.HasKey("AdminTelegramTag");
 
                     b.ToTable("admins");
+                });
+
+            modelBuilder.Entity("Fiit_passport.Models.AuthenticatedUsers", b =>
+                {
+                    b.Property<string>("TelegramTag")
+                        .HasMaxLength(33)
+                        .HasColumnType("character varying(33)")
+                        .HasColumnName("user_telegram_tag");
+
+                    b.HasKey("TelegramTag");
+
+                    b.ToTable("authenticated_users");
                 });
 
             modelBuilder.Entity("Fiit_passport.Models.ConnectId", b =>
@@ -69,10 +84,6 @@ namespace Fiit_passport.Migrations
                         .HasColumnType("character varying(100000)")
                         .HasColumnName("error_message");
 
-                    b.Property<string>("AuthenticatedTelegramTag")
-                        .HasColumnType("text")
-                        .HasColumnName("authenticated_telegram_tag");
-
                     b.Property<int>("CopiesNumber")
                         .HasColumnType("integer")
                         .HasColumnName("copies_number");
@@ -86,6 +97,10 @@ namespace Fiit_passport.Migrations
                         .HasMaxLength(100000)
                         .HasColumnType("character varying(100000)")
                         .HasColumnName("goal");
+
+                    b.Property<bool>("IsAuthenticatedUser")
+                        .HasColumnType("boolean")
+                        .HasColumnName("is_authenticated_user");
 
                     b.Property<string>("MeetingLocation")
                         .HasMaxLength(100)
