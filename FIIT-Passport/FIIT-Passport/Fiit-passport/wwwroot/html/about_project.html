@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О проекте</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preload" href="../css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
     <header>
@@ -21,30 +25,28 @@
         </section>
     </header>
     <section class="about_project">
-        <form action="" method="post">
+        <form action="" method="post" class="about_project_forms">
             <button type="submit" class="button_back" formaction="start.html">
                 <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
             </button>
-        </form>
-        <div class="about_project_block">
-            <div class="head_form">
-                <img src="img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
-                <h1 class="head_form_text">О проекте</h1>
+            <div class="about_project_block">
+                <div class="head_form">
+                    <img src="img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+                    <h1 class="head_form_text">О проекте</h1>
+                </div>
+                <div class="name_customer_form">
+                    <label for="name_customer_input" class="name_customer_label">Имя организации/имя заказчика</label>
+                    <input type="text" name="name_customer_input" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов">
+                </div>
+                <div class="name_project_form">
+                    <label for="name_project_input" class="name_project_label">Название проекта</label>
+                    <textarea name="name_project_input" id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов"></textarea>
+                </div>
+                <div class="description_project_form">
+                    <label for="description_project_input" class="description_project_label">Описание проекта</label>
+                    <textarea name="description_project_input" id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)"></textarea>
+                </div>
             </div>
-            <form action="" method="post" class="name_customer_form">
-                <label for="name_customer_input" class="name_customer_label">Имя организации/имя заказчика</label>
-                <input type="text" name="name_customer_input" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов">
-            </form>
-            <form action="" method="post" class="name_project_form">
-                <label for="name_project_input" class="name_project_label">Название проекта</label>
-                <textarea name="name_project_input" id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов"></textarea>
-            </form>
-            <form action="" method="post" class="description_project_form">
-                <label for="description_project_input" class="description_project_label">Описание проекта</label>
-                <textarea name="description_project_input" id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)"></textarea>
-            </form>
-        </div>
-        <form action="" method="post">
             <button type="submit" class="button_next" formaction="details_project.html">
                 <img src="img/arrow-c-right-32-regular-white.png" alt="Вперед">
             </button>

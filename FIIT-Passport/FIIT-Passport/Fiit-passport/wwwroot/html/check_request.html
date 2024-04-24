@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проверьте вашу анкету</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preload" href="../css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
     <header>
@@ -21,81 +25,79 @@
         </section>
     </header>
     <section class="check_request">
-        <form action="" method="post">
+        <form action="" method="post" class="check_request_forms">
             <button type="submit" class="button_back" formaction="contacts.html">
                 <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
             </button>
-        </form>
-        <div class="check_request_block">
-            <div class="head_form">
-                <img src="img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
-                <h1 class="head_form_text">Проверьте вашу анкету</h1>
+            <div class="check_request_block">
+                <div class="head_form">
+                    <img src="img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+                    <h1 class="head_form_text">Проверьте вашу анкету</h1>
+                </div>
+                <div class="name_customer_form">
+                    <label for="name_customer_input" class="name_customer_label">Имя организации/имя заказчика</label>
+                    <input type="text" name="name_customer_input" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов">
+                </div>
+                <div class="name_project_form">
+                    <label for="name_project_input" class="name_project_label">Название проекта</label>
+                    <textarea name="name_project_input" id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов"></textarea>
+                </div>
+                <div class="description_project_form">
+                    <label for="description_project_input" class="description_project_label">Описание проекта</label>
+                    <textarea name="description_project_input" id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)"></textarea>
+                </div>
+                <div class="goal_project_form">
+                    <label for="goal_project_input" class="goal_project_label">Цель проекта</label>
+                    <textarea name="goal_project_input" id="goal_project_input" class="goal_project_input" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления"></textarea>
+                </div>
+                <div class="result_project_form">
+                    <label for="result_project_input" class="result_project_label">Результат проекта (продукт)</label>
+                    <textarea name="result_project_input" id="result_project_input" class="result_project_input" placeholder="Опишите, что должна создать команда проекта"></textarea>
+                </div>
+                <div class="criteria_project_form">
+                    <label for="criteria_project_input" class="criteria_project_label">Критерии приемки результата/продукта</label>
+                    <textarea name="criteria_project_input" id="criteria_project_input" class="criteria_project_input" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее"></textarea>
+                </div>
+                <div class="max_form">
+                    <label for="max_input" class="max_label">Максимальное количество экземпляров проекта</label>
+                    <button type="button" class="max_minus" id="max_minus">
+                        <img src="img/minus-32-regular.png">
+                    </button>
+                    <input type="number" name="max" id="max_input" value="1" min="1" class="max_input">
+                    <button type="button" class="max_plus" id="max_plus">
+                        <img src="img/plus-32-regular.png">
+                    </button>
+                </div>
+                <p class="max_text">По умолчанию мы ставим 1. Поменяйте количество, если вы готовы работать более чем с одной командой. Это более затратно по времени, но из преимуществ — несколько вариантов продукта, из которых можно выбрать лучший</p>
+                <div class="address_form">
+                    <label for="address_input" class="address_label">Адрес для прохождения практической подготовки в форме проектного обучения</label>
+                    <input type="text" name="address" id="address_input" class="address_input" placeholder="Реализуется на территории УрФУ" value="Реализуется на территории УрФУ">
+                </div>
+                <p class="address_text">Если в какой-то части студенческий проект будет выполняться на территории вашей компании – укажите адрес офиса. Иначе укажите «Реализуется на территории УрФУ»</p>
+                <div class="name_form">
+                    <label for="name_input" class="name_label">Имя</label>
+                    <input type="text" name="name" id="name_input" class="name_input" placeholder="Иван">
+                </div>
+                <div class="last_name_form">
+                    <label for="last_name_input" class="last_name_label">Фамилия</label>
+                    <input type="text" name="last_name" id="last_name_input" class="last_name_input" placeholder="Иванов">
+                </div>
+                <div class="telegram_form">
+                    <label for="telegram_input" class="telegram_label">Telegram</label>
+                    <input type="text" name="telegram" id="telegram_input" class="telegram_input" placeholder="@user" pattern="^@.*$">
+                </div>
+                <div class="email_form">
+                    <label for="email_input" class="email_label">Email</label>
+                    <input type="email" name="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru">
+                </div>
+                <div class="phone_form">
+                    <label for="phone_input" class="phone_label">Телефон</label>
+                    <input type="tel" name="phone" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" pattern="^\+7[1-9]{10}$">
+                </div>
             </div>
-            <form action="" method="post" class="name_customer_form">
-                <label for="name_customer_input" class="name_customer_label">Имя организации/имя заказчика</label>
-                <input type="text" name="name_customer_input" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов">
-            </form>
-            <form action="" method="post" class="name_project_form">
-                <label for="name_project_input" class="name_project_label">Название проекта</label>
-                <textarea name="name_project_input" id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов"></textarea>
-            </form>
-            <form action="" method="post" class="description_project_form">
-                <label for="description_project_input" class="description_project_label">Описание проекта</label>
-                <textarea name="description_project_input" id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)"></textarea>
-            </form>
-            <form action="" method="post" class="goal_project_form">
-                <label for="goal_project_input" class="goal_project_label">Цель проекта</label>
-                <textarea name="goal_project_input" id="goal_project_input" class="goal_project_input" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления"></textarea>
-            </form>
-            <form action="" method="post" class="result_project_form">
-                <label for="result_project_input" class="result_project_label">Результат проекта (продукт)</label>
-                <textarea name="result_project_input" id="result_project_input" class="result_project_input" placeholder="Опишите, что должна создать команда проекта"></textarea>
-            </form>
-            <form action="" method="post" class="criteria_project_form">
-                <label for="criteria_project_input" class="criteria_project_label">Критерии приемки результата/продукта</label>
-                <textarea name="criteria_project_input" id="criteria_project_input" class="criteria_project_input" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее"></textarea>
-            </form>
-            <form class="max_form">
-                <label for="max_input" class="max_label">Максимальное количество экземпляров проекта</label>
-                <button type="button" class="max_minus" id="max_minus">
-                    <img src="img/minus-32-regular.png">
-                </button>
-                <input type="number" name="max" id="max_input" value="1" min="1" class="max_input">
-                <button type="button" class="max_plus" id="max_plus">
-                    <img src="img/plus-32-regular.png">
-                </button>
-            </form>
-            <p class="max_text">По умолчанию мы ставим 1. Поменяйте количество, если вы готовы работать более чем с одной командой. Это более затратно по времени, но из преимуществ — несколько вариантов продукта, из которых можно выбрать лучший</p>
-            <form action="" method="post" class="address_form">
-                <label for="address_input" class="address_label">Адрес для прохождения практической подготовки в форме проектного обучения</label>
-                <input type="text" name="address" id="address_input" class="address_input" placeholder="Реализуется на территории УрФУ" value="Реализуется на территории УрФУ">
-            </form>
-            <p class="address_text">Если в какой-то части студенческий проект будет выполняться на территории вашей компании – укажите адрес офиса. Иначе укажите «Реализуется на территории УрФУ»</p>
-            <form action="" method="post" class="name_form">
-                <label for="name_input" class="name_label">Имя</label>
-                <input type="text" name="name" id="name_input" class="name_input" placeholder="Иван">
-            </form>
-            <form action="" method="post" class="last_name_form">
-                <label for="last_name_input" class="last_name_label">Фамилия</label>
-                <input type="text" name="last_name" id="last_name_input" class="last_name_input" placeholder="Иванов">
-            </form>
-            <form action="" method="post" class="telegram_form">
-                <label for="telegram_input" class="telegram_label">Telegram</label>
-                <input type="text" name="telegram" id="telegram_input" class="telegram_input" placeholder="@user" pattern="^@.*$">
-            </form>
-            <form action="" method="post" class="email_form">
-                <label for="email_input" class="email_label">Email</label>
-                <input type="email" name="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru">
-            </form>
-            <form action="" method="post" class="phone_form">
-                <label for="phone_input" class="phone_label">Телефон</label>
-                <input type="tel" name="phone" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" pattern="^\+7[1-9]{10}$">
-            </form>
-        </div>
+            <button type="submit" class="button_send" formaction="request_send.html">Отправить</button>
+        </form>
     </section>
-    <form action="" method="post">
-        <button type="submit" class="button_send" formaction="request_send.html">Отправить</button>
-    </form>
 <script src="../js/phone_mask.js"></script>
 <script src="../js/enter.js"></script>
 <script src="../js/autoresize.js"></script>
