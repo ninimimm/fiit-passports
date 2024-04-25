@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IuJ9xHXFJtX/xittgjK5ND/ZCsiJ33JhJ8y80RSgkf0=",
+  "Hash": "UBSMyvQeGyeY/eo1+CbHRtooRSH1rwss/X5ywfnSDjo=",
   "Source": "Fiit-passport",
   "BasePath": "_content/Fiit-passport",
   "Mode": "Default",
@@ -813,6 +813,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\autoresize.js"
+    },
+    {
+      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\js\\check_validity.js",
+      "SourceId": "Fiit-passport",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "BasePath": "_content/Fiit-passport",
+      "RelativePath": "js/check_validity.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\check_validity.js"
     },
     {
       "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\js\\comments.js",

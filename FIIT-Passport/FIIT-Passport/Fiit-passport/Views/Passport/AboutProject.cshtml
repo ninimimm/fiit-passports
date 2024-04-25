@@ -29,15 +29,15 @@
             </div>
             <div class="name_customer_form">
                 <label class="name_customer_label" asp-for="OrdererName">Имя организации/имя заказчика</label>
-                <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="OrdererName">
+                <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="OrdererName" minlength ="1" maxlength="100" required>
             </div>
             <div class="name_project_form">
                 <label class="name_project_label" asp-for="ProjectName">Название проекта</label>
-                <textarea id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов" asp-for="ProjectName"></textarea>
+                <textarea id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов" asp-for="ProjectName" minlength ="1" maxlength="100" required></textarea>
             </div>
             <div class="description_project_form">
                 <label class="description_project_label" asp-for="ProjectDescription">Описание проекта</label>
-                <textarea id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)" asp-for="ProjectDescription"></textarea>
+                <textarea id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)" asp-for="ProjectDescription" minlength ="1" maxlength="100000" required></textarea>
             </div>
         </div>
         <button type="submit" class="button_next" asp-action="AboutProjectToDetails" asp-controller="Passport">

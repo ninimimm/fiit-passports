@@ -53,10 +53,11 @@ public class Passport : IPassport
     [MaxLength(100000, ErrorMessage = "Слишком большое сообщение")]
     [Column("error_message")]
     public string? AcceptanceCriteria { get; set; }
-    
+
     [Range(1, 5, ErrorMessage = "Недопустимое количество команд")]
     [Column("copies_number")]
-    public int CopiesNumber { get; set; }
+    [DefaultValue(1)]
+    public int CopiesNumber { get; set; } = 1;
     
     [MinLength(1, ErrorMessage = "Место встречи не может быть пустым")]
     [Column("meeting_location")]

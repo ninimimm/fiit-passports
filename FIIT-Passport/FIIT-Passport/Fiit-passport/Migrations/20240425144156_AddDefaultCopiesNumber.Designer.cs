@@ -2,6 +2,7 @@
 using Fiit_passport.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Fiit_passport.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240425144156_AddDefaultCopiesNumber")]
+    partial class AddDefaultCopiesNumber
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,7 +39,7 @@ namespace Fiit_passport.Migrations
 
                     b.HasKey("AdminTelegramTag");
 
-                    b.ToTable("admins", (string)null);
+                    b.ToTable("admins");
                 });
 
             modelBuilder.Entity("Fiit_passport.Models.ConnectId", b =>
@@ -54,7 +57,7 @@ namespace Fiit_passport.Migrations
 
                     b.HasKey("UserTelegramTag");
 
-                    b.ToTable("connect_ids", (string)null);
+                    b.ToTable("connect_ids");
                 });
 
             modelBuilder.Entity("Fiit_passport.Models.Passport", b =>
@@ -138,7 +141,7 @@ namespace Fiit_passport.Migrations
 
                     b.HasKey("SessionId");
 
-                    b.ToTable("passports", (string)null);
+                    b.ToTable("passports");
                 });
 #pragma warning restore 612, 618
         }

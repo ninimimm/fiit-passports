@@ -28,23 +28,23 @@
             </div>
             <div class="name_form">
                 <label class="name_label" asp-for="Name">Имя</label>
-                <input type="text" id="name_input" class="name_input" placeholder="Иван" asp-for="Name">
+                <input type="text" id="name_input" class="name_input" placeholder="Иван" asp-for="Name" minlength="1" maxlength="50" pattern="[А-Яа-яA-Za-z]+" title="Можно использовать только буквы" required>
             </div>
             <div class="last_name_form">
                 <label class="last_name_label" asp-for="Surname">Фамилия</label>
-                <input type="text" id="last_name_input" class="last_name_input" placeholder="Иванов" asp-for="Surname">
+                <input type="text" id="last_name_input" class="last_name_input" placeholder="Иванов" asp-for="Surname" minlength="1" maxlength="50" pattern="[А-Яа-яA-Za-z]+" title="Можно использовать только буквы" required>
             </div>
             <div class="telegram_form">
                 <label class="telegram_label" asp-for="TelegramTag">Telegram</label>
-                <input type="text" id="telegram_input" class="telegram_input" asp-for="TelegramTag">
+                <input type="text" id="telegram_input" class="telegram_input" asp-for="TelegramTag" minlength="2" maxlength="33" pattern="@@[A-Za-z0-9]+" title="Строка должна начинаться с @@ и не содержать спецсимволы" required>
             </div>
             <div class="email_form">
                 <label class="email_label" asp-for="Email">Email</label>
-                <input type="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru" asp-for="Email">
+                <input type="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru" asp-for="Email" minlength="5" maxlength="100" required>
             </div>
             <div class="phone_form">
                 <label class="phone_label" asp-for="PhoneNumber">Телефон</label>
-                <input type="tel" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" asp-for="PhoneNumber">
+                <input type="tel" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" asp-for="PhoneNumber" title="Нужно заполнить телефон полностью" required>
             </div>
         </div>
         <button type="submit" class="button_next" asp-action="ContactsToCheck" asp-controller="Passport">

@@ -28,34 +28,34 @@
             </div>
             <div class="name_customer_form">
                 <label class="name_customer_label" asp-for="OrdererName">Имя организации/имя заказчика</label>
-                <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="OrdererName">
+                <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="OrdererName" minlength ="1" maxlength="100" required>
             </div>
             <div class="name_project_form">
                 <label class="name_project_label" asp-for="ProjectName">Название проекта</label>
-                <textarea id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов" asp-for="ProjectName"></textarea>
+                <textarea id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов" asp-for="ProjectName" minlength ="1" maxlength="100" required></textarea>
             </div>
             <div class="description_project_form">
                 <label class="description_project_label" asp-for="ProjectDescription">Описание проекта</label>
-                <textarea id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)" asp-for="ProjectDescription"></textarea>
+                <textarea id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)" asp-for="ProjectDescription" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="goal_project_form">
                 <label class="goal_project_label" asp-for="Goal">Цель проекта</label>
-                <textarea id="goal_project_input" class="goal_project_input" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления" asp-for="Goal"></textarea>
+                <textarea id="goal_project_input" class="goal_project_input" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления" asp-for="Goal" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="result_project_form">
                 <label class="result_project_label" asp-for="Result">Результат проекта (продукт)</label>
-                <textarea id="result_project_input" class="result_project_input" placeholder="Опишите, что должна создать команда проекта" asp-for="Result"></textarea>
+                <textarea id="result_project_input" class="result_project_input" placeholder="Опишите, что должна создать команда проекта" asp-for="Result" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="criteria_project_form">
                 <label class="criteria_project_label" asp-for="AcceptanceCriteria">Критерии приемки результата/продукта</label>
-                <textarea id="criteria_project_input" class="criteria_project_input" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее" asp-for="AcceptanceCriteria"></textarea>
+                <textarea id="criteria_project_input" class="criteria_project_input" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее" asp-for="AcceptanceCriteria" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="max_form">
                 <label class="max_label" asp-for="CopiesNumber">Максимальное количество экземпляров проекта</label>
                 <button type="button" class="max_minus" id="max_minus">
                     <img src="~/html/img/minus-32-regular.png">
                 </button>
-                <input type="number" id="max_input" min="1" class="max_input" asp-for="CopiesNumber">
+                <input type="number" id="max_input" min="1" max="5" class="max_input" asp-for="CopiesNumber" required>
                 <button type="button" class="max_plus" id="max_plus">
                     <img src="~/html/img/plus-32-regular.png">
                 </button>
@@ -70,21 +70,17 @@
                 <img src="~/html/img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
                 <h1 class="head_form_text">Как с вами связаться?</h1>
             </div>
-            <div class="name_customer_form" hidden="hidden">
-                <label for="name_customer_input" class="name_customer_label" asp-for="SessionId">Имя организации/имя заказчика</label>
-                <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="SessionId" value="@Model.SessionId">
-            </div>
             <div class="name_form">
                 <label class="name_label" asp-for="Name">Имя</label>
-                <input type="text" id="name_input" class="name_input" placeholder="Иван" asp-for="Name">
+                <input type="text" id="name_input" class="name_input" placeholder="Иван" asp-for="Name" minlength="1" maxlength="50" pattern="[А-Яа-яA-Za-z]+" title="Можно использовать только буквы" required>
             </div>
             <div class="last_name_form">
                 <label class="last_name_label" asp-for="Surname">Фамилия</label>
-                <input type="text" id="last_name_input" class="last_name_input" placeholder="Иванов" asp-for="Surname">
+                <input type="text" id="last_name_input" class="last_name_input" placeholder="Иванов" asp-for="Surname" minlength="1" maxlength="50" pattern="[А-Яа-яA-Za-z]+" title="Можно использовать только буквы" required>
             </div>
             <div class="telegram_form">
                 <label class="telegram_label" asp-for="TelegramTag">Telegram</label>
-                <input type="text" id="telegram_input" class="telegram_input" asp-for="TelegramTag">
+                <input type="text" id="telegram_input" class="telegram_input" asp-for="TelegramTag" minlength="2" maxlength="33" pattern="@@[A-Za-z0-9]+" title="Строка должна начинаться с @@ и не содержать спецсимволы" required>
             </div>
             <p style="font-family: FontMedium; margin-left: 29vw; margin-right: 5vw;">Для подтверждения личности:<br/>
             - перейдите в нашего <a href="https://t.me/FIIT_Projects_bot">телеграмм бота</a>, выполните команду /start<br/>
@@ -94,11 +90,11 @@
             <button type="submit" class="button_send" asp-controller="Passport" asp-action="AuthenticationUser" style="margin-top: 1vw; margin-bottom: 1vw; margin-left: 37.5vw">Проверить личность</button>
             <div class="email_form">
                 <label class="email_label" asp-for="Email">Email</label>
-                <input type="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru" asp-for="Email">
+                <input type="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru" asp-for="Email" minlength="5" maxlength="100" required>
             </div>
             <div class="phone_form">
                 <label class="phone_label" asp-for="PhoneNumber">Телефон</label>
-                <input type="tel" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" asp-for="PhoneNumber">
+                <input type="tel" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" asp-for="PhoneNumber" length="11" required>
             </div>
         </div>
         <button type="submit" class="button_send" asp-controller="Passport" asp-action="CheckToRequest">Отправить</button>

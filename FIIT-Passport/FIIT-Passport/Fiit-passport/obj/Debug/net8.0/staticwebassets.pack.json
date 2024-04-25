@@ -165,6 +165,10 @@
       "PackagePath": "staticwebassets\\js\\autoresize.js"
     },
     {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\js\\check_validity.js",
+      "PackagePath": "staticwebassets\\js\\check_validity.js"
+    },
+    {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\js\\comments.js",
       "PackagePath": "staticwebassets\\js\\comments.js"
     },

@@ -38,11 +38,11 @@
     <a href="" class="real_project_url">Больше статей можете прочитать там то там то</a>
 </section>
 <form method="post" asp-controller="Passport" asp-action="AboutProject" asp-route-isNewProject="true">
-    <button type="submit" class="fill_form">Заполнить анкету</button>
+    <button type="submit" class="fill_form">Создать анкету</button>
 </form>
 @if (Model)
 {
     <form method="post" asp-controller="Passport" asp-action="AboutProject" asp-route-isNewProject="false">
-        <button type="submit" class="fill_form">Продолжить заполнение</button>
+        <button type="submit" class="fill_form" style="margin-left: 5vw; margin-right: -1vw">Изменить анкету</button>
     </form>
 }

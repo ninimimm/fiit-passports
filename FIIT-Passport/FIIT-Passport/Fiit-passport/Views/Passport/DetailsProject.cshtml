@@ -29,15 +29,15 @@
             </div>
             <div class="goal_project_form">
                 <label for="goal_project_input" class="goal_project_label" asp-for="Goal">Цель проекта</label>
-                <textarea id="goal_project_input" class="goal_project_input" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления" asp-for="Goal"></textarea>
+                <textarea id="goal_project_input" class="goal_project_input" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления" asp-for="Goal" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="result_project_form">
                 <label for="result_project_input" class="result_project_label" asp-for="Result">Результат проекта (продукт)</label>
-                <textarea id="result_project_input" class="result_project_input" placeholder="Опишите, что должна создать команда проекта" asp-for="Result"></textarea>
+                <textarea id="result_project_input" class="result_project_input" placeholder="Опишите, что должна создать команда проекта" asp-for="Result" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="criteria_project_form">
                 <label for="criteria_project_input" class="criteria_project_label" asp-for="AcceptanceCriteria">Критерии приемки результата/продукта</label>
-                <textarea id="criteria_project_input" class="criteria_project_input" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее" asp-for="AcceptanceCriteria"></textarea>
+                <textarea id="criteria_project_input" class="criteria_project_input" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее" asp-for="AcceptanceCriteria" minlength ="1" maxlength="100000" required></textarea>
             </div>
         </div>
         <button type="submit" class="button_next" asp-action="DetailsProjectToOthers" asp-controller="Passport">
