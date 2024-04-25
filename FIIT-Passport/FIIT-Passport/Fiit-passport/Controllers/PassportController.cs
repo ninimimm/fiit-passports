@@ -120,7 +120,7 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
     
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> CheckToHome(Passport passport)
+    public async Task<IActionResult> CheckToRequest(Passport passport)
     {
         var correctPassport = await repo.GetPassport(passport.SessionId);
         if (passport.TelegramTag is null)
@@ -128,22 +128,27 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
             TempData["error"] = "Имя пользователя telegram не может быть пустым";
             return await SaveAndRedirect("CheckRequest", passport);
         }
-        if (correctPassport.AuthenticatedTelegramTag != passport.TelegramTag)
+        if (correctPassport!.AuthenticatedTelegramTag != passport.TelegramTag)
         {
             TempData["error"] = $"Сначала подтвердите свою личность для пользователя {passport.TelegramTag}";
             return await SaveAndRedirect("CheckRequest", passport);
         }
         DeleteCookie("idSession");
-        return await SaveAndRedirect("HomePage", passport);
+        passport.Status = Status.SendToReview;
+        return await SaveAndRedirect("RequestSend", passport);
     }
-    
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> UpdatePassport1 (Passport passport)
+
+    public async Task<IActionResult> RequestSend(Passport passport)
     {
-        await repo.UpdatePassport(passport);
-        return RedirectToAction("");
+        var newPassport = await repo.GetPassport(passport.SessionId);
+        if (newPassport!.Status == Status.Reviewed)
+            return RedirectToAction("RequestChecked", newPassport);
+        return View(newPassport);
     }
+
+    public async Task<IActionResult> RequestChecked(Passport passport) => View(await repo.GetPassport(passport.SessionId));
+    
+    public IActionResult RequestToHome() => RedirectToAction("HomePage");
     
     public IActionResult Privacy() => View();
 

@@ -499,12 +499,14 @@ body, header, footer {
 }
 
 .name_project_text, .goal_project_text, .result_project_text {
+    font: 1.5vw FontRegular;
     width: 46vw;
     margin-left: 1.5vw;
     margin-bottom: 1.5vw;
 }
 
 .description_project_text, .criteria_project_text {
+    font: 1.5vw FontRegular;
     width: 46vw;
     margin-left: 1.5vw;
 }
@@ -799,6 +801,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .name_customer_value, .name_project_value, .description_project_value, .goal_project_value, .result_project_value, .criteria_project_value, .max_value, .address_value, .name_value, .last_name_value, .telegram_value, .email_value, .phone_value {
+    font: 1.5vw FontRegular;
     width: 46vw;
     margin-left: 7vw;
 }
@@ -870,6 +873,7 @@ aside {
 }
 
 .name_customer_value_cr, .name_project_value_cr, .description_project_value_cr, .goal_project_value_cr, .result_project_value_cr, .criteria_project_value_cr, .max_value_cr, .address_value_cr, .name_value_cr, .last_name_value_cr, .telegram_value_cr, .email_value_cr, .phone_value_cr {
+    font: 1.5vw FontRegular;
     width: 38vw;
     margin-left: 6vw;
 }

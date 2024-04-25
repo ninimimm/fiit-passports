@@ -5,6 +5,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Fiit_passport.Models;
 
+public enum Status
+{
+    Prepare,
+    SendToReview,
+    Reviewing,
+    Reviewed,
+    SendToCommands,
+    Accept,
+    Reject
+}
+
 [Table("passports")]
 public class Passport : IPassport
 {
@@ -85,6 +96,10 @@ public class Passport : IPassport
     [MaxLength(50)]
     public string? PhoneNumber { get; set; }
     
+    [Column("status")]
+    [DefaultValue(Status.Prepare)]
+    public Status Status { get; set; }
+    
     public Passport() { }
     
     public Passport(string? sessionId)
@@ -109,5 +124,6 @@ public class Passport : IPassport
         AuthenticatedTelegramTag = passport.AuthenticatedTelegramTag ?? AuthenticatedTelegramTag;
         Email = passport.Email ?? Email;
         PhoneNumber = passport.PhoneNumber ?? PhoneNumber;
+        Status = passport.Status;
     }
 }

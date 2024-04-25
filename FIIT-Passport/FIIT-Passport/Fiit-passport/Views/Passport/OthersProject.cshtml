@@ -13,34 +13,36 @@
     </section>
 </header>
 <section class="others_project">
-    <form method="post" class="others_project_block">
+    <form method="post" class="others_project_forms">
         <button type="submit" class="button_back" asp-action="OthersProjectToDetails" asp-controller="Passport">
             <img src="~/html/img/arrow-c-left-32-regular-white.png" alt="Назад">
         </button>
-        <div class="head_form">
-            <img src="~/html/img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
-            <h1 class="head_form_text">Дополнительно</h1>
+        <div class="others_project_block">
+            <div class="head_form">
+                <img src="~/html/img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+                <h1 class="head_form_text">Дополнительно</h1>
+            </div>
+            <div class="name_customer_form" hidden="hidden">
+                <label class="name_customer_label" asp-for="SessionId">Сессия</label>
+                <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="SessionId">
+            </div>
+            <div class="max_form">
+                <label class="max_label" asp-for="CopiesNumber">Максимальное количество экземпляров проекта</label>
+                <button type="button" class="max_minus" id="max_minus">
+                    <img src="~/html/img/minus-32-regular.png">
+                </button>
+                <input type="number" id="max_input" min="1" class="max_input" asp-for="CopiesNumber">
+                <button type="button" class="max_plus" id="max_plus">
+                    <img src="~/html/img/plus-32-regular.png">
+                </button>
+            </div>
+            <p class="max_text">По умолчанию мы ставим 1. Поменяйте количество, если вы готовы работать более чем с одной командой. Это более затратно по времени, но из преимуществ — несколько вариантов продукта, из которых можно выбрать лучший</p>
+            <div class="address_form">
+                <label class="address_label" asp-for="MeetingLocation">Адрес для прохождения практической подготовки в форме проектного обучения</label>
+                <input type="text" id="address_input" class="address_input" placeholder="Реализуется на территории УрФУ" asp-for="MeetingLocation">
+            </div>
+            <p class="address_text">Если в какой-то части студенческий проект будет выполняться на территории вашей компании – укажите адрес офиса. Иначе укажите «Реализуется на территории УрФУ»</p>
         </div>
-        <div class="name_customer_form" hidden="hidden">
-            <label class="name_customer_label" asp-for="SessionId">Сессия</label>
-            <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="SessionId">
-        </div>
-        <div class="max_form">
-            <label class="max_label" asp-for="CopiesNumber">Максимальное количество экземпляров проекта</label>
-            <button type="button" class="max_minus" id="max_minus">
-                <img src="~/html/img/minus-32-regular.png">
-            </button>
-            <input type="number" id="max_input" min="1" class="max_input" asp-for="CopiesNumber">
-            <button type="button" class="max_plus" id="max_plus">
-                <img src="~/html/img/plus-32-regular.png">
-            </button>
-        </div>
-        <p class="max_text">По умолчанию мы ставим 1. Поменяйте количество, если вы готовы работать более чем с одной командой. Это более затратно по времени, но из преимуществ — несколько вариантов продукта, из которых можно выбрать лучший</p>
-        <div class="address_form">
-            <label class="address_label" asp-for="MeetingLocation">Адрес для прохождения практической подготовки в форме проектного обучения</label>
-            <input type="text" id="address_input" class="address_input" placeholder="Реализуется на территории УрФУ" asp-for="MeetingLocation">
-        </div>
-        <p class="address_text">Если в какой-то части студенческий проект будет выполняться на территории вашей компании – укажите адрес офиса. Иначе укажите «Реализуется на территории УрФУ»</p>
         <button type="submit" class="button_next" asp-action="OthersProjectToContacts" asp-controller="Passport">
             <img src="~/html/img/arrow-c-right-32-regular-white.png" alt="Вперед">
         </button>

@@ -5,24 +5,20 @@
       "PackagePath": "staticwebassets\\Fiit-passport.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_Black.ttf",
-      "PackagePath": "staticwebassets\\css\\font\\Golos Text_Black.ttf"
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\font\\golos-text_bold.woff2",
+      "PackagePath": "staticwebassets\\css\\font\\golos-text_bold.woff2"
     },
     {
-      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_Bold.ttf",
-      "PackagePath": "staticwebassets\\css\\font\\Golos Text_Bold.ttf"
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\font\\golos-text_demibold.woff2",
+      "PackagePath": "staticwebassets\\css\\font\\golos-text_demibold.woff2"
     },
     {
-      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_DemiBold.ttf",
-      "PackagePath": "staticwebassets\\css\\font\\Golos Text_DemiBold.ttf"
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\font\\golos-text_medium.woff2",
+      "PackagePath": "staticwebassets\\css\\font\\golos-text_medium.woff2"
     },
     {
-      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_Medium.ttf",
-      "PackagePath": "staticwebassets\\css\\font\\Golos Text_Medium.ttf"
-    },
-    {
-      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\font\\Golos Text_Regular.ttf",
-      "PackagePath": "staticwebassets\\css\\font\\Golos Text_Regular.ttf"
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\font\\golos-text_regular.woff2",
+      "PackagePath": "staticwebassets\\css\\font\\golos-text_regular.woff2"
     },
     {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\css\\site.css",
@@ -51,6 +47,10 @@
     {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\details_project.html",
       "PackagePath": "staticwebassets\\html\\details_project.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\edit_request.html",
+      "PackagePath": "staticwebassets\\html\\edit_request.html"
     },
     {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular-white.png",
@@ -145,12 +145,28 @@
       "PackagePath": "staticwebassets\\html\\others_project.html"
     },
     {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_check.html",
+      "PackagePath": "staticwebassets\\html\\request_check.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_checked.html",
+      "PackagePath": "staticwebassets\\html\\request_checked.html"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_send.html",
+      "PackagePath": "staticwebassets\\html\\request_send.html"
+    },
+    {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\start.html",
       "PackagePath": "staticwebassets\\html\\start.html"
     },
     {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\js\\autoresize.js",
       "PackagePath": "staticwebassets\\js\\autoresize.js"
+    },
+    {
+      "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\js\\comments.js",
+      "PackagePath": "staticwebassets\\js\\comments.js"
     },
     {
       "Id": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\js\\enter.js",

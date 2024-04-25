@@ -50,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/Fiit-passport/Fiit-passport/Fiit-passport/Views/Passport/RequestChecked.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcUmVxdWVzdENoZWNrZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/Fiit-passport/Fiit-passport/Fiit-passport/Views/Passport/RequestSend.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3BvcnRcUmVxdWVzdFNlbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/nik_chern/Desktop/Проект для команды ФИИТ/fiit-passports/Fiit-passport/Fiit-passport/Fiit-passport/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

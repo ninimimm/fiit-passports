@@ -14,29 +14,31 @@
     </section>
 </header>
 <section class="about_project">
-    <form method="post" class="about_project_block">
+    <form method="post" class="about_project_forms">
         <button type="submit" class="button_back" asp-action="AboutProjectToHome" asp-controller="Passport">
             <img src="~/html/img/arrow-c-left-32-regular-white.png" alt="Назад">
         </button>
-        <div class="head_form">
-            <img src="~/html/img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
-            <h1 class="head_form_text">О проекте</h1>
-        </div>
-        <div class="name_customer_form" hidden="hidden">
-            <label class="name_customer_label" asp-for="SessionId">Сессия</label>
-            <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="SessionId">
-        </div>
-        <div class="name_customer_form">
-            <label class="name_customer_label" asp-for="OrdererName">Имя организации/имя заказчика</label>
-            <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="OrdererName">
-        </div>
-        <div class="name_project_form">
-            <label class="name_project_label" asp-for="ProjectName">Название проекта</label>
-            <textarea id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов" asp-for="ProjectName"></textarea>
-        </div>
-        <div class="description_project_form">
-            <label class="description_project_label" asp-for="ProjectDescription">Описание проекта</label>
-            <textarea id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)" asp-for="ProjectDescription"></textarea>
+        <div class="about_project_block">
+            <div class="head_form">
+                <img src="~/html/img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+                <h1 class="head_form_text">О проекте</h1>
+            </div>
+            <div class="name_customer_form" hidden="hidden">
+                <label class="name_customer_label" asp-for="SessionId">Сессия</label>
+                <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="SessionId">
+            </div>
+            <div class="name_customer_form">
+                <label class="name_customer_label" asp-for="OrdererName">Имя организации/имя заказчика</label>
+                <input type="text" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" asp-for="OrdererName">
+            </div>
+            <div class="name_project_form">
+                <label class="name_project_label" asp-for="ProjectName">Название проекта</label>
+                <textarea id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов" asp-for="ProjectName"></textarea>
+            </div>
+            <div class="description_project_form">
+                <label class="description_project_label" asp-for="ProjectDescription">Описание проекта</label>
+                <textarea id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)" asp-for="ProjectDescription"></textarea>
+            </div>
         </div>
         <button type="submit" class="button_next" asp-action="AboutProjectToDetails" asp-controller="Passport">
             <img src="~/html/img/arrow-c-right-32-regular-white.png" alt="Вперед">

@@ -1,0 +1,73 @@
+@model Passport
+<section class="request_send">
+    <div class="request_send_block">
+        
+        <div class="head_form">
+            <img src="~/html/img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+            @switch (Model.Status)
+            {
+                case Status.SendToReview:
+                    <h1 class="head_form_text">Анкета отправлена</h1>
+                    break;
+                case Status.Reviewing:
+                    <h1 class="head_form_text">Анкета проверяется</h1>
+                    break;
+            }
+        </div>
+        <span class="name_customer_section">
+            <p class="name_customer_head">Имя организации/имя заказчика</p>
+            <p class="name_customer_value">@Model.OrdererName</p>
+        </span>
+        <span class="name_project_section">
+            <p class="name_project_head">Название проекта</p>
+            <p class="name_project_value">@Model.ProjectName</p>
+        </span>
+        <span class="description_project_section">
+            <p class="description_project_head">Описание проекта</p>
+            <p class="description_project_value">@Model.ProjectDescription</p>
+        </span>
+        <span class="goal_project_section">
+            <p class="goal_project_head">Цель проекта</p>
+            <p class="goal_project_value">@Model.Goal</p>
+        </span>
+        <span class="result_project_section">
+            <p class="result_project_head">Результат проекта (продукт)</p>
+            <p class="result_project_value">@Model.Result</p>
+        </span>
+        <span class="criteria_project_section">
+            <p class="criteria_project_head">Критерии приемки результата/продукта</p>
+            <p class="criteria_project_value">@Model.AcceptanceCriteria</p>
+        </span>
+        <span class="max_section">
+            <p class="max_head">Максимальное количество экземпляров проекта</p>
+            <p class="max_value">@Model.CopiesNumber</p>
+        </span>
+        <span class="address_section">
+            <p class="address_head">Адрес для прохождения практической подготовки в форме проектного обучения</p>
+            <p class="address_value">@Model.MeetingLocation</p>
+        </span>
+        <span class="name_section">
+            <p class="name_head">Имя</p>
+            <p class="name_value">@Model.Name</p>
+        </span>
+        <span class="last_name_section">
+            <p class="last_name_head">Фамилия</p>
+            <p class="last_name_value">@Model.Surname</p>
+        </span>
+        <span class="telegram_section">
+            <p class="telegram_head">Telegram</p>
+            <p class="telegram_value">@Model.TelegramTag</p>
+        </span>
+        <span class="email_section">
+            <p class="email_head">Email</p>
+            <p class="email_value">@Model.Email</p>
+        </span>
+        <span class="phone_section">
+            <p class="phone_head">Телефон</p>
+            <p class="phone_value">@Model.PhoneNumber</p>
+        </span>
+    </div>
+</section>
+<form method="get">
+    <button type="submit" class="button_send" asp-controller="Passport" asp-action="RequestToHome">Выйти на главный экран</button>    
+</form>
