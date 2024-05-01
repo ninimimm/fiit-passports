@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Fiit_passport.Models;
 using Fiit_passport.TelegramBot;
-using Microsoft.Net.Http.Headers;
 
 namespace Fiit_passport.Controllers;
 
@@ -24,7 +23,6 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
         {
             TempData["success"] = "Теперь всё готово к отправке проекта";
         }
-            
         return await SaveAndRedirect("CheckRequest", passport);
     }
 

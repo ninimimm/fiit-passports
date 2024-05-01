@@ -116,7 +116,7 @@ public class Passport : IPassport
         Goal = passport.Goal ?? Goal;
         Result = passport.Result ?? Result;
         AcceptanceCriteria = passport.AcceptanceCriteria ?? AcceptanceCriteria;
-        if (passport.CopiesNumber > 0)
+        if (passport.CopiesNumber > 1)
             CopiesNumber = passport.CopiesNumber;
         MeetingLocation = passport.MeetingLocation ?? MeetingLocation;
         Name = passport.Name ?? Name;
@@ -126,5 +126,17 @@ public class Passport : IPassport
         Email = passport.Email ?? Email;
         PhoneNumber = passport.PhoneNumber ?? PhoneNumber;
         Status = passport.Status;
+    }
+
+    public Passport UpdateByDictionary(Dictionary<string, string> properties)
+    {
+        var passportProperties = GetType().GetProperties();
+        foreach (var passportProperty in passportProperties)
+        {
+            if (!properties.TryGetValue(passportProperty.Name, out var value))
+                continue;
+            passportProperty.SetValue(this, passportProperty.Name != "CopiesNumber" ? value : int.Parse(value));
+        }
+        return this;
     }
 }

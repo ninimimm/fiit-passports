@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Как с вами связаться?</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="preload" href="../css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
     <header>
@@ -25,8 +25,7 @@
         </section>
     </header>
     <section class="contacts">
-        <form action="" method="post" class="contacts_forms">
-            <button type="submit" class="button_back" formaction="others_project.html">
+            <button class="button_back" onclick="ToOthersProject()">
                 <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
             </button>
             <div class="contacts_block">
@@ -36,31 +35,31 @@
                 </div>
                 <div class="name_form">
                     <label for="name_input" class="name_label">Имя</label>
-                    <input type="text" name="name" id="name_input" class="name_input" placeholder="Иван" >
+                    <input type="text" name="name" id="name_input" class="name_input" placeholder="Иван" minlength ="1" maxlength="50" pattern="/^[A-Za-zА-Яа-я]+$/" required>
                 </div>
                 <div class="last_name_form">
                     <label for="last_name_input" class="last_name_label">Фамилия</label>
-                    <input type="text" name="last_name" id="last_name_input" class="last_name_input" placeholder="Иванов" >
+                    <input type="text" name="last_name" id="last_name_input" class="last_name_input" placeholder="Иванов" minlength ="1" maxlength="50" pattern='/^[а-яa-zA-ZА-Я]+$/' required>
                 </div>
                 <div class="telegram_form">
                     <label for="telegram_input" class="telegram_label">Telegram</label>
-                    <input type="text" name="telegram" id="telegram_input" class="telegram_input" placeholder="@user" pattern="^@.*$" >
+                    <input type="text" name="telegram" id="telegram_input" class="telegram_input" placeholder="@user" minlength ="1" maxlength="33" pattern='/^@[0-9a-zA-Z_]+$/' required>
                 </div>
                 <div class="email_form">
                     <label for="email_input" class="email_label">Email</label>
-                    <input type="email" name="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru" >
+                    <input type="email" name="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru" minlength ="1" pattern="/^\w+([\-\+\.']\w+)*@\w+([\-\.]\w+)*\.\w+([\-\.]\w+)*$/" required>
                 </div>
                 <div class="phone_form">
                     <label for="phone_input" class="phone_label">Телефон</label>
-                    <input type="tel" name="phone" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" >
+                    <input type="tel" name="phone" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" minlength ="1" pattern='/^\+\d \(\d{3}\) \d{3}-\d{2}-\d{2}$/' required>
                 </div>
             </div>
-            <button type="submit" class="button_next" formaction="check_request.html" >
+            <button class="button_next" onclick="ToCheckRequest()">
                 <img src="img/arrow-c-right-32-regular-white.png" alt="Вперед">
             </button>
-        </form>
     </section>
-<script src="../js/enter.js"></script>
-<script src="../js/phone_mask.js"></script>
+<script src="js/enter.js"></script>
+<script src="js/phone_mask.js"></script>
+<script src="js/contacts.js"></script>
 </body>
 </html>

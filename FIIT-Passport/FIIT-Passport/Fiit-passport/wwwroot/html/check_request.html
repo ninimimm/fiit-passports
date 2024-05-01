@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проверьте вашу анкету</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="preload" href="../css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
     <header>
@@ -25,8 +25,7 @@
         </section>
     </header>
     <section class="check_request">
-        <form action="" method="post" class="check_request_forms">
-            <button type="submit" class="button_back" formaction="contacts.html">
+            <button class="button_back" onclick="ToContacts()">
                 <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
             </button>
             <div class="check_request_block">
@@ -86,6 +85,7 @@
                     <label for="telegram_input" class="telegram_label">Telegram</label>
                     <input type="text" name="telegram" id="telegram_input" class="telegram_input" placeholder="@user" pattern="^@.*$">
                 </div>
+                <button class="button_send" onclick="CheckAuthenticate()">Проверить личность</button>
                 <div class="email_form">
                     <label for="email_input" class="email_label">Email</label>
                     <input type="email" name="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru">
@@ -95,12 +95,12 @@
                     <input type="tel" name="phone" id="phone_input" class="phone_input" placeholder="+7 (987) 654-32-10" pattern="^\+7[1-9]{10}$">
                 </div>
             </div>
-            <button type="submit" class="button_send" formaction="request_send.html">Отправить</button>
-        </form>
+            <button class="button_send" onclick="SubmitPassport()">Отправить</button>
     </section>
-<script src="../js/phone_mask.js"></script>
-<script src="../js/enter.js"></script>
-<script src="../js/autoresize.js"></script>
-<script src="../js/max.js"></script>
+<script src="js/phone_mask.js"></script>
+<script src="js/enter.js"></script>
+<script src="js/autoresize.js"></script>
+<script src="js/max.js"></script>
+<script src="js/check_request.js"></script>
 </body>
 </html>

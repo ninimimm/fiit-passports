@@ -24,4 +24,21 @@
       <PackageReference Include="Telegram.Bot" Version="19.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\css\font\golos-text_bold.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\font\golos-text_demibold.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\font\golos-text_medium.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\font\golos-text_regular.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\site.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\styles.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\autoresize.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\check_validity.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\comments.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\enter.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\examples.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\max.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\phone_mask.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\site.js" />
+    </ItemGroup>
+
 </Project>
