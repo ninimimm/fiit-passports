@@ -1,0 +1,21 @@
+.loading_page {
+    background-image: url("gradient.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fiit_brackets{
+    width: 12vw;
+    height: auto;
+}
+
+.percents{
+    font: 4.5vw FontBold;
+    color: #ffffff;
+    position: absolute;
+}

@@ -1,0 +1,170 @@
+.block_project {
+    width: 83vw;
+    box-shadow: 0 0 50px 15px rgba(3, 8, 27, 0.1);
+    background: #110f2c;
+    padding-bottom: 6vw;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-sizing: border-box;
+}
+
+.fiit_logo {
+    width: 13vw;
+    height: 16vw;
+    margin-top: 6vw;
+    margin-left: 7vw;
+}
+
+.project {
+    width: 45vw;
+    margin-top: 4vw;
+    margin-left: 11vw;
+    color: #ffffff;
+}
+
+.head_project {
+    font: 3vw FontBold;
+}
+
+.text_project {
+    margin-top: 3vw;
+}
+
+.block_business {
+    background-image: linear-gradient(270.00deg, rgba(254, 37, 167, 0.5) 0.018%, rgb(254, 37, 167) 0.018%, rgb(163, 12, 255) 99.982%);
+    background-color: rgba(17, 15, 44, 0.2);
+    width: 83vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+    border-radius: 20px;
+    box-shadow: 0 0 50px 15px rgba(3, 8, 27, 0.1);
+    color: #ffffff;
+    box-sizing: border-box;
+    padding-bottom: 4vw;
+}
+
+.head_business {
+    font: 3vw FontBold;
+    width: 32vw;
+    margin-left: 7vw;
+    margin-top: 3vw;
+}
+
+.text_business {
+    width: 28vw;
+    margin-left: 9vw;
+    margin-top: 3vw;
+}
+
+.block_real_projects {
+    width: 83vw;
+    box-sizing: border-box;
+    margin-top: 6vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head_real_projects {
+    font: 3vw FontBold;
+    margin-bottom: 0.8vw;
+}
+
+.real_project_text {
+    width: 83vw;
+    box-shadow: 0 0 50px 15px rgba(3, 8, 27, 0.1);
+    box-sizing: border-box;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-top: 2.5vw;
+    text-decoration: none;
+    color: #110f2c;
+    font: inherit;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head_real_project_text {
+    width: 77vw;
+    font: 2vw FontDemiBold;
+}
+
+.preview_real_project_text {
+    margin-top: 2vw;
+    width: 77vw;
+}
+
+.real_project_url {
+    margin-top: 2.5vw;
+    color: #A30CFF;
+    text-decoration-color: #ddabff;
+
+    &:hover {
+        text-decoration-color: #A30CFF;
+    }
+
+    &:active {
+        color: #FE25A7;
+        text-decoration-color: #FE25A7;
+    }
+}
+
+.buttons_start {
+    display: flex;
+}
+
+.fill_form {
+    box-sizing: border-box;
+    padding: 2vw 6vw;
+    background-color: #1AB3D5;
+    border-radius: 50px;
+    color: #ffffff;
+    font: 2vw FontDemiBold;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow 0.2s;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+
+    &:hover {
+        background-color: #5FCAE2;
+        box-shadow: 0 10px 50px 15px rgb(3, 8, 27, 0.1);
+    }
+
+    &:active {
+        background-color: #0C4C65;
+    }
+}
+
+.back_to_fill {
+    display: none;
+    box-sizing: border-box;
+    padding: 2vw 6vw;
+    background-color: #1AB3D5;
+    border-radius: 50px;
+    color: #ffffff;
+    font: 2vw FontDemiBold;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow 0.2s, background-color 0.2s;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    margin-left: 7vw;
+
+    &:hover {
+        background-color: #5FCAE2;
+        box-shadow: 0 10px 50px 15px rgb(3, 8, 27, 0.1);
+    }
+
+    &:active {
+        background-color: #0C4C65;
+    }
+}
