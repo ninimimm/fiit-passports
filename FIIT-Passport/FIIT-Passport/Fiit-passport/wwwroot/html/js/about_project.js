@@ -37,13 +37,3 @@ async function UpdatePassport() {
         })
     });
 }
-
-async function ToStart() {
-    await UpdatePassport();
-    window.location.href = 'start.html';
-}
-
-async function ToDetailsProject() {
-    await UpdatePassport();
-    window.location.href = 'details_project.html';
-}

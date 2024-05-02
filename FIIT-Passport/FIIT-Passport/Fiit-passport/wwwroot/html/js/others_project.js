@@ -35,13 +35,3 @@ async function UpdatePassport() {
         })
     });
 }
-
-async function ToDetailsProject() {
-    await UpdatePassport();
-    window.location.href = 'details_project.html';
-}
-
-async function ToContacts() {
-    await UpdatePassport();
-    window.location.href = 'contacts.html';
-}

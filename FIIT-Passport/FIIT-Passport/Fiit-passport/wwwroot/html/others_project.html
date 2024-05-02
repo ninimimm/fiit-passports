@@ -25,10 +25,10 @@
         </section>
     </header>
     <section class="others_project">
-            <button class="button_back" onclick="ToDetailsProject()">
+            <button class="button_back" onclick="Redirect('details_project.html')">
                 <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
             </button>
-            <div class="others_project_block">
+            <form class="others_project_block">
                 <div class="head_form">
                     <img src="img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
                     <h1 class="head_form_text">Дополнительно</h1>
@@ -46,16 +46,17 @@
                 <p class="max_text">По умолчанию мы ставим 1. Поменяйте количество, если вы готовы работать более чем с одной командой. Это более затратно по времени, но из преимуществ — несколько вариантов продукта, из которых можно выбрать лучший</p>
                 <div class="address_form">
                     <label for="address_input" class="address_label">Адрес для прохождения практической подготовки в форме проектного обучения</label>
-                    <input type="text" name="address" id="address_input" class="address_input" placeholder="Реализуется на территории УрФУ" value="Реализуется на территории УрФУ" minlength ="1" maxlength="100" pattern='/^[а-яa-zA-ZА-Я0-9, .:;"]+$/' required>
+                    <input type="text" name="address" id="address_input" class="address_input" placeholder="Реализуется на территории УрФУ" value="Реализуется на территории УрФУ" minlength ="1" maxlength="100" pattern='[а-яa-zA-ZА-Я0-9, .:;"]+' title="Недопустимые спецсимволы" required>
                 </div>
                 <p class="address_text">Если в какой-то части студенческий проект будет выполняться на территории вашей компании – укажите адрес офиса. Иначе укажите «Реализуется на территории УрФУ»</p>
-            </div>
-            <button class="button_next" onclick="ToContacts()">
+            </form>
+            <button class="button_next" onclick="Redirect('contacts.html')">
                 <img src="img/arrow-c-right-32-regular-white.png" alt="Вперед">
             </button>
     </section>
 <script src="js/enter.js"></script>
 <script src="js/max.js"></script>
 <script src="js/others_project.js"></script>
+<script src="js/redirect.js"></script>
 </body>
 </html>

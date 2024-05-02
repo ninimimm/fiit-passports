@@ -39,7 +39,7 @@
             <p class="max_text">По умолчанию мы ставим 1. Поменяйте количество, если вы готовы работать более чем с одной командой. Это более затратно по времени, но из преимуществ — несколько вариантов продукта, из которых можно выбрать лучший</p>
             <div class="address_form">
                 <label class="address_label" asp-for="MeetingLocation">Адрес для прохождения практической подготовки в форме проектного обучения</label>
-                <input type="text" id="address_input" class="address_input" placeholder="Реализуется на территории УрФУ" asp-for="MeetingLocation" minlength="1" maxlength="100" required>
+                <input type="text" id="address_input" class="address_input" placeholder="Реализуется на территории УрФУ" asp-for="MeetingLocation" minlength ="1" maxlength="100" pattern='[а-яa-zA-ZА-Я0-9, .:;"]+' title="Недопустимые спецсимволы" required>
             </div>
             <p class="address_text">Если в какой-то части студенческий проект будет выполняться на территории вашей компании – укажите адрес офиса. Иначе укажите «Реализуется на территории УрФУ»</p>
         </div>

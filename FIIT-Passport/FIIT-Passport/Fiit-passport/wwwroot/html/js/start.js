@@ -24,7 +24,6 @@ function getCookie(name) {
     return cookie[1];
 }
 
-
 if (getCookie("idSession") !== undefined) {
     fetch('http://localhost:8888/api/passport/get',
     {

@@ -57,12 +57,6 @@ async function UpdatePassport() {
         })
     });
 }
-
-async function ToContacts() {
-    await UpdatePassport();
-    window.location.href = 'contacts.html';
-}
-
 async function CheckAuthenticate() {
     await fetch('http://localhost:8888/api/passport/authenticate',
     {
@@ -85,16 +79,24 @@ async function CheckAuthenticate() {
                                 PhoneNumber: document.querySelector('.phone_input').value,
         })
     }).then(response => {
-        if (!response.ok) {
-            throw new Error('Не получилось пройти процесс аутентификации');
-        }
         return response.json();
     }).then(data => {
+        if (data.state === "error") {
+            toastr.error(data.message);
+        }
+        else{
+            toastr.success(data.message);
+        }
         console.log(data.state);
     });
 }
 
 async function SubmitPassport() {
+    const form = document.forms[0];
+    if (!form.checkValidity()){
+        form.reportValidity();
+        return false;
+    }
     await fetch('http://localhost:8888/api/passport/confirm',
     {
         method: 'POST',
@@ -121,11 +123,11 @@ async function SubmitPassport() {
         }
         return response.json();
     }).then(data => {
-        if (data.state === "Ok") {  
+        if (data.message === "Ok") {
             window.location.href = 'request_send.html';
         }
         else {
-            console.log(data.state);
+            toastr.error(data.message);
         }
     });
 }

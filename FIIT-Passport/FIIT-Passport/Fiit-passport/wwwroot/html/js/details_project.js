@@ -36,14 +36,4 @@ async function UpdatePassport() {
                                 AcceptanceCriteria: document.querySelector('.criteria_project_input').value
         })
     });
-}
-
-async function ToAboutProject() {
-    await UpdatePassport();
-    window.location.href = 'about_project.html';
-}
-
-async function ToOthersProject() {
-    await UpdatePassport();
-    window.location.href = 'others_project.html';
-}
+}   

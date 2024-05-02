@@ -25,10 +25,10 @@
         </section>
     </header>
     <section class="details_project">
-            <button class="button_back" onclick="ToAboutProject()">
+            <button class="button_back" onclick="Redirect('about_project.html')">
                 <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
             </button>
-            <div class="details_project_block">
+            <form id="details_project_id" class="details_project_block">
                 <div class="head_form">
                     <img src="img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
                     <h1 class="head_form_text">Подробности проекта</h1>
@@ -45,8 +45,8 @@
                     <label for="criteria_project_input" class="criteria_project_label">Критерии приемки результата/продукта</label>
                     <textarea name="criteria_project_input" id="criteria_project_input" class="criteria_project_input" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее" minlength ="1" maxlength="100000" required></textarea>
                 </div>
-            </div>
-            <button class="button_next" onclick="ToOthersProject()">
+            </form>
+            <button class="button_next" onclick="Redirect('others_project.html')">
                 <img src="img/arrow-c-right-32-regular-white.png" alt="Вперед">
             </button>
     </section>
@@ -192,5 +192,6 @@
 <script src="js/autoresize.js"></script>
 <script src="js/examples.js"></script>
 <script src="js/details_project.js"></script>
+<script src="js/redirect.js"></script>
 </body>
 </html>
