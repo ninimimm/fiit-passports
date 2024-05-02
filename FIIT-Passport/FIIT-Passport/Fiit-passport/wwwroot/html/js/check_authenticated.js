@@ -7,7 +7,7 @@
 }
 
 async function CheckAuthenticate() {
-    await fetch('http://localhost:8888/api/passport/authenticate',
+    await fetch('http://158.160.88.146:8888/api/passport/authenticate',
         {
             method: 'POST',
             headers: {
@@ -46,7 +46,7 @@ async function SubmitPassport() {
         form.reportValidity();
         return false;
     }
-    await fetch('http://localhost:8888/api/passport/confirm',
+    await fetch('http://158.160.88.146:8888/api/passport/confirm',
         {
             method: 'POST',
             headers: {

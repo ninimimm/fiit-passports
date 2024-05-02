@@ -1,4 +1,4 @@
-fetch('http://localhost:8888/api/passport/get',
+fetch('http://158.160.88.146:8888/api/passport/get',
     {
         method: 'POST',
         headers: {
@@ -35,7 +35,7 @@ function getCookie(name) {
 }
 
 async function UpdatePassport() {
-    await fetch('http://localhost:8888/api/passport/update',
+    await fetch('http://158.160.88.146:8888/api/passport/update',
     {
         method: 'POST',
         headers: {
@@ -58,7 +58,7 @@ async function UpdatePassport() {
     });
 }
 async function CheckAuthenticate() {
-    await fetch('http://localhost:8888/api/passport/authenticate',
+    await fetch('http://158.160.88.146:8888/api/passport/authenticate',
     {
         method: 'POST',
         headers: {
@@ -97,7 +97,7 @@ async function SubmitPassport() {
         form.reportValidity();
         return false;
     }
-    await fetch('http://localhost:8888/api/passport/confirm',
+    await fetch('http://158.160.88.146:8888/api/passport/confirm',
     {
         method: 'POST',
         headers: {
