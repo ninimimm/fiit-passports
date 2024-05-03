@@ -1,5 +1,5 @@
 ﻿async function create() {
-    const response = await fetch('http://158.160.88.146:8888/api/passport/create',
+    const response = await fetch('http://51.250.123.70:8888/api/passport/create',
         {
             method: 'POST'
         }).then(response => {
@@ -25,7 +25,7 @@ function getCookie(name) {
 }
 
 if (getCookie("idSession") !== undefined) {
-    fetch('http://158.160.88.146:8888/api/passport/get',
+    fetch('http://51.250.123.70:8888/api/passport/get',
     {
         method: 'POST',
         headers: {
