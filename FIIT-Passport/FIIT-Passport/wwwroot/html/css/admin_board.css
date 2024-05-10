@@ -188,7 +188,8 @@
 .send_list, .checking_list, .checked_list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
+    flex-direction: column;
     align-items: flex-start;
     width: 27vw;
     min-height: 52.5vw;
@@ -204,7 +205,6 @@
     padding: 2vw 2.5vw;
     font: 1.5vw FontMedium;
     margin-top: 2vw;
-
     &:hover {
         cursor: pointer;
         box-shadow: 0 0 10px 2px rgba(3, 8, 27, 0.1);
@@ -213,6 +213,11 @@
 }
 
 .second_check {
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     width: max-content;
     font: 1.3vw FontRegular;
     color: #ffffff;
