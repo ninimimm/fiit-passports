@@ -1,0 +1,100 @@
+.header_admin {
+    display: flex;
+    background-color: #E7EDF0;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    overflow: hidden;
+}
+
+.head_buttons {
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.back_button {
+    display: flex;
+    background-color: #0C4C65;
+    color: #ffffff;
+    font: 1.5vw FontRegular;
+    border: none;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 0.6vw 2vw;
+    margin-left: 2.5vw;
+
+    &:hover {
+        background-color: #0f5c7a;
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: #09394b;
+    }
+}
+
+.add_person {
+    display: flex;
+    background-color: #0C4C65;
+    color: #ffffff;
+    font: 1.5vw FontRegular;
+    border: none;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 0.6vw 2vw;
+    margin-left: 1.5vw;
+    margin-right: 2.5vw;
+
+    &:hover {
+        background-color: #0f5c7a;
+        cursor: pointer;
+
+    }
+
+    &:active {
+        background-color: #09394b;
+    }
+}
+
+.add_person img {
+    width: 1.7vw;
+    height: 1.7vw;
+    margin-right: 0.8vw;
+}
+
+.all_requests {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95vw;
+}
+
+.head {
+    font: 2.5vw FontBold;
+    width: 95vw;
+    margin-top: 3.5vw;
+    margin-bottom: 2.5vw;
+}
+
+.request {
+    width: 95vw;
+    box-shadow: 0 0 50px 15px rgba(3, 8, 27, 0.1);
+    box-sizing: border-box;
+    padding: 3vw;
+    margin-top: 2.5vw;
+    text-decoration: none;
+    color: #110f2c;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font: 2vw FontDemiBold;
+}
+
+.name_request {
+    width: 77vw;
+    font: 1.5vw FontMedium;
+    margin-top: 1vw;
+}
