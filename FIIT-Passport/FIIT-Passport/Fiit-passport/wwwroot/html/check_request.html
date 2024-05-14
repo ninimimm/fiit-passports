@@ -87,7 +87,12 @@
                 <label for="telegram_input" class="telegram_label">Telegram</label>
                 <input type="text" name="telegram" id="telegram_input" class="telegram_input" placeholder="@user" minlength ="1" maxlength="33" pattern='@[0-9a-zA-Z_]+' title="Строка должна начинаться с @@ и не содержать спецсимволы" required>
             </div>
-            <button type="button" class="button_send" onclick="CheckAuthenticate()">Проверить личность</button>
+            <button type="button" class="button_send" onclick="CheckAuthenticate()" style="margin-top: 1vw; margin-bottom: 1vw; margin-left: 37.5vw">Проверить личность</button>
+            <p style="font-family: FontMedium; margin-left: 29vw; margin-right: 5vw;">Для подтверждения личности:<br/>
+                - перейдите в нашего <a href="https://t.me/FIIT_Projects_bot">телеграмм бота</a>, выполните команду /start<br/>
+                - нажмите кнопку "Проверить личность" ниже<br/>
+                - нажмите кнопку, отправленную ботом
+            </p>
             <div class="email_form">
                 <label for="email_input" class="email_label">Email</label>
                 <input type="email" name="email" id="email_input" class="email_input" placeholder="ivanovivan@mail.ru" pattern="\w+([\-\+\.']\w+)*@\w+([\-\.]\w+)*\.\w+([\-\.]\w+)*" title="Невалидный формат почты" required>

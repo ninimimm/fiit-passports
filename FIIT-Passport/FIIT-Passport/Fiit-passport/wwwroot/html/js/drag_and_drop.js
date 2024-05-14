@@ -12,17 +12,52 @@ function addItemToList(list, itemText) {
     list.appendChild(newItem);
 }
 
+addItemToList(checkingList, "1");
+addItemToList(checkingList, '2');
+addItemToList(checkingList, '3');
+addItemToList(checkedList, '1');
+addItemToList(checkedList, '2');
 function countItemsAndUpdateCount(list, countElement) {
     countElement.textContent = list.children.length;
 }
 
-addItemToList(checkingList, 'Какое-то название проекта');
-addItemToList(checkedList, 'Какое-то название проекта');
-
-countItemsAndUpdateCount(sendList, sendCount);
-countItemsAndUpdateCount(checkingList, checkingCount);
-countItemsAndUpdateCount(checkedList, checkedCount);
-
+fetch('http://localhost:8888/api/number/get', {
+	method: 'POST',
+	headers: {
+		'Content-Type': 'application/json',
+	},
+})
+.then(response => {
+    if (!response.ok) {
+        throw new Error('Не получилось получить номера')
+    }
+    return response.json();
+})
+.then(data => {
+    console.log(data)
+    data.sort(function (a, b) {
+        return a.number - b.number;
+    })
+    data.forEach(element => {
+        switch (element.status) {
+            case 1:
+                addItemToList(sendList, "");
+                break;
+            case 2:
+                addItemToList(checkingList, element.sessionId);
+                break;
+            case 3:
+                addItemToList(checkedList, element.sessionId);
+                break;
+        }
+    })
+    document.querySelectorAll('.request').forEach(element => {
+			element.addEventListener('mousedown', onMouseDown);
+		});
+    countItemsAndUpdateCount(sendList, sendCount)
+    countItemsAndUpdateCount(checkingList, checkingCount)
+    countItemsAndUpdateCount(checkedList, checkedCount)
+})
 
 const columns = document.querySelectorAll('.column');
 let lastAdded = null;
@@ -176,10 +211,5 @@ function onMouseUp(event) {
     countNext.textContent = +(countNext.textContent) + 1;
     lastAdded.parentNode.insertBefore(event.target, lastAdded);
     lastAdded.parentNode.removeChild(lastAdded);
+    
 }
-
-document.querySelectorAll('.request').forEach(element => {
-    element.addEventListener('mousedown', onMouseDown);
-});
-
-console.log(document.querySelectorAll('.request'));

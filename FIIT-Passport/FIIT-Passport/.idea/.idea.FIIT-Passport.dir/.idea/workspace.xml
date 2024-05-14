@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7639ddf-704a-4d6d-8b6c-6f8ec3947365" name="Changes" comment="" />
+    <list default="true" id="c35aafa6-765e-49b4-b2fc-30b972610d23" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +19,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
   "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="2fv6EJQAMzZLVCwU3p60EuZVAbv" />
+  <component name="ProjectId" id="2gRMbKXFZhxs2r0Wx2XuEd4U3sj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,7 +30,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "9975ae63",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,12 +89,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e7639ddf-704a-4d6d-8b6c-6f8ec3947365" name="Changes" comment="" />
-      <created>1714669093531</created>
+      <changelist id="c35aafa6-765e-49b4-b2fc-30b972610d23" name="Changes" comment="" />
+      <created>1715656008336</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1714669093531</updated>
-      <workItem from="1714669094521" duration="3689000" />
+      <updated>1715656008336</updated>
+      <workItem from="1715656010067" duration="1821000" />
     </task>
     <servers />
   </component>

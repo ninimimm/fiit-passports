@@ -65,7 +65,6 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
             response["state"] = "error";
             response["message"] = $"Сначала подтвердите свою личность для пользователя {passport.TelegramTag}";
         }
-        passport.Status = Status.SendToReview;
         if (ApiTools.CheckValidity(passport))
             await repo.UpdatePassport(passport);
         else
@@ -73,6 +72,8 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
             response["state"] = "error";
             response["message"] = "Не все поля паспорта валидны";
         }
+        passport.Status = Status.SendToReview;
+        await repo.CreateSessionNumber(passport.SessionId!);
         return Ok(response);
     }
 
@@ -94,6 +95,25 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         var sessionId = request["sessionId"];
         var passport = await repo.GetPassport(sessionId);
         return Ok(passport);
+    }
+}
+
+[Route("api/number")]
+[ApiController]
+public class AdminController(TelegramDbContext repo) : ControllerBase
+{
+    [HttpPost("update")]
+    public async Task Update([FromBody] Dictionary<string, (int, Status)> request)
+    {
+        foreach (var sessionNumber in request)
+            await repo.UpdateSessionNumber(sessionNumber.Key, sessionNumber.Value.Item1, sessionNumber.Value.Item2);
+    }
+
+    [HttpPost("get")]
+    public async Task<IActionResult> Get()
+    {
+        var sessionNumbers = await repo.GetAllSessionNumbers();
+        return Ok(sessionNumbers);
     }
 }
 

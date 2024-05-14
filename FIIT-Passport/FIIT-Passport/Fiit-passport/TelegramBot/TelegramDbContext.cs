@@ -1,5 +1,6 @@
 ﻿using Fiit_passport.Database;
 using Fiit_passport.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Fiit_passport.TelegramBot;
 
@@ -39,6 +40,33 @@ public class TelegramDbContext(ApplicationDbContext db)
         return passport is not null;
     }
 
+    private async Task<int> GetMaxNumber(Status status)
+    {
+        var sessionNumbers = await db.SessionNumbers.Where(x => x.Status == status).ToListAsync();
+        return sessionNumbers.Count != 0 ? sessionNumbers.Max(x => x.Number) : 0;
+    }
+
+
+    public async Task CreateSessionNumber(string sessionId)
+    {
+        var sessionNumber = new SessionNumber(sessionId,await GetMaxNumber(Status.SendToReview) + 1, Status.SendToReview);
+        await db.SessionNumbers.AddAsync(sessionNumber);
+        await db.SaveChangesAsync();
+    }
+
+    private async Task<SessionNumber?> GetSessionNumber(string? idSession) => await db.SessionNumbers.FindAsync(idSession);
+    
+    public async Task UpdateSessionNumber(string sessionId, int number, Status status)
+    {
+        var sessionNumber = new SessionNumber(sessionId, number, status);
+        var sn = await GetSessionNumber(sessionId);
+        sn!.Update(sessionNumber);
+        await db.SaveChangesAsync();
+    }
+    
+    public async Task<List<SessionNumber>> GetAllSessionNumbers() =>
+        await db.SessionNumbers.ToListAsync();
+    
     public async Task<Passport?> GetPassport(string? idSession) => await db.Passports.FindAsync(idSession);
 
     public async Task UpdatePassport(Passport passport)
@@ -47,8 +75,6 @@ public class TelegramDbContext(ApplicationDbContext db)
             return;
         var ps = await GetPassport(passport.SessionId!);
         ps!.Update(passport);
-        // db.Passports.Remove(passport);
-        // await db.Passports.AddAsync(passport);
         await db.SaveChangesAsync();
     }
 }
