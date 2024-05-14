@@ -5,23 +5,18 @@ const sendCount = document.querySelector('.send_count');
 const checkingCount = document.querySelector('.checking_count');
 const checkedCount = document.querySelector('.checked_count');
 
-function addItemToList(list, itemText) {
+function addItemToList(list, itemText, id) {
     const newItem = document.createElement('li');
     newItem.textContent = itemText;
+    newItem.id = id;
     newItem.classList.add('request');
     list.appendChild(newItem);
 }
-
-addItemToList(checkingList, "1");
-addItemToList(checkingList, '2');
-addItemToList(checkingList, '3');
-addItemToList(checkedList, '1');
-addItemToList(checkedList, '2');
 function countItemsAndUpdateCount(list, countElement) {
     countElement.textContent = list.children.length;
 }
 
-fetch('http://localhost:8888/api/number/get', {
+fetch('http://51.250.123.70:8888/api/number/get', {
 	method: 'POST',
 	headers: {
 		'Content-Type': 'application/json',
@@ -41,13 +36,13 @@ fetch('http://localhost:8888/api/number/get', {
     data.forEach(element => {
         switch (element.status) {
             case 1:
-                addItemToList(sendList, "");
+                addItemToList(sendList, element.name, element.sessionId);
                 break;
             case 2:
-                addItemToList(checkingList, element.sessionId);
+                addItemToList(checkingList, element.name, element.sessionId);
                 break;
             case 3:
-                addItemToList(checkedList, element.sessionId);
+                addItemToList(checkedList, element.name, element.sessionId);
                 break;
         }
     })
@@ -61,6 +56,7 @@ fetch('http://localhost:8888/api/number/get', {
 
 const columns = document.querySelectorAll('.column');
 let lastAdded = null;
+let dragged = null;
 
 function createEmptyBlock(block) {
     const emptyBlock = document.createElement('li');
@@ -159,18 +155,26 @@ function onMouseDown(event) {
       }px, ${
         event.pageY - initialMovingElementPageXY.y - shifts.shiftY
       }px)`;
-    event.target.addEventListener('mousemove', onMouseMove);
+    dragged = event.target;
+    document.addEventListener('mousemove', onMouseMove);
     event.target.addEventListener('mouseup', onMouseUp);
 }
 
 function onMouseMove(event) {
+    if (!dragged) {
+        return;
+    }
     event.preventDefault();
-    event.target.style.transform = `translate(${
+    dragged.style.transform = `translate(${
         event.pageX - initialMovingElementPageXY.x - shifts.shiftX
       }px, ${
         event.pageY - initialMovingElementPageXY.y - shifts.shiftY
       }px)`;
-    let elementBelow = getElementBelow(event.target, "by-center");
+    let elementBelow = getElementBelow(dragged, "by-center");
+    if (!elementBelow) {
+        onMouseUp(event);
+        return;
+    }
     if (elementBelow.id == 'empty') {
         return;
     }
@@ -196,20 +200,63 @@ function onMouseMove(event) {
 
 function onMouseUp(event) {
     event.preventDefault();
-    event.target.removeEventListener('mousemove', onMouseMove);
-    event.target.removeEventListener('mouseup', onMouseUp);
-    Object.assign(event.target.style, {
+    document.removeEventListener('mousemove', onMouseMove);
+    dragged.removeEventListener('mouseup', onMouseUp);
+    Object.assign(dragged.style, {
         position: 'static',
         left: "auto",
         top: "auto",
         zIndex: "auto",
         transform: "none",
       });
-    var countHome = event.target.parentNode.parentNode.querySelector('span:last-of-type');
-    var countNext = lastAdded.parentNode.parentNode.querySelector('span:last-of-type');
+    let homeColumn = dragged.parentNode.parentNode;
+    let nextColumn = lastAdded.parentNode.parentNode;
+    let countHome = homeColumn.querySelector('span:last-of-type');
+    let countNext = nextColumn.querySelector('span:last-of-type');
     countHome.textContent = +(countHome.textContent) - 1;
     countNext.textContent = +(countNext.textContent) + 1;
-    lastAdded.parentNode.insertBefore(event.target, lastAdded);
+    lastAdded.parentNode.insertBefore(dragged, lastAdded);
     lastAdded.parentNode.removeChild(lastAdded);
+    dragged = null;
+    let homeStatus = 1;
+    switch (homeColumn.classList[0]) {
+        case "checking":
+            homeStatus = 2;
+            break;
+        case "checked":
+            homeStatus = 3;
+            break;
+    }
+    let nextStatus = 1;
+    switch (nextColumn.classList[0]) {
+        case "checking":
+            nextStatus = 2;
+            break;
+        case "checked":
+            nextStatus = 3;
+            break;
+    }
     
+    let projects = {};
+    let homeProjects = homeColumn.querySelectorAll('li');
+    let nextProjects = nextColumn.querySelectorAll('li');
+    let count = 0;
+    homeProjects.forEach(element => {
+        count++;
+        projects[element.id] = {"number": `${count}`, "status": `${homeStatus}`, 'name': element.textContent};
+    })
+    if (homeStatus !== nextStatus) {
+        count = 0;
+        nextProjects.forEach(element => {
+            count++;
+            projects[element.id] = {"number": `${count}`, "status": `${nextStatus}`, 'name': element.textContent};
+        })
+    };
+    fetch('http://51.250.123.70:8888/api/number/update', {
+	method: 'POST',
+	headers: {
+		'Content-Type': 'application/json',
+	},
+    body: JSON.stringify(projects)
+    });
 }

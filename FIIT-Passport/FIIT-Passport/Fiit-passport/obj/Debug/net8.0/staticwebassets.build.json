@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qbsAdL57gTyzKpucQfyMGuC9PUf0koeutzYGNOgwzzs=",
+  "Hash": "lBB3srCiv8DR81nkCLOfN7r+AUwHvSE65fHakOph3iQ=",
   "Source": "Fiit-passport",
   "BasePath": "_content/Fiit-passport",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Fiit-passport\\wwwroot",
       "Source": "Fiit-passport",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fiit-passport.styles.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fiit-passport.styles.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "Fiit-passport.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fiit-passport.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fiit-passport.styles.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fiit-passport.bundle.scp.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fiit-passport.bundle.scp.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "Fiit-passport.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fiit-passport.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fiit-passport.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\favicon.ico",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\about_project.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\about_project.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/about_project.html",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\html\\about_project.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\accepted_requests.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\accepted_requests.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/accepted_requests.html",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\html\\accepted_requests.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\admin_board.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\admin_board.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/admin_board.html",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\html\\admin_board.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\admin_comments.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\admin_comments.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/admin_comments.html",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\html\\admin_comments.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\check_request.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\check_request.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/check_request.html",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\html\\check_request.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\contacts.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\contacts.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/contacts.html",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\html\\contacts.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\accepted_requests.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\accepted_requests.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/accepted_requests.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\accepted_requests.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\admin_board.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\admin_board.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/admin_board.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\admin_board.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\admin_comments.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\admin_comments.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/admin_comments.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\admin_comments.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\all_pages.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\all_pages.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/all_pages.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\all_pages.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_bold.woff2",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_bold.woff2",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/font/golos-text_bold.woff2",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\font\\golos-text_bold.woff2"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_demibold.woff2",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_demibold.woff2",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/font/golos-text_demibold.woff2",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\font\\golos-text_demibold.woff2"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_medium.woff2",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_medium.woff2",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/font/golos-text_medium.woff2",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\font\\golos-text_medium.woff2"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_regular.woff2",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_regular.woff2",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/font/golos-text_regular.woff2",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\font\\golos-text_regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\forms.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\forms.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/forms.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\forms.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\full_form.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\full_form.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/full_form.css",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\full_form.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\head_forms.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\head_forms.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/head_forms.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\head_forms.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\loading.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\loading.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/loading.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\loading.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\request_checked_edit.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\request_checked_edit.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/request_checked_edit.css",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\request_checked_edit.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\request_send_check.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\request_send_check.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/request_send_check.css",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\request_send_check.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\site.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\site.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/site.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\start.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\start.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/start.css",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\start.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\styles.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\styles.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/css/styles.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\html\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\details_project.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\details_project.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/details_project.html",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\html\\details_project.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\edit_request.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\edit_request.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/edit_request.html",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\html\\edit_request.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular_gray.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular_gray.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/arrow-c-left-32-regular_gray.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\arrow-c-left-32-regular_gray.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular-white.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular-white.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/arrow-c-left-32-regular-white.png",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\arrow-c-left-32-regular-white.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular.svg",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular.svg",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/arrow-c-left-32-regular.svg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\arrow-c-left-32-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular_gray.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular_gray.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/arrow-c-right-32-regular_gray.png",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\arrow-c-right-32-regular_gray.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular-white.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular-white.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/arrow-c-right-32-regular-white.png",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\arrow-c-right-32-regular-white.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular.svg",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular.svg",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/arrow-c-right-32-regular.svg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\arrow-c-right-32-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\background.svg",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\background.svg",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/background.svg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\background.svg"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\brackets.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\brackets.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/brackets.png",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\brackets.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\brackets.svg",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\brackets.svg",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/brackets.svg",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\brackets.svg"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\comment-rect-plus-32-regular.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\comment-rect-plus-32-regular.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/comment-rect-plus-32-regular.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\comment-rect-plus-32-regular.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\comment-rect-plus-32-regular.svg",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\comment-rect-plus-32-regular.svg",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/comment-rect-plus-32-regular.svg",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\comment-rect-plus-32-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\gradient.jpg",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\gradient.jpg",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/gradient.jpg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\gradient.jpg"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\logo_dark.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\logo_dark.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/major-logo/logo_dark.png",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\major-logo\\logo_dark.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo_dark.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo_dark.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/major-logo/major_logo_dark.png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\major-logo\\major_logo_dark.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo_en.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo_en.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/major-logo/major_logo_en.png",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\major-logo\\major_logo_en.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/major-logo/major_logo.png",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\major-logo\\major_logo.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\minus-32-regular.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\minus-32-regular.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/minus-32-regular.png",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\minus-32-regular.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\minus-32-regular.svg",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\minus-32-regular.svg",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/minus-32-regular.svg",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\minus-32-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular-white.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular-white.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/plus-32-regular-white.png",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\plus-32-regular-white.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular.png",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular.png",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/plus-32-regular.png",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\plus-32-regular.png"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular.svg",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular.svg",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/img/plus-32-regular.svg",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\html\\img\\plus-32-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\about_project.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\about_project.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/about_project.js",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\about_project.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\add_comments.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\add_comments.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/add_comments.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\add_comments.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\addItem_andCount.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\addItem_andCount.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/addItem_andCount.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\addItem_andCount.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\autoresize.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\autoresize.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/autoresize.js",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\autoresize.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\check_authenticated.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\check_authenticated.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/check_authenticated.js",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\check_authenticated.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\check_request.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\check_request.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/check_request.js",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\check_request.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\check_validity.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\check_validity.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/check_validity.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\check_validity.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\comments.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\comments.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/comments.js",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\comments.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\contacts.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\contacts.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/contacts.js",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\contacts.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\details_project.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\details_project.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/details_project.js",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\details_project.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\drag_and_drop.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\drag_and_drop.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/drag_and_drop.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\drag_and_drop.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\enter.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\enter.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/enter.js",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\enter.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\examples.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\examples.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/examples.js",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\examples.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\max.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\max.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/max.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\max.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\others_project.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\others_project.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/others_project.js",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\others_project.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\phone_mask.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\phone_mask.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/phone_mask.js",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\phone_mask.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\redirect.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\redirect.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/redirect.js",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\redirect.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\request_send.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\request_send.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/request_send.js",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\request_send.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\site.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\site.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/site.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\start.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\start.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/js/start.js",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\html\\js\\start.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\LICENSE",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\html\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\loading.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\loading.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/loading.html",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\html\\loading.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\others_project.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\others_project.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/others_project.html",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\html\\others_project.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_check.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_check.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/request_check.html",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\html\\request_check.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_checked.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_checked.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/request_checked.html",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\html\\request_checked.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_send.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_send.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/request_send.html",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\html\\request_send.html"
     },
     {
-      "Identity": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\start.html",
+      "Identity": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\start.html",
       "SourceId": "Fiit-passport",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nik_chern\\Desktop\\Проект для команды ФИИТ\\fiit-passports\\Fiit-passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\",
       "BasePath": "_content/Fiit-passport",
       "RelativePath": "html/start.html",
       "AssetKind": "All",

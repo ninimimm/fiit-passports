@@ -47,19 +47,22 @@ public class TelegramDbContext(ApplicationDbContext db)
     }
 
 
-    public async Task CreateSessionNumber(string sessionId)
+    public async Task CreateSessionNumber(string sessionId, string name)
     {
-        var sessionNumber = new SessionNumber(sessionId,await GetMaxNumber(Status.SendToReview) + 1, Status.SendToReview);
+        var sessionNumber = new SessionNumber(sessionId,await GetMaxNumber(Status.SendToReview) + 1, Status.SendToReview, name);
         await db.SessionNumbers.AddAsync(sessionNumber);
         await db.SaveChangesAsync();
     }
 
     private async Task<SessionNumber?> GetSessionNumber(string? idSession) => await db.SessionNumbers.FindAsync(idSession);
     
-    public async Task UpdateSessionNumber(string sessionId, int number, Status status)
+    public async Task UpdateSessionNumber(string sessionId, int number, Status status, string name)
     {
-        var sessionNumber = new SessionNumber(sessionId, number, status);
+        var sessionNumber = new SessionNumber(sessionId, number, status, name);
         var sn = await GetSessionNumber(sessionId);
+        var passport = await GetPassport(sessionId);
+        passport!.Status = status;
+        await UpdatePassport(passport);
         sn!.Update(sessionNumber);
         await db.SaveChangesAsync();
     }

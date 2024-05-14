@@ -138,7 +138,7 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
             return await SaveAndRedirect("CheckRequest", passport, GlobalCheck);
         }
         DeleteCookie("idSession");
-        await repo.CreateSessionNumber(passport.SessionId!);
+        await repo.CreateSessionNumber(passport.SessionId!, passport.ProjectName);
         passport.Status = Status.SendToReview;
         return await SaveAndRedirect("RequestSend", passport, GlobalCheck);
     }

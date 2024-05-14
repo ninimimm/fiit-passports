@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Fiit_passport.Models;
 [Table("session_numbers")]
-public class SessionNumber(string sessionId, int number, Status status) : Interfaces.ISessionNumbers
+public class SessionNumber(string sessionId, int number, Status status, string name) : Interfaces.ISessionNumbers
 {
     [Key]
     [Required]
@@ -17,6 +17,10 @@ public class SessionNumber(string sessionId, int number, Status status) : Interf
     [Required]
     [Column("status")]
     public Status Status { get; set; } = status;
+    
+    [Required]
+    [Column("name")]
+    public string Name { get; set; } = name;
     
     public void Update(SessionNumber sessionNumber)
     {

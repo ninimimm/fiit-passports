@@ -73,7 +73,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
             response["message"] = "Не все поля паспорта валидны";
         }
         passport.Status = Status.SendToReview;
-        await repo.CreateSessionNumber(passport.SessionId!);
+        await repo.CreateSessionNumber(passport.SessionId!, passport.ProjectName!);
         return Ok(response);
     }
 
@@ -103,10 +103,11 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
 public class AdminController(TelegramDbContext repo) : ControllerBase
 {
     [HttpPost("update")]
-    public async Task Update([FromBody] Dictionary<string, (int, Status)> request)
+    public async Task Update([FromBody] Dictionary<string, Dictionary<string, string>> request)
     {
         foreach (var sessionNumber in request)
-            await repo.UpdateSessionNumber(sessionNumber.Key, sessionNumber.Value.Item1, sessionNumber.Value.Item2);
+            await repo.UpdateSessionNumber(sessionNumber.Key, int.Parse(sessionNumber.Value["number"]),
+                (Status)int.Parse(sessionNumber.Value["status"]), sessionNumber.Value["name"]);
     }
 
     [HttpPost("get")]
