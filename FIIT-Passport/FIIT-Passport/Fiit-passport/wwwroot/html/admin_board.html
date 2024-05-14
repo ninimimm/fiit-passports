@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все заявки</title>
+    <link rel="stylesheet" href="css/admin_board.css">
+    <link rel="stylesheet" href="css/all_pages.css">
+    <link rel="preload" href="css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+<header class="header_admin">
+    <form action="" method="post" class="head_buttons">
+        <button type="submit" class="accept_request" formaction="">Согласованные заявки</button>
+        <button type="submit" class="add_person" formaction="">
+            <img src="img/plus-32-regular-white.png" alt="Добавить">
+            Добавить пользователя
+        </button>
+    </form>
+</header>
+    <section class="admin_board">
+        <h1 class="head_admin">Все заявки:</h1>
+        <section class="send column">
+            <div class="send_head">
+                <span class="send_text">Получены</span>
+                <span class="send_count">0</span>
+            </div>
+            <ul class="send_list list">
+                <li class="request">
+                    Какое-то название проекта
+                    <div class="second_check">Повторная проверка</div>
+                </li>
+                <li class="request">
+                    Какое-то название проекта
+                    <div class="second_check">Повторная проверка</div>
+                </li>
+                <li class="request">
+                    Какое-то название проекта
+                    <div class="second_check">Повторная проверка</div>
+                </li>
+            </ul>
+        </section>
+        <section class="checking column">
+            <div class="checking_head">
+                <span class="checking_text">На проверке</span>
+                <span class="checking_count">0</span>
+            </div>
+            <ul class="checking_list list"></ul>
+        </section>
+        <section class="checked column">
+            <div class="checked_head">
+                <span class="checked_text">Проверены</span>
+                <span class="checked_count">0</span>
+            </div>
+            <ul class="checked_list list"></ul>
+        </section>
+    </section>
+<script src="js/addItem_andCount.js"></script>
+<script src="js/drag_and_drop.js"></script>
+</body>
+</html>

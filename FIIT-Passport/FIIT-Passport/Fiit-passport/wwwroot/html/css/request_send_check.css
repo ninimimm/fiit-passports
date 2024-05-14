@@ -1,0 +1,48 @@
+.request_send, .request_check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.request_send_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 78vw;
+    box-sizing: border-box;
+    box-shadow: 0 0 50px 20px rgb(26, 179, 213, 0.3);
+    border-radius: 30px;
+    padding-bottom: 3.5vw;
+    margin-top:4vw;
+    margin-bottom: 7vw;
+}
+
+.name_customer_section, .name_project_section, .description_project_section, .goal_project_section, .result_project_section, .criteria_project_section, .max_section, .address_section, .name_section, .last_name_section, .telegram_section, .email_section, .phone_section {
+    width: 71vw;
+    display: flex;
+    margin-top: 1.5vw;
+}
+
+.name_customer_value, .name_project_value, .description_project_value, .goal_project_value, .result_project_value, .criteria_project_value, .max_value, .address_value, .name_value, .last_name_value, .telegram_value, .email_value, .phone_value {
+    width: 46vw;
+    margin-left: 7vw;
+}
+
+.name_customer_head, .name_project_head, .description_project_head, .goal_project_head, .result_project_head, .criteria_project_head, .max_head, .address_head, .name_head, .last_name_head, .telegram_head, .email_head, .phone_head {
+    font: 1.5vw FontMedium;
+    width: 18vw;
+}
+
+.request_check_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 78vw;
+    box-sizing: border-box;
+    box-shadow: 0 0 50px 20px rgb(163, 12, 255, 0.3);
+    border-radius: 30px;
+    padding-bottom: 3.5vw;
+    margin-top:4vw;
+    margin-bottom: 7vw;
+}

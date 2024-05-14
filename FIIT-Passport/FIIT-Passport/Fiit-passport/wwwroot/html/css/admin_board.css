@@ -1,0 +1,231 @@
+.header_admin {
+    display: flex;
+    background-color: #E7EDF0;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    overflow: hidden;
+}
+
+.head_buttons {
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.accept_request {
+    display: flex;
+    background-color: #0C4C65;
+    color: #ffffff;
+    font: 1.5vw FontRegular;
+    border: none;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 0.6vw 2vw;
+
+    &:hover {
+        background-color: #0f5c7a;
+        cursor: pointer;
+
+    }
+}
+
+.add_person {
+    display: flex;
+    background-color: #0C4C65;
+    color: #ffffff;
+    font: 1.5vw FontRegular;
+    border: none;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 0.6vw 2vw;
+    margin-left: 1.5vw;
+    margin-right: 2.5vw;
+
+    &:hover {
+        background-color: #0f5c7a;
+        cursor: pointer;
+
+    }
+}
+
+.add_person img {
+    width: 1.7vw;
+    height: 1.7vw;
+    margin-right: 0.8vw;
+}
+
+.admin_board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95vw;
+    margin-bottom: 4vw;
+}
+
+.head_admin {
+    font: 2.5vw FontBold;
+    width: 95vw;
+    margin-top: 3.5vw;
+    margin-bottom: 2.5vw;
+}
+
+.send {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 31vw;
+    min-height: 52.5vw;
+    background-color: #FFD3ED;
+    border-radius: 10px;
+}
+
+.send_head, .checking_head, .checked_head {
+    display: flex;
+    justify-content: flex-start;
+    width: 27vw;
+    height: max-content;
+    margin-top: 1.5vw;
+}
+
+.send_text {
+    background-color: #FE25A7;
+    border-radius: 100px;
+    height: max-content;
+    max-width: 20vw;
+    padding: 1vw 2.5vw;
+    color: #ffffff;
+    font: 1.5vw FontDemiBold;
+    margin-right: 1.5vw;
+    flex: 1;
+    white-space: nowrap;
+}
+
+.send_count {
+    background-color: #FE25A7;
+    border-radius: 100px;
+    height: max-content;
+    max-width: 5vw;
+    padding: 1vw 2vw;
+    color: #ffffff;
+    font: 1.5vw FontDemiBold;
+}
+
+.checking {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 31vw;
+    min-height: 52.5vw;
+    background-color: #EDCEFF;
+    border-radius: 10px;
+}
+
+.checking_text {
+    background-color: #A30CFF;
+    border-radius: 100px;
+    height: max-content;
+    max-width: 20vw;
+    padding: 1vw 2.5vw;
+    color: #ffffff;
+    font: 1.5vw FontDemiBold;
+    margin-right: 1.5vw;
+    flex: 1;
+    white-space: nowrap;
+}
+
+.checking_count {
+    background-color: #A30CFF;
+    border-radius: 100px;
+    height: max-content;
+    max-width: 5vw;
+    padding: 1vw 2vw;
+    color: #ffffff;
+    font: 1.5vw FontDemiBold;
+}
+
+.checked {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 31vw;
+    min-height: 52.5vw;
+    background-color: #D1F0F7;
+    border-radius: 10px;
+}
+
+.checked_text {
+    background-color: #1AB3D5;
+    border-radius: 100px;
+    height: max-content;
+    max-width: 20vw;
+    padding: 1vw 2.5vw;
+    color: #ffffff;
+    font: 1.5vw FontDemiBold;
+    margin-right: 1.5vw;
+    flex: 1;
+    white-space: nowrap;
+}
+
+.checked_count {
+    background-color: #1AB3D5;
+    border-radius: 100px;
+    height: max-content;
+    max-width: 5vw;
+    padding: 1vw 2vw;
+    color: #ffffff;
+    font: 1.5vw FontDemiBold;
+}
+
+.send_list, .checking_list, .checked_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 27vw;
+    min-height: 52.5vw;
+    list-style: none;
+}
+
+.request {
+    background-color: #ffffff;
+    height: max-content;
+    width: 27vw;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 2vw 2.5vw;
+    font: 1.5vw FontMedium;
+    margin-top: 2vw;
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px 2px rgba(3, 8, 27, 0.1);
+        background-color: #f6f6f6;
+    }
+}
+
+.second_check {
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    width: max-content;
+    font: 1.3vw FontRegular;
+    color: #ffffff;
+    background-color: #FE7CCA;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 0.2vw 1vw;
+    margin-top: 1vw;
+}
+
+

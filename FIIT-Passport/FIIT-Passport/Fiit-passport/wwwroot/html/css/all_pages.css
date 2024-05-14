@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'FontRegular';
+    src: url('font/golos-text_regular.woff2') format('woff2'),
+    url('font/golos-text_regular.woff2') format('truetype');
+}
+
+@font-face {
+    font-family: 'FontMedium';
+    src: url('font/golos-text_medium.woff2') format('woff2'),
+    url('font/golos-text_medium.woff2') format('truetype');
+}
+
+@font-face {
+    font-family: 'FontDemiBold';
+    src: url('font/golos-text_demibold.woff2') format('woff2'),
+    url('font/golos-text_demibold.woff2') format('truetype');
+}
+
+@font-face {
+    font-family: 'FontBold';
+    src: url('font/golos-text_bold.woff2') format('woff2'),
+    url('font/golos-text_bold.woff2') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, header, footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: #110F2C;
+    font: 1.5vw FontRegular;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}

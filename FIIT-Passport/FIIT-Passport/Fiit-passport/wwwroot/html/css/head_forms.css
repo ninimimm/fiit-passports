@@ -1,0 +1,59 @@
+.status_bar {
+    width: 100vw;
+    height: 5vw;
+    margin-top: 1vw;
+    margin-bottom: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    height: 0.5vw;
+    width: 8vw;
+    background-color: #ffffff;
+    z-index: 1;
+    box-shadow: 0 0 50px 10px rgb(3, 8, 27, 0.15);
+}
+
+.digit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font: 2vw FontBold;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 100px;
+    border: solid 0.4vw #ffffff;
+    background-color: #a5a4a4;
+    box-shadow: 0 0 50px 15px rgb(3, 8, 27, 0.15);
+    z-index: 0;
+}
+
+.current_digit {
+    background-color: #1AB3D5;
+}
+
+.past_digit {
+    background-color: #0C4C65;
+}
+
+.head_form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 71vw;
+    height: 5vw;
+    margin-top: 2.5vw;
+}
+
+.fiit_logo_head {
+    width: auto;
+    height: 5vw;
+}
+
+.head_form_text {
+    font: 2.5vw FontBold;
+    margin-left: 3vw;
+}
