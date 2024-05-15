@@ -6,11 +6,11 @@ using static System.Text.RegularExpressions.Regex;
 
 namespace Fiit_passport.Controllers;
 
-[Route("api/passport")]
+[Route("api")]
 [ApiController]
 public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTools) : ControllerBase
 {
-    [HttpPost("update")]
+    [HttpPost("passport/update")]
     public async Task Update([FromBody] Dictionary<string, string> request)
     {
         var passport = new Passport().UpdateByDictionary(request);
@@ -18,7 +18,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
             await repo.UpdatePassport(passport);
     }
 
-    [HttpPost("authenticate")]
+    [HttpPost("passport/authenticate")]
     public async Task<IActionResult> Authenticate([FromBody] Dictionary<string, string> request)
     {
         var passport = new Passport().UpdateByDictionary(request);
@@ -45,7 +45,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         return Ok(response);
     }
     
-    [HttpPost("confirm")]
+    [HttpPost("passport/confirm")]
     public async Task<IActionResult> Confirm([FromBody] Dictionary<string, string> request)
     {
         var passport = new Passport().UpdateByDictionary(request);
@@ -77,7 +77,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         return Ok(response);
     }
 
-    [HttpPost("create")]
+    [HttpPost("passport/create")]
     public async Task<IActionResult> Create()
     {
         var sessionId = Guid.NewGuid().ToString();
@@ -89,29 +89,24 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         return Ok(json);
     }
 
-    [HttpPost("get")]
+    [HttpPost("passport/get")]
     public async Task<IActionResult> Get([FromBody] Dictionary<string, string> request)
     {
         var sessionId = request["sessionId"];
         var passport = await repo.GetPassport(sessionId);
         return Ok(passport);
     }
-}
-
-[Route("api/number")]
-[ApiController]
-public class AdminController(TelegramDbContext repo) : ControllerBase
-{
-    [HttpPost("update")]
-    public async Task Update([FromBody] Dictionary<string, Dictionary<string, string>> request)
+    
+    [HttpPost("number/update")]
+    public async Task UpdateNumber([FromBody] Dictionary<string, Dictionary<string, string>> request)
     {
         foreach (var sessionNumber in request)
             await repo.UpdateSessionNumber(sessionNumber.Key, int.Parse(sessionNumber.Value["number"]),
                 (Status)int.Parse(sessionNumber.Value["status"]), sessionNumber.Value["name"]);
     }
 
-    [HttpPost("get")]
-    public async Task<IActionResult> Get()
+    [HttpPost("number/get")]
+    public async Task<IActionResult> GetNumber()
     {
         var sessionNumbers = await repo.GetAllSessionNumbers();
         return Ok(sessionNumbers);

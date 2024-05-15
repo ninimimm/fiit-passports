@@ -126,20 +126,20 @@ public class PassportController(TelegramDbContext repo, TelegramBot.TelegramBot 
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> CheckToRequest(Passport passport)
     {
-        var correctPassport = await repo.GetPassport(passport.SessionId);
-        if (passport.TelegramTag is null)
-        {
-            TempData["error"] = "Имя пользователя telegram не может быть пустым";
-            return await SaveAndRedirect("CheckRequest", passport, GlobalCheck);
-        }
-        if (correctPassport!.AuthenticatedTelegramTag != passport.TelegramTag)
-        {
-            TempData["error"] = $"Сначала подтвердите свою личность для пользователя {passport.TelegramTag}";
-            return await SaveAndRedirect("CheckRequest", passport, GlobalCheck);
-        }
-        DeleteCookie("idSession");
-        await repo.CreateSessionNumber(passport.SessionId!, passport.ProjectName);
-        passport.Status = Status.SendToReview;
+        // var correctPassport = await repo.GetPassport(passport.SessionId);
+        // if (passport.TelegramTag is null)
+        // {
+        //     TempData["error"] = "Имя пользователя telegram не может быть пустым";
+        //     return await SaveAndRedirect("CheckRequest", passport, GlobalCheck);
+        // }
+        // if (correctPassport!.AuthenticatedTelegramTag != passport.TelegramTag)
+        // {
+        //     TempData["error"] = $"Сначала подтвердите свою личность для пользователя {passport.TelegramTag}";
+        //     return await SaveAndRedirect("CheckRequest", passport, GlobalCheck);
+        // }
+        // DeleteCookie("idSession");
+        // await repo.CreateSessionNumber(passport.SessionId!, passport.ProjectName);
+        // passport.Status = Status.SendToReview;
         return await SaveAndRedirect("RequestSend", passport, GlobalCheck);
     }
 
