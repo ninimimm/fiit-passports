@@ -16,7 +16,7 @@ function countItemsAndUpdateCount(list, countElement) {
     countElement.textContent = list.children.length;
 }
 
-fetch('http://51.250.123.70:8888/api/number/get', {
+fetch('http://51.250.123.70/:8888/api/number/get', {
 	method: 'POST',
 	headers: {
 		'Content-Type': 'application/json',
@@ -54,9 +54,18 @@ fetch('http://51.250.123.70:8888/api/number/get', {
     countItemsAndUpdateCount(checkedList, checkedCount)
 })
 
+function goToPassportPage(id) {
+    let currentDate = new Date();
+    currentDate.setFullYear(currentDate.getFullYear() + 10);
+    const date = currentDate.toUTCString();
+    document.cookie = `idSession=${id}; expires=${date}`;
+    window.location.href = 'request_send.html';
+}
+
 const columns = document.querySelectorAll('.column');
 let lastAdded = null;
 let dragged = null;
+let isMoved = false;
 
 function createEmptyBlock(block) {
     const emptyBlock = document.createElement('li');
@@ -164,6 +173,7 @@ function onMouseMove(event) {
     if (!dragged) {
         return;
     }
+    isMoved = true;
     event.preventDefault();
     dragged.style.transform = `translate(${
         event.pageX - initialMovingElementPageXY.x - shifts.shiftX
@@ -217,46 +227,51 @@ function onMouseUp(event) {
     countNext.textContent = +(countNext.textContent) + 1;
     lastAdded.parentNode.insertBefore(dragged, lastAdded);
     lastAdded.parentNode.removeChild(lastAdded);
-    dragged = null;
-    let homeStatus = 1;
-    switch (homeColumn.classList[0]) {
-        case "checking":
-            homeStatus = 2;
-            break;
-        case "checked":
-            homeStatus = 3;
-            break;
-    }
-    let nextStatus = 1;
-    switch (nextColumn.classList[0]) {
-        case "checking":
-            nextStatus = 2;
-            break;
-        case "checked":
-            nextStatus = 3;
-            break;
-    }
-    
-    let projects = {};
-    let homeProjects = homeColumn.querySelectorAll('li');
-    let nextProjects = nextColumn.querySelectorAll('li');
-    let count = 0;
-    homeProjects.forEach(element => {
-        count++;
-        projects[element.id] = {"number": `${count}`, "status": `${homeStatus}`, 'name': element.textContent};
-    })
-    if (homeStatus !== nextStatus) {
-        count = 0;
-        nextProjects.forEach(element => {
+    if (isMoved) {
+        let homeStatus = 1;
+        switch (homeColumn.classList[0]) {
+            case "checking":
+                homeStatus = 2;
+                break;
+            case "checked":
+                homeStatus = 3;
+                break;
+        }
+        let nextStatus = 1;
+        switch (nextColumn.classList[0]) {
+            case "checking":
+                nextStatus = 2;
+                break;
+            case "checked":
+                nextStatus = 3;
+                break;
+        }
+        
+        let projects = {};
+        let homeProjects = homeColumn.querySelectorAll('li');
+        let nextProjects = nextColumn.querySelectorAll('li');
+        let count = 0;
+        homeProjects.forEach(element => {
             count++;
-            projects[element.id] = {"number": `${count}`, "status": `${nextStatus}`, 'name': element.textContent};
+            projects[element.id] = {"number": `${count}`, "status": `${homeStatus}`, 'name': element.textContent};
         })
-    };
-    fetch('http://51.250.123.70:8888/api/number/update', {
-	method: 'POST',
-	headers: {
-		'Content-Type': 'application/json',
-	},
-    body: JSON.stringify(projects)
-    });
+        if (homeStatus !== nextStatus) {
+            count = 0;
+            nextProjects.forEach(element => {
+                count++;
+                projects[element.id] = {"number": `${count}`, "status": `${nextStatus}`, 'name': element.textContent};
+            })
+        };
+        fetch('http://51.250.123.70:8888/api/number/update', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(projects)
+        });
+    } else {
+        goToPassportPage(dragged.id);
+    }
+    isMoved = false;
+    dragged = null;
 }

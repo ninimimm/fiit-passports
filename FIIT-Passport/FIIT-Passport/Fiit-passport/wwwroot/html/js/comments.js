@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedElements = document.querySelectorAll('.selected_text, .selected_block');
     const commentList = document.querySelector('.comment_list');
     const inputs = document.querySelectorAll('input, textarea');
-
+    let texts = ["Кто это?", 'Напиши подробнее, например, каким способом его хостить.', 'Как конкретно должен выглядеть проект - не понятно.', 'Зря :('];
     selectedElements.forEach((element, index) => {
         const commentItem = document.createElement('li');
-        commentItem.textContent = `Комментарий к элементу ${index + 1}... Какой-то комментарий... Какой-то комментарий... Какой-то комментарий`;
+        commentItem.textContent = `-${texts[index]}`;
         commentItem.classList.add('comment');
 
         commentItem.addEventListener('click', function() {

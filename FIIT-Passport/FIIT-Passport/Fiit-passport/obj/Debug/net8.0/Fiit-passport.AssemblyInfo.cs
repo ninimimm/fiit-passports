@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fiit-passport")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1688bf9f76edc7999248f54fbbb4b1ca8420691")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a89460068298082ce886abd55ff4c45c3f8023e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fiit-passport")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fiit-passport")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

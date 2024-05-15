@@ -11,6 +11,25 @@ fetch('http://51.250.123.70:8888/api/passport/get',
     }
     return response.json();
 }).then(data => {
+    var firstDiv = document.querySelector('div');
+    var firstSection = document.querySelector('section');
+    var pageName = document.querySelector('h1');
+    switch(data.status) {
+        case 2:
+            firstDiv.classList.add('request_check_block');
+            firstDiv.classList.remove('request_send_block');
+            firstSection.classList.add('request_check');
+            firstSection.classList.remove('request_send');
+            pageName.textContent = 'Анкета проверяется';
+            break;
+        case 3:
+            firstDiv.classList.add('request_checked_block');
+            firstDiv.classList.remove('request_send_block');
+            firstSection.classList.add('request_checked');
+            firstSection.classList.remove('request_send');
+            pageName.textContent = 'Анкета проверена';
+            break;
+    }
     document.querySelector('.name_customer_value').textContent = data.ordererName;
     document.querySelector('.name_project_value').textContent = data.projectName;
     document.querySelector('.description_project_value').textContent = data.projectDescription;
