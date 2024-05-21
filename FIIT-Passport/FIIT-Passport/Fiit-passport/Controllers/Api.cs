@@ -61,11 +61,13 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         {
             response["state"] = "error";
             response["message"] = "Имя пользователя telegram не может быть пустым";
+            return Ok(response);
         }
-        else if (correctPassport!.AuthenticatedTelegramTag != passport.TelegramTag)
+        if (correctPassport!.AuthenticatedTelegramTag != passport.TelegramTag)
         {
             response["state"] = "error";
             response["message"] = $"Сначала подтвердите свою личность для пользователя {passport.TelegramTag}";
+            return Ok(response);
         }
         if (ApiTools.CheckValidity(passport))
             await repo.UpdatePassport(passport);
@@ -73,6 +75,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         {
             response["state"] = "error";
             response["message"] = "Не все поля паспорта валидны";
+            return Ok(response);
         }
         passport.Status = Status.SendToReview;
         await repo.CreateSessionNumber(passport.SessionId!, passport.ProjectName!);
