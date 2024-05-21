@@ -29,6 +29,7 @@ var host = new WebHostBuilder()
     })
     .ConfigureServices(services =>
     {
+        services.AddCors();
         services.AddScoped<TelegramDbContext>();
         services.AddScoped<TelegramBot>();
         services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(
@@ -44,6 +45,10 @@ var host = new WebHostBuilder()
         {
             applicationBuilder.UseDeveloperExceptionPage();
         }
+        applicationBuilder.UseCors(builder => 
+            builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
         applicationBuilder.UseRouting();
         applicationBuilder.UseEndpoints(endpoints =>
         {
