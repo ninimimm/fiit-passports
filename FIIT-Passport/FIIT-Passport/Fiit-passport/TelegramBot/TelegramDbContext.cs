@@ -49,7 +49,7 @@ public class TelegramDbContext(ApplicationDbContext db)
 
     public async Task CreateSessionNumber(string sessionId, string name)
     {
-        if (await db.SessionNumbers.FindAsync(sessionId) is null)
+        if (await db.SessionNumbers.FindAsync(sessionId) is not null)
             return;
         var sessionNumber = new SessionNumber(sessionId,await GetMaxNumber(Status.SendToReview) + 1, Status.SendToReview, name);
         await db.SessionNumbers.AddAsync(sessionNumber);
