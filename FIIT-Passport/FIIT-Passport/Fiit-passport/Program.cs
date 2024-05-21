@@ -27,16 +27,25 @@ var host = new WebHostBuilder()
     {
         options.ListenAnyIP(8888);
     })
-    .ConfigureServices(services =>
+    .ConfigureServices((context, services) =>
     {
-        services.AddCors();
+        services.AddCors(options =>
+        {
+            options.AddDefaultPolicy(builder =>
+            {
+                builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            });
+        });
+
         services.AddScoped<TelegramDbContext>();
         services.AddScoped<TelegramBot>();
         services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(
-            builder.Configuration.GetConnectionString("DefaultConnection")
+            context.Configuration.GetConnectionString("DefaultConnection")
         ));
         services.AddSingleton<ITelegramBotClient>(_ =>
-            new TelegramBotClient("6599160966:AAEPk4mP04rI5jzHQJr65a4xlyHRQIUCygk"));
+            new TelegramBotClient("YOUR_BOT_TOKEN"));
         services.AddControllers();
     })
     .Configure(applicationBuilder =>
@@ -45,11 +54,11 @@ var host = new WebHostBuilder()
         {
             applicationBuilder.UseDeveloperExceptionPage();
         }
-        applicationBuilder.UseCors(builder => 
-            builder.AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader());
+
+        applicationBuilder.UseCors();
+
         applicationBuilder.UseRouting();
+
         applicationBuilder.UseEndpoints(endpoints =>
         {
             endpoints.MapControllers();
