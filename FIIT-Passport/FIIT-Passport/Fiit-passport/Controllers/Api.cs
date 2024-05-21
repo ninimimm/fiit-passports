@@ -2,7 +2,6 @@ using System.Text.RegularExpressions;
 using Fiit_passport.Models;
 using Fiit_passport.TelegramBot;
 using Microsoft.AspNetCore.Mvc;
-using static System.Text.RegularExpressions.Regex;
 
 namespace Fiit_passport.Controllers;
 
@@ -13,6 +12,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
     [HttpPost("passport/update")]
     public async Task Update([FromBody] Dictionary<string, string> request)
     {
+        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var passport = new Passport().UpdateByDictionary(request);
         if (ApiTools.CheckValidity(passport))
             await repo.UpdatePassport(passport);
@@ -21,6 +21,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
     [HttpPost("passport/authenticate")]
     public async Task<IActionResult> Authenticate([FromBody] Dictionary<string, string> request)
     {
+        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var passport = new Passport().UpdateByDictionary(request);
         var response = new Dictionary<string, string>();
         var correctPassport = await repo.GetPassport(passport.SessionId);
@@ -48,6 +49,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
     [HttpPost("passport/confirm")]
     public async Task<IActionResult> Confirm([FromBody] Dictionary<string, string> request)
     {
+        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var passport = new Passport().UpdateByDictionary(request);
         var correctPassport = await repo.GetPassport(passport.SessionId);
         var response = new Dictionary<string, string>
@@ -80,6 +82,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
     [HttpPost("passport/create")]
     public async Task<IActionResult> Create()
     {
+        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var sessionId = Guid.NewGuid().ToString();
         await repo.CreatePassport(sessionId);
         var json = new Dictionary<string, string>
@@ -92,6 +95,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
     [HttpPost("passport/get")]
     public async Task<IActionResult> Get([FromBody] Dictionary<string, string> request)
     {
+        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var sessionId = request["sessionId"];
         var passport = await repo.GetPassport(sessionId);
         return Ok(passport);
@@ -100,6 +104,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
     [HttpPost("number/update")]
     public async Task UpdateNumber([FromBody] Dictionary<string, Dictionary<string, string>> request)
     {
+        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         foreach (var sessionNumber in request)
             await repo.UpdateSessionNumber(sessionNumber.Key, int.Parse(sessionNumber.Value["number"]),
                 (Status)int.Parse(sessionNumber.Value["status"]), sessionNumber.Value["name"]);
@@ -108,6 +113,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
     [HttpPost("number/get")]
     public async Task<IActionResult> GetNumber()
     {
+        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var sessionNumbers = await repo.GetAllSessionNumbers();
         return Ok(sessionNumbers);
     }
