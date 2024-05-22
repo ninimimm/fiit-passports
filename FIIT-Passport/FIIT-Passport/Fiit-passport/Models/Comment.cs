@@ -13,7 +13,7 @@ public class Comment(string sessionId, string fieldName, int startIndex, int end
     public int Id { get; set; }
 
     [Required]
-    [ForeignKey("session_id")]
+    [Column("session_id")]
     public string SessionId { get; set; } = sessionId;
 
     [Column("field_name")]
@@ -27,8 +27,6 @@ public class Comment(string sessionId, string fieldName, int startIndex, int end
 
     [Column("text_comment")]
     public string TextComment { get; set; } = textComment;
-
-    public Passport Passport { get; set; } = null!;
 
     public void Update(Comment comment)
     {
