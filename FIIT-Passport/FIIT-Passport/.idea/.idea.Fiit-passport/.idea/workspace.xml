@@ -11,40 +11,35 @@
   <component name="ChangeListManager">
     <list default="true" id="b0edc62e-8fda-4e47-aad1-79ff0e35ffce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fiit-passport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fiit-passport/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/.idea/.idea.FIIT-Passport.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/.idea/.idea.FIIT-Passport.dir/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/Controllers/Api.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/Controllers/Api.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/Controllers/PassportController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/Controllers/PassportController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/Models/Interfaces/ISessionNumbers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/Models/Interfaces/ISessionNumbers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/Models/SessionNumber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/Models/SessionNumber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/Models/Comment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/Models/Comment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/Models/Interfaces/IComment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/Models/Interfaces/IComment.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/TelegramBot/TelegramDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/TelegramBot/TelegramDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/bin/Debug/net8.0/Fiit-passport.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/bin/Debug/net8.0/Fiit-passport.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/bin/Debug/net8.0/Fiit-passport.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/bin/Debug/net8.0/Fiit-passport.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/bin/Debug/net8.0/Fiit-passport.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/bin/Debug/net8.0/Fiit-passport.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/bin/Debug/net8.0/Fiit-passport.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/bin/Debug/net8.0/Fiit-passport.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/Fiit-passport.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/ref/Fiit-passport.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/ref/Fiit-passport.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/refint/Fiit-passport.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/refint/Fiit-passport.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Fiit-passport.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Fiit-passport.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/Fiit-passport.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/Fiit-passport.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/FIIT-Passport.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/FIIT-Passport.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/FIIT-Passport.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/FIIT-Passport.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/FIIT-Passport.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/FIIT-Passport.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fiit-passport/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fiit-passport/wwwroot/html/js/drag_and_drop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fiit-passport/wwwroot/html/js/drag_and_drop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.Fiit-passport: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "b1688bf9",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -165,6 +160,7 @@
       <workItem from="1714677582845" duration="81000" />
       <workItem from="1715683147753" duration="8739000" />
       <workItem from="1715707761281" duration="4982000" />
+      <workItem from="1716372812911" duration="1781000" />
     </task>
     <servers />
   </component>

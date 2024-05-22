@@ -8,6 +8,10 @@ namespace Fiit_passport.Models;
 public class Comment(string sessionId, string fieldName, int startIndex, int endIndex, string textComment)
     : IComment
 {
+    [Key]
+    [Column("id")]
+    public int Id { get; set; }
+
     [Required]
     [ForeignKey("session_id")]
     public string SessionId { get; set; } = sessionId;
@@ -25,4 +29,11 @@ public class Comment(string sessionId, string fieldName, int startIndex, int end
     public string TextComment { get; set; } = textComment;
 
     public Passport Passport { get; set; } = null!;
+
+    public void Update(Comment comment)
+    {
+        StartIndex = comment.StartIndex;
+        EndIndex = comment.EndIndex;
+        TextComment = comment.TextComment;
+    }
 }

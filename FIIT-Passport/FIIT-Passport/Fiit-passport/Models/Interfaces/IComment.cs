@@ -2,6 +2,7 @@ namespace Fiit_passport.Models.Interfaces;
 
 public interface IComment
 {
+    public int Id { get; set; }
     public string SessionId { get; set; }
     public string FieldName { get; set; }
     public int StartIndex { get; set; }

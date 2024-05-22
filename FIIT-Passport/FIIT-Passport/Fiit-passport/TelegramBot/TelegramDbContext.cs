@@ -46,7 +46,6 @@ public class TelegramDbContext(ApplicationDbContext db)
         return sessionNumbers.Count != 0 ? sessionNumbers.Max(x => x.Number) : 0;
     }
 
-
     public async Task CreateSessionNumber(string sessionId, string name)
     {
         if (await db.SessionNumbers.FindAsync(sessionId) is not null)
@@ -82,4 +81,25 @@ public class TelegramDbContext(ApplicationDbContext db)
         ps!.Update(passport);
         await db.SaveChangesAsync();
     }
+
+    public async Task CreateComment(string sessionId, string name, int start, int end, string text)
+    {
+        var comment = new Comment(sessionId, name, start, end, text);
+        await db.Comments.AddAsync(comment);
+        await db.SaveChangesAsync();
+    }
+
+    public async Task UpdateComment(Comment newComment)
+    {
+        var comment = await db.Comments.FindAsync(newComment.Id);
+        if (comment is null)
+        {
+            return;
+        }
+        comment.Update(newComment);
+        await db.SaveChangesAsync();
+    }
+    
+    public async Task<List<Comment>> GetCommentsBySessionId(string sessionId) =>
+        await db.Comments.Where(c => c.SessionId == sessionId).ToListAsync();
 }
