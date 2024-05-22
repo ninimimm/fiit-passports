@@ -69,6 +69,8 @@ public class Passport : IPassport
     [Column("status")]
     [DefaultValue(Status.Prepare)]
     public Status Status { get; set; }
+
+    public ICollection<Comment> Comments { get; } = new List<Comment>();
     
     public Passport() { }
     

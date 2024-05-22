@@ -9,4 +9,5 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<Passport> Passports { get; init; }
     public DbSet<ConnectId> ConnectIds { get; init; }
     public DbSet<SessionNumber> SessionNumbers { get; init; }
+    public DbSet<Comment> Comments { get; init; }
 }
