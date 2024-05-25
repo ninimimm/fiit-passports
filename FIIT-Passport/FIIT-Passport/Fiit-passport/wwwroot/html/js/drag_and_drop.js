@@ -16,7 +16,7 @@ function countItemsAndUpdateCount(list, countElement) {
     countElement.textContent = list.children.length;
 }
 
-fetch('http://51.250.123.70/:8888/api/number/get', {
+fetch('http://localhost:8888/api/number/get', {
 	method: 'POST',
 	headers: {
 		'Content-Type': 'application/json',
@@ -54,12 +54,20 @@ fetch('http://51.250.123.70/:8888/api/number/get', {
     countItemsAndUpdateCount(checkedList, checkedCount)
 })
 
-function goToPassportPage(id) {
+function goToPassportPage(id, status) {
     let currentDate = new Date();
     currentDate.setFullYear(currentDate.getFullYear() + 10);
     const date = currentDate.toUTCString();
     document.cookie = `idSession=${id}; expires=${date}`;
-    window.location.href = 'request_send.html';
+    if (status === "checked"){
+        window.location.href = 'edit_project.html';
+    }
+    else if (status === "checking"){
+        window.location.href  = "request_check.html";
+    }
+    else{
+        window.location.href = 'request_send.html';
+    }
 }
 
 const columns = document.querySelectorAll('.column');
@@ -262,7 +270,7 @@ function onMouseUp(event) {
                 projects[element.id] = {"number": `${count}`, "status": `${nextStatus}`, 'name': element.textContent};
             })
         };
-        fetch('http://51.250.123.70:8888/api/number/update', {
+        fetch('http://localhost:8888/api/number/update', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -270,7 +278,7 @@ function onMouseUp(event) {
         body: JSON.stringify(projects)
         });
     } else {
-        goToPassportPage(dragged.id);
+        goToPassportPage(dragged.id, homeColumn.classList[0]);
     }
     isMoved = false;
     dragged = null;

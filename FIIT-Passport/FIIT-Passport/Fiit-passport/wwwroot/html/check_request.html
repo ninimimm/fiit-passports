@@ -37,27 +37,27 @@
             </div>
             <div class="name_customer_form">
                 <label for="name_customer_input" class="name_customer_label">Имя организации/имя заказчика</label>
-                <input type="text" name="name_customer_input" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" minlength ="1" maxlength="100" required>
+                <input type="text" name="name_customer" id="name_customer_input" class="name_customer_input" placeholder="УрФУ, Иван Иванов" minlength ="1" maxlength="100" required>
             </div>
             <div class="name_project_form">
                 <label for="name_project_input" class="name_project_label">Название проекта</label>
-                <textarea name="name_project_input" id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов" minlength ="1" maxlength="100" required></textarea>
+                <textarea name="name_project" id="name_project_input" class="name_project_input" placeholder="Описание сути проекта из 2-4 слов" minlength ="1" maxlength="100" required></textarea>
             </div>
             <div class="description_project_form">
                 <label for="description_project_input" class="description_project_label">Описание проекта</label>
-                <textarea name="description_project_input" id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)" minlength ="1" maxlength="100000" required></textarea>
+                <textarea name="description_project" id="description_project_input" class="description_project_input" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="goal_project_form">
                 <label for="goal_project_input" class="goal_project_label">Цель проекта</label>
-                <textarea name="goal_project_input" id="goal_project_input" class="goal_project_input" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления" minlength ="1" maxlength="100000" required></textarea>
+                <textarea name="goal_project" id="goal_project_input" class="goal_project_input" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="result_project_form">
                 <label for="result_project_input" class="result_project_label">Результат проекта (продукт)</label>
-                <textarea name="result_project_input" id="result_project_input" class="result_project_input" placeholder="Опишите, что должна создать команда проекта" minlength ="1" maxlength="100000" required></textarea>
+                <textarea name="result_project" id="result_project_input" class="result_project_input" placeholder="Опишите, что должна создать команда проекта" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="criteria_project_form">
                 <label for="criteria_project_input" class="criteria_project_label">Критерии приемки результата/продукта</label>
-                <textarea name="criteria_project_input" id="criteria_project_input" class="criteria_project_input" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее" minlength ="1" maxlength="100000" required></textarea>
+                <textarea name="criteria_project" id="criteria_project_input" class="criteria_project_input" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее" minlength ="1" maxlength="100000" required></textarea>
             </div>
             <div class="max_form">
                 <label for="max_input" class="max_label">Максимальное количество экземпляров проекта</label>
@@ -104,6 +104,7 @@
         </form>
         <button class="button_send" onclick="SubmitPassport()">Отправить</button>
     </section>
+<script src="js/cookie.js"></script>
 <script src="js/phone_mask.js"></script>
 <script src="js/enter.js"></script>
 <script src="js/autoresize.js"></script>

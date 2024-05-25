@@ -82,21 +82,22 @@ public class TelegramDbContext(ApplicationDbContext db)
         await db.SaveChangesAsync();
     }
 
-    public async Task CreateComment(string sessionId, string name, int start, int end, string text)
+    public async Task<int> CreateComment(string sessionId, string name, int start, int end, string text)
     {
-        var comment = new Comment(sessionId, name, start, end, text);
+        var newId = 1;
+        if (db.Comments.Any())
+            newId += await db.Comments.MaxAsync(x => x.Id);
+        var comment = new Comment(sessionId, name, start, end, text, newId);
         await db.Comments.AddAsync(comment);
         await db.SaveChangesAsync();
+        return newId;
     }
 
-    public async Task UpdateComment(Comment newComment)
+    public async Task UpdateComment(int id, string text)
     {
-        var comment = await db.Comments.FindAsync(newComment.Id);
-        if (comment is null)
-        {
-            return;
-        }
-        comment.Update(newComment);
+        var comment = await db.Comments.FindAsync(id);
+        if (comment is null) return;
+        comment.Update(text);
         await db.SaveChangesAsync();
     }
     

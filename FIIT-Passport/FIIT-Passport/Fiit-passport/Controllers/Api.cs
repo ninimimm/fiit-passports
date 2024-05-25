@@ -1,6 +1,7 @@
 using System.Text.RegularExpressions;
 using Fiit_passport.Models;
 using Fiit_passport.TelegramBot;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Fiit_passport.Controllers;
@@ -122,25 +123,20 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
     }
     
     [HttpPost("comment/get")]
-    public async Task<IActionResult> GetComments([FromBody] Dictionary<string, string> request)
-    {
-        var comments = await repo.GetCommentsBySessionId(request["sessionId"]);
-        return Ok(comments);
-    }
-    
+    public async Task<IActionResult> GetComments([FromBody] Dictionary<string, string> request) =>
+        Ok(await repo.GetCommentsBySessionId(request["sessionId"]));
+
     [HttpPost("comment/update")]
-    public async Task UpdateComment([FromBody] Dictionary<string, string> request)
+    public async Task<IActionResult> UpdateComment([FromBody] Dictionary<string, string> request)
     {
-        await repo.UpdateComment(new Comment(request["sessionId"], request["name"], int.Parse(request["start"]),
-            int.Parse(request["end"]), request["text"]));
+        await repo.UpdateComment(int.Parse(request["id"]), request["text"]);
+        return Ok();
     }
     
     [HttpPost("comment/create")]
-    public async Task CreateComment([FromBody] Dictionary<string, string> request)
-    {
-        await repo.CreateComment(request["sessionId"], request["name"], int.Parse(request["start"]),
-            int.Parse(request["end"]), request["text"]);
-    }
+    public async Task<IActionResult> CreateComment([FromBody] Dictionary<string, string> request) =>
+        Ok(await repo.CreateComment(request["sessionId"], request["fieldName"], 
+            int.Parse(request["start"]), int.Parse(request["end"]), request["text"]));
 }
 
 public static partial class ApiTools

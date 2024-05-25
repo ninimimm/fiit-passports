@@ -22,28 +22,28 @@
             </div>
             <form action="" method="post" class="name_customer_form_cr">
                 <label for="name_customer_input" class="name_customer_label_cr">Имя организации/имя заказчика</label>
-                <input type="text" name="name_customer_input" id="name_customer_input" class="name_customer_input_cr" placeholder="УрФУ, Иван Иванов">
+                <input type="text" name="name_customer" id="name_customer_input" class="name_customer_input_cr" placeholder="УрФУ, Иван Иванов">
             </form>
             <form action="" method="post" class="name_project_form_cr">
                 <label for="name_project_input" class="name_project_label_cr">Название проекта</label>
-                <textarea name="name_project_input" id="name_project_input" class="name_project_input_cr" placeholder="Описание сути проекта из 2-4 слов"></textarea>
+                <textarea name="name_project" id="name_project_input" class="name_project_input_cr" placeholder="Описание сути проекта из 2-4 слов"></textarea>
             </form>
             <form action="" method="post" class="description_project_form_cr">
                 <label for="description_project_input" class="description_project_label_cr">Описание проекта</label>
                 <span class="selected_block"></span>
-                <textarea name="description_project_input" id="description_project_input" class="description_project_input_cr" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)"></textarea>
+                <textarea name="description_project" id="description_project_input" class="description_project_input_cr" placeholder="Опишите особенности проекта, технологии и способы реализации. Рекомендуем указать роли, которые понадобятся команде (бэкендер, фронтендер, тестировщик и т д)"></textarea>
             </form>
             <form action="" method="post" class="goal_project_form_cr">
                 <label for="goal_project_input" class="goal_project_label_cr">Цель проекта</label>
-                <textarea name="goal_project_input" id="goal_project_input" class="goal_project_input_cr" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления"></textarea>
+                <textarea name="goal_project" id="goal_project_input" class="goal_project_input_cr" placeholder="Сформулируйте, какую именно проблему решит выполненный проект. Например, цель разработки веб-сайта может быть такой: посетители сайта будут уверены, что существует угроза глобального потепления"></textarea>
             </form>
             <form action="" method="post" class="result_project_form_cr">
                 <label for="result_project_input" class="result_project_label_cr">Результат проекта (продукт)</label>
-                <textarea name="result_project_input" id="result_project_input" class="result_project_input_cr" placeholder="Опишите, что должна создать команда проекта"></textarea>
+                <textarea name="result_project" id="result_project_input" class="result_project_input_cr" placeholder="Опишите, что должна создать команда проекта"></textarea>
             </form>
             <form action="" method="post" class="criteria_project_form_cr">
                 <label for="criteria_project_input" class="criteria_project_label_cr">Критерии приемки результата/продукта</label>
-                <textarea name="criteria_project_input" id="criteria_project_input" class="criteria_project_input_cr" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее"></textarea>
+                <textarea name="criteria_project" id="criteria_project_input" class="criteria_project_input_cr" placeholder="Проект — это обучение для студентов. И нам важно оценить насколько студенты хорошо справились с поставленными задачами. Пожалуйста, напишите, что критически важно в вашем проекте: функциональность, технологии и так далее"></textarea>
             </form>
             <form class="max_form_cr">
                 <label for="max_input" class="max_label_cr">Максимальное количество экземпляров проекта</label>
@@ -88,7 +88,14 @@
         <ul class="comment_list"></ul>
     </aside>
 </section>
-<script src="js/comments.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/uploadFullPassport.js"></script>
+<script src="js/update_comment.js"></script>
+<script src="js/create_comment.js"></script>
+<script src="js/get_comments.js"></script>
+<script src="js/uploadComments.js"></script>
+<script>uploadComments('div');</script>
+<script src="js/edit_request.js"></script>
 <script src="js/max.js"></script>
 <script src="js/phone_mask.js"></script>
 <script src="js/enter.js"></script>

@@ -15,14 +15,6 @@ fetch('http://51.250.123.70:8888/api/passport/get',
     document.querySelector('.address_input').value = data.meetingLocation;
 });
 
-function getCookie(name) {
-    const cookie = document.cookie.match(new RegExp(name + '=(.+?)(;|$)'));
-    if (cookie === null) {
-        return undefined;
-    }
-    return cookie[1];
-}
-
 async function UpdatePassport() {
     await fetch('http://51.250.123.70:8888/api/passport/update',
     {

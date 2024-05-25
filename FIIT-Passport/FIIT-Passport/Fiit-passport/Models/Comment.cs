@@ -5,12 +5,10 @@ using Fiit_passport.Models.Interfaces;
 namespace Fiit_passport.Models;
 
 [Table("comments")]
-public class Comment(string sessionId, string fieldName, int startIndex, int endIndex, string textComment)
+public class Comment(string sessionId, string fieldName, int startIndex, int endIndex, string textComment, int id = 0)
     : IComment
 {
-    [Key]
-    [Column("id")]
-    public int Id { get; set; }
+    [Key] [Column("id")] public int Id { get; set; } = id;
 
     [Required]
     [Column("session_id")]
@@ -28,10 +26,5 @@ public class Comment(string sessionId, string fieldName, int startIndex, int end
     [Column("text_comment")]
     public string TextComment { get; set; } = textComment;
 
-    public void Update(Comment comment)
-    {
-        StartIndex = comment.StartIndex;
-        EndIndex = comment.EndIndex;
-        TextComment = comment.TextComment;
-    }
+    public void Update(string text) => TextComment = text;
 }
