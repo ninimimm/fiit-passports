@@ -98,13 +98,23 @@ aside {
     background-color: #ffffff;
     box-sizing: border-box;
     padding: 1.5vw;
-    position: absolute;
-    margin-bottom: 0;
+    margin: 1vw;
     transition: margin-left 0.3s;
 
     &:hover {
         cursor: pointer;
     }
+}
+
+.comment_block {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    background-color: rgba(248, 243, 173, 0.8);
+    width: 24vw;
+    border-radius: 20px;
 }
 
 .comment.active {

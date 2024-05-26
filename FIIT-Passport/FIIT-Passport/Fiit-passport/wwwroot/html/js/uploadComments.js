@@ -4,6 +4,7 @@ let index = 0;
 let weight = {};
 let nameToNum = {}
 let num = 0;
+let fieldCommentBlock = null;
 document.body.querySelectorAll('[name]').forEach(element => {
     let name = element.getAttribute('name');
     if(name.length > 0) {
@@ -31,18 +32,24 @@ function uploadComments(tag){
                 }
                 lastName = element.fieldName;
                 console.log(document.title);
-                if (document.title === 'Редактировать анкету'){
+                if (document.title === 'Редактировать анкету') {
+                    fieldCommentBlock = document.createElement('div');
+                    fieldCommentBlock.classList.add('comment_block');
+                    commentList.appendChild(fieldCommentBlock);
                     paragraph = document.createElement('div');
                     let input = document.querySelector(`[name='${element.fieldName}']`);
+                    let position = input.getBoundingClientRect().top + window.pageYOffset;
+                    fieldCommentBlock.style.marginTop = `calc(${position}px - 5vw)`;
+                    fieldCommentBlock.id = element.fieldName;
                     paragraph.classList.add(`${input.className}`);
                     paragraph.style.display = 'none';
                     input.insertAdjacentElement('afterend', paragraph);
                     textHtml = input.value;
                 } else {
                     paragraph = document.querySelector(`[name='${element.fieldName}']`);
-                    if (paragraph instanceof HTMLInputElement){
+                    if (paragraph instanceof HTMLInputElement) {
                         textHtml = paragraph.value;
-                    } else{
+                    } else {
                         textHtml = paragraph.textContent;
                     }
                 }
@@ -89,20 +96,31 @@ function CreatePageComment(span, commentText, id, tag) {
         if (!isActive) {
             if (document.title === "Редактировать анкету"){
                 span.parentNode.style.display = 'inline';
+                commentItem.parentNode.classList.add('active');
                 span.parentNode.previousElementSibling.style.display = 'none';
+                commentItem.parentNode.childNodes.forEach(element => {
+                    element.classList.remove('active');
+                })
+                selectedElements.forEach(selectedElement => {
+                    if (selectedElement.parentNode.previousElementSibling.getAttribute('name') === commentItem.parentNode.id) {
+                        selectedElement.classList.remove('active');
+                    }
+                });
+            } else {
+                selectedElements.forEach(selectedElement => {
+                    selectedElement.classList.remove('active');
+                });
+                allComments.forEach(comment => {
+                    comment.classList.remove('active');
+                });
             }
-            selectedElements.forEach(selectedElement => {
-                selectedElement.classList.remove('active');
-            });
-            allComments.forEach(comment => {
-                comment.classList.remove('active');
-            });
             span.classList.add('active');
             commentItem.classList.add('active');
         } else {
             if (document.title === "Редактировать анкету"){
                 span.parentNode.style.display = 'none';
                 span.parentNode.previousElementSibling.style.display = 'inline';
+                commentItem.parentNode.classList.remove('active');
             }
             span.classList.remove('active');
             commentItem.classList.remove('active');
@@ -130,8 +148,12 @@ function CreatePageComment(span, commentText, id, tag) {
         UpdateComment(commentItem.id, commentItem.value);
     });
     let position = span.getBoundingClientRect().top + window.pageYOffset;
-    commentList.appendChild(commentItem);
-    commentItem.style.marginTop = `calc(${position}px - 5vw)`;
+    if (document.title === "Редактировать анкету") {
+        fieldCommentBlock.appendChild(commentItem);
+    } else {
+        commentList.appendChild(commentItem);
+        commentItem.style.marginTop = `calc(${position}px - 5vw)`;
+    }
 }
 
 function CreateSpan(id, selectedText) {
@@ -143,10 +165,19 @@ function CreateSpan(id, selectedText) {
 }
 
 function SortComments() {
-    let comments = Array.prototype.slice.call(document.querySelectorAll('.comment'));
+    let comments = null;
+    if (document.title === "Редактировать анкету") {
+        comments = Array.prototype.slice.call(document.querySelectorAll('.comment_block'));
+    } else {
+        comments = Array.prototype.slice.call(document.querySelectorAll('.comment'));
+    }
     if (comments.length > 1) {
         comments.sort(function(a, b) {
-            return weight[a.id] - weight[b.id];
+            if (document.title === "Редактировать анкету") {
+                return nameToNum[a.id] - nameToNum[b.id];
+            } else {
+                return weight[a.id] - weight[b.id];
+            }
         });
         for (let i = 1; i < comments.length; i++) {
             if (comments[i].getBoundingClientRect().top < comments[i - 1].getBoundingClientRect().bottom) {
