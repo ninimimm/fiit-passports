@@ -94,11 +94,10 @@ aside {
     justify-content: flex-start;
     width: 25vw;
     list-style: none;
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 
 .comment {
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 22vw;
@@ -108,36 +107,50 @@ aside {
     padding: 1.5vw;
     position: absolute;
     margin-bottom: 0;
+    height: auto;
     transition: margin-left 0.3s;
 }
 
-.comment_icon {
-    width: 6vw;
-    height: 5vw;
+.comment_block {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    background-color: rgba(248, 243, 173, 0.8);
+    width: 24vw;
+    height: auto;
     border-radius: 20px;
-    background-color: #ffffff;
+}
+
+.comment_icon {
+    width: 4vw;
+    height: 3.5vw;
+    border-radius: 20px;
+    background-color: #ebebeb;
     box-sizing: border-box;
     padding-top: 0.3vw;
-    padding-left: 0.8vw;
+    padding-left: 0.5vw;
     position: absolute;
 
     &:hover {
         cursor: pointer;
         box-shadow: 0 0 10px 2px rgba(3, 8, 27, 0.1);
-        background-color: #f6f6f6;
+        background-color: #efefef;
     }
 }
 
 .comment_icon img {
-    width: 4.5vw;
-    height: 4.5vw;
+    width: 3vw;
+    height: 3vw;
 }
 
 .comment_input {
     width: 19vw;
     border: none;
-    font: 1.5vw FontRegular;
+    font: 1.2vw FontRegular;
     color: #110f2c;
+    height: auto;
     resize: none;
 
     &:focus {
@@ -147,25 +160,32 @@ aside {
 }
 
 .save_comment {
-    box-sizing: border-box;
-    padding: 0.5vw 1vw;
-    background-color: #FE25A7;
-    border-radius: 50px;
-    color: #ffffff;
-    font: 1.5vw FontMedium;
-    border: none;
-    cursor: pointer;
+    position: absolute;
+    height: 2vw;
+    width: 2vw;
+    margin-left: -0.9vw;
+    margin-top: -1.2vw;
+    /* box-sizing: border-box; */
+    /* padding: 0.5vw 1vw; */
+    /* background-color: #FE25A7; */
+    /* border-radius: 50px; */
+    /* color: #ffffff; */
+    /* font: 1.5vw FontMedium; */
+    /* border: none; */
+    /* cursor: pointer;
     box-shadow: none;
-    transition: box-shadow 0.2s;
-    margin-top: 0.5vw;
+    transition: box-shadow 0.2s; */
+    /* margin-top: 0.5vw; */
 
     &:hover {
-        background-color: #ff54bb;
-        box-shadow: 0 0 10px 2px rgba(3, 8, 27, 0.1);
-    }
+        opacity: 0.7;
+        /* background-color: #ff54bb;
+        box-shadow: 0 0 10px 2px rgba(3, 8, 27, 0.1); */
+    } */
 
     &:active {
-        background-color: #B31E7D;
+        opacity: 0.5;
+        /* background-color: #B31E7D; */
     }
 }
 

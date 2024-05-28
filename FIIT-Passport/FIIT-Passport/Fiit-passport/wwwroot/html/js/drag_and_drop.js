@@ -60,10 +60,10 @@ function goToPassportPage(id, status) {
     const date = currentDate.toUTCString();
     document.cookie = `idSession=${id}; expires=${date}`;
     if (status === "checked"){
-        window.location.href = 'edit_project.html';
+        window.location.href = 'edit_request.html';
     }
     else if (status === "checking"){
-        window.location.href  = "request_check.html";
+        window.location.href  = "edit_project.html";
     }
     else{
         window.location.href = 'request_send.html';

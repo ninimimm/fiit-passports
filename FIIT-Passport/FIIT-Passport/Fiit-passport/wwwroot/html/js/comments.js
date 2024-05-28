@@ -26,8 +26,6 @@ fetch('http://localhost:8888/api/passport/get',
     document.querySelector('.phone_value_cr').textContent = data.phoneNumber;
 });
 
-uploadComments('input');
-
 document.addEventListener('mouseup', function(event) {
     let selection = window.getSelection();
     if (selection.isCollapsed){
@@ -35,50 +33,113 @@ document.addEventListener('mouseup', function(event) {
     }
     event.preventDefault();
     let range = selection.getRangeAt(0);
-    if (range.startContainer === range.endContainer) {
-        let button = document.createElement("button");
-        event.target.parentNode.appendChild(button);
-        button.classList.add('accept_request');
-        button.textContent = "Создать комментарий";
-        button.style.position = 'absolute';
-        let rect = range.getBoundingClientRect();
-        button.style.top = (rect.bottom + window.scrollY + 10) + 'px';
-        button.style.left = (((rect.left + rect.right) / 2) + window.scrollX - button.offsetWidth / 2) + 'px';
-        button.addEventListener("mousedown", async function(event) {
+    if (range.startContainer === range.endContainer &&
+        (range.endContainer.parentNode.getAttribute('name') || range.endContainer.parentNode.parentNode.getAttribute('name'))) {
+        const commentIcon = document.createElement('li');
+        commentIcon.classList.add('comment_icon');
+
+        const img = document.createElement('img');
+        img.src = 'img/comment-rect-plus-32-regular.png';
+        img.alt = 'Добавить комментарий';
+
+        commentIcon.appendChild(img);
+        commentIconList.appendChild(commentIcon);
+        let position = range.getBoundingClientRect().top + window.pageYOffset;
+        commentIcon.style.marginTop = `calc(${position}px - 5vw)`;
+        commentIcon.addEventListener("click", async function(event) {
             let id = "";
             let leftBound = range.startOffset;
             let rightBound = range.endOffset;
-            let prev = range.endContainer.previousSibling;
-            let passportName = range.endContainer.parentNode.getAttribute('name');
-            if (prev) {
+            let prev = range.endContainer.parentElement.previousElementSibling;
+            let name = range.endContainer.parentNode.getAttribute('name');
+            let passportName;
+            if (name){
+                passportName = name;
+            } else {
+                passportName = range.endContainer.parentNode.parentNode.getAttribute('name');
+            }
+            if (prev && prev.tagName.toLowerCase() === "span") {
                 let offset = weight[prev.id] - nameToNum[passportName];
+                console.log(offset);
                 leftBound += offset;
                 rightBound += offset;
             }
+            console.log(leftBound, rightBound, passportName);
             id = await CreateComment(leftBound, rightBound, passportName);
-            console.log('id залупы мочи');
-            console.log(id);
             weight[id] = rightBound + nameToNum[passportName];
             let selectedText = range.toString();
             let span = CreateSpan(id, selectedText);
             range.deleteContents();
-            range.insertNode(span);
-            CreatePageComment(span, '', id, 'input');
+            AText(range, span);
+            if (commentList.querySelector(`#${passportName}`)){
+                fieldCommentBlock = commentList.querySelector(`#${passportName}`);
+            }
+            else {
+                fieldCommentBlock = document.createElement('div');
+                fieldCommentBlock.classList.add('comment_block');
+                commentList.appendChild(fieldCommentBlock);
+                paragraph = document.querySelector(`[name='${passportName}']`);
+                let position = paragraph.getBoundingClientRect().top + window.pageYOffset;
+                fieldCommentBlock.style.marginTop = `calc(${position}px - 5vw)`;
+                fieldCommentBlock.id = passportName;
+            }
+            CreateAdminComment(span, '', id);
             SortComments();
             selection.removeAllRanges();
-            await event.target.parentNode.removeChild(button);
-            index++;
         });
     }
 });
 
 document.addEventListener('mousedown', function(event) {
-    if (event.target instanceof HTMLButtonElement) {
-        return;
-    }
-    var button = document.querySelector('.accept_request');
+    var button = document.querySelector('.comment_icon');
     if (!button) {
         return;
     }
+    if (event.target instanceof HTMLLIElement || event.target instanceof HTMLImageElement){
+        button.click();
+        window.getSelection().removeAllRanges();
+    }
     button.parentNode.removeChild(button);
 })
+
+function AText(range, span){ 
+    if (range.startContainer.parentNode.tagName.toLowerCase() === 'a') {
+        let aNode = range.startContainer.parentNode;
+        let parrent = aNode.parentNode;
+        let beforeText = aNode.textContent.substring(0, range.startOffset);
+        let afterText = aNode.textContent.substring(range.endOffset);
+
+        let beforeA = document.createElement('a');
+        beforeA.textContent = beforeText;
+
+        let afterA = document.createElement('a');
+        afterA.textContent = afterText;
+
+        parrent.insertBefore(beforeA, aNode);
+        parrent.insertBefore(span, aNode);
+        parrent.insertBefore(afterA, aNode);
+
+        aNode.remove();
+    } else {
+        let textBeforeRange = range.startContainer.textContent.substring(0, range.startOffset);
+        let textAfterRange = range.endContainer.textContent.substring(range.endOffset);
+
+        range.startContainer.textContent = '';
+    
+        range.deleteContents();
+        range.insertNode(span);
+        
+
+        if (textBeforeRange.trim().length > 0) {
+            let beforeA = document.createElement('a');
+            beforeA.textContent = textBeforeRange;
+            range.startContainer.parentNode.insertBefore(beforeA, span);
+        }
+
+        if (textAfterRange.trim().length > 0) {
+            let afterA = document.createElement('a');
+            afterA.textContent = textAfterRange;
+            range.startContainer.parentNode.insertBefore(afterA, span.nextSibling);
+        }
+    }
+}

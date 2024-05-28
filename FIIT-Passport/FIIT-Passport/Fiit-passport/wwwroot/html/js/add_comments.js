@@ -12,7 +12,7 @@ document.addEventListener('selectionchange', () => {
         commentIcon.classList.add('comment_icon');
 
         const img = document.createElement('img');
-        img.src = 'comment-rect-plus-32-regular.png';
+        img.src = 'img/comment-rect-plus-32-regular.png';
         img.alt = 'Добавить комментарий';
 
         commentIcon.appendChild(img);

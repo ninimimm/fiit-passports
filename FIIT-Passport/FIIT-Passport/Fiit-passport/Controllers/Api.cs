@@ -122,6 +122,11 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         return Ok(sessionNumbers);
     }
     
+    [HttpPost("comment/create")]
+    public async Task<IActionResult> CreateComment([FromBody] Dictionary<string, string> request) =>
+        Ok(await repo.CreateComment(request["sessionId"], request["fieldName"], 
+            int.Parse(request["start"]), int.Parse(request["end"]), request["text"]));
+    
     [HttpPost("comment/get")]
     public async Task<IActionResult> GetComments([FromBody] Dictionary<string, string> request) =>
         Ok(await repo.GetCommentsBySessionId(request["sessionId"]));
@@ -132,11 +137,13 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         await repo.UpdateComment(int.Parse(request["id"]), request["text"]);
         return Ok();
     }
-    
-    [HttpPost("comment/create")]
-    public async Task<IActionResult> CreateComment([FromBody] Dictionary<string, string> request) =>
-        Ok(await repo.CreateComment(request["sessionId"], request["fieldName"], 
-            int.Parse(request["start"]), int.Parse(request["end"]), request["text"]));
+
+    [HttpPost("comment/delete")]
+    public async Task<IActionResult> DeleteComment([FromBody] Dictionary<string, string> request)
+    {
+        await repo.DeleteComment(int.Parse(request["id"]));
+        return Ok();
+    }
 }
 
 public static partial class ApiTools

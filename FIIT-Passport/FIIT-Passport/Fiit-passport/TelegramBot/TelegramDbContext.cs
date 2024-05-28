@@ -100,6 +100,16 @@ public class TelegramDbContext(ApplicationDbContext db)
         comment.Update(text);
         await db.SaveChangesAsync();
     }
+
+    public async Task DeleteComment(int id)
+    {
+        var comment = await GetComment(id);
+        db.Comments.Remove(comment!);
+        await db.SaveChangesAsync();
+    }
+
+    private async Task<Comment?> GetComment(int id) =>
+        await db.Comments.FindAsync(id);
     
     public async Task<List<Comment>> GetCommentsBySessionId(string sessionId) =>
         await db.Comments.Where(c => c.SessionId == sessionId).ToListAsync();

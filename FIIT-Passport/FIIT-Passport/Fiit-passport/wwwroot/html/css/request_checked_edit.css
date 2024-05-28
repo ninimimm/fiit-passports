@@ -93,6 +93,8 @@ aside {
 }
 
 .comment {
+    position: relative;
+    font: 1.2vw FontRegular;
     width: 22vw;
     border-radius: 20px;
     background-color: #ffffff;
@@ -114,6 +116,7 @@ aside {
     align-self: flex-start;
     background-color: rgba(248, 243, 173, 0.8);
     width: 24vw;
+    height: auto;
     border-radius: 20px;
 }
 

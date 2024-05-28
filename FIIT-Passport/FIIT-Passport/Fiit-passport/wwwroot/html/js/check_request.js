@@ -1,4 +1,4 @@
-fetch('http://51.250.123.70:8888/api/passport/get',
+fetch('http://localhost:8888/api/passport/get',
     {
         method: 'POST',
         headers: {

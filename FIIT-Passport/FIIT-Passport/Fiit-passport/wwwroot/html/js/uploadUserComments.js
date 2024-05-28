@@ -1,5 +1,6 @@
 let selectedElements = document.querySelectorAll('.selected_text, .selected_block');
-let commentList = document.querySelector('.comment_list');
+const commentList = document.querySelector('.comment_list');
+const commentIconList = document.querySelector('.comment_icon_list');
 let index = 0;
 let weight = {};
 let nameToNum = {}
@@ -11,64 +12,61 @@ document.body.querySelectorAll('[name]').forEach(element => {
         nameToNum[name] = 10 ** 6 * (++num);
     }
 })
-function uploadComments(tag){
-    console.log(tag);
-    GetComments().then(allComments => {
-        allComments.sort(function(a, b) {
-            if (a.fieldName === b.fieldName) {
-                return a.startIndex - b.startIndex;
-            }
-            return a.fieldName < b.fieldName;
-        })
-
-        let lastName = null;
-        let lastEnd = 0;
-        let textHtml = "";
-        let paragraph = null;
-        allComments.forEach(element => {
-            if (lastName !== element.fieldName) {
-                if (lastName !== null) {
-                    createAText(paragraph, textHtml.substring(lastEnd));
-                }
-                lastName = element.fieldName;
-                console.log(document.title);
-                if (document.title === 'Редактировать анкету') {
-                    fieldCommentBlock = document.createElement('div');
-                    fieldCommentBlock.classList.add('comment_block');
-                    commentList.appendChild(fieldCommentBlock);
-                    paragraph = document.createElement('div');
-                    let input = document.querySelector(`[name='${element.fieldName}']`);
-                    let position = input.getBoundingClientRect().top + window.pageYOffset;
-                    fieldCommentBlock.style.marginTop = `calc(${position}px - 5vw)`;
-                    fieldCommentBlock.id = element.fieldName;
-                    paragraph.classList.add(`${input.className}`);
-                    paragraph.style.display = 'none';
-                    input.insertAdjacentElement('afterend', paragraph);
-                    textHtml = input.value;
-                } else {
-                    paragraph = document.querySelector(`[name='${element.fieldName}']`);
-                    if (paragraph instanceof HTMLInputElement) {
-                        textHtml = paragraph.value;
-                    } else {
-                        textHtml = paragraph.textContent;
-                    }
-                }
-                paragraph.innerHTML = '';
-                lastEnd = 0;
-            }
-            weight[element.id] = element.endIndex + nameToNum[element.fieldName];
-            createAText(paragraph, textHtml.substring(lastEnd, element.startIndex));
-            let span = CreateSpan(element.id, textHtml.substring(element.startIndex, element.endIndex));
-            paragraph.appendChild(span);
-            lastEnd = element.endIndex;
-            CreatePageComment(span, element.textComment, element.id, tag);
-        });
-        if (lastName !== null) {
-            createAText(paragraph, textHtml.substring(lastEnd));
-            SortComments();
+GetComments().then(allComments => {
+    allComments.sort(function(a, b) {
+        if (a.fieldName === b.fieldName) {
+            return a.startIndex - b.startIndex;
         }
+        return a.fieldName < b.fieldName;
+    })
+
+    let lastName = null;
+    let lastEnd = 0;
+    let textHtml = "";
+    let paragraph = null;
+    allComments.forEach(element => {
+        if (lastName !== element.fieldName) {
+            if (lastName !== null) {
+                createAText(paragraph, textHtml.substring(lastEnd));
+            }
+            lastName = element.fieldName;
+            console.log(document.title);
+            if (document.title === 'Редактировать анкету') {
+                fieldCommentBlock = document.createElement('div');
+                fieldCommentBlock.classList.add('comment_block');
+                commentList.appendChild(fieldCommentBlock);
+                paragraph = document.createElement('div');
+                let input = document.querySelector(`[name='${element.fieldName}']`);
+                let position = input.getBoundingClientRect().top + window.pageYOffset;
+                fieldCommentBlock.style.marginTop = `calc(${position}px - 5vw)`;
+                fieldCommentBlock.id = element.fieldName;
+                paragraph.classList.add(`${input.className}`);
+                paragraph.style.display = 'none';
+                input.insertAdjacentElement('afterend', paragraph);
+                textHtml = input.value;
+            } else {
+                paragraph = document.querySelector(`[name='${element.fieldName}']`);
+                if (paragraph instanceof HTMLInputElement) {
+                    textHtml = paragraph.value;
+                } else {
+                    textHtml = paragraph.textContent;
+                }
+            }
+            paragraph.innerHTML = '';
+            lastEnd = 0;
+        }
+        weight[element.id] = element.endIndex + nameToNum[element.fieldName];
+        createAText(paragraph, textHtml.substring(lastEnd, element.startIndex));
+        let span = CreateSpan(element.id, textHtml.substring(element.startIndex, element.endIndex));
+        paragraph.appendChild(span);
+        lastEnd = element.endIndex;
+        CreateUserComment(span, element.textComment, element.id);
     });
-}
+    if (lastName !== null) {
+        createAText(paragraph, textHtml.substring(lastEnd));
+        SortComments();
+    }
+});
 
 function createAText(paragraph, text){
     if (text.length == 0){
@@ -79,15 +77,10 @@ function createAText(paragraph, text){
     paragraph.appendChild(div);
 }
 
-function CreatePageComment(span, commentText, id, tag) {
-    const commentItem = document.createElement(tag);
+function CreateUserComment(span, commentText, id) {
+    const commentItem = document.createElement('div');
     commentItem.id = id;
-    if (tag === 'input'){
-        commentItem.value = commentText;
-    }
-    else{
-        commentItem.textContent = commentText;
-    }
+    commentItem.textContent = commentText;
     commentItem.classList.add('comment');
     commentItem.addEventListener('click', function() {
         const isActive = commentItem.classList.contains('active');

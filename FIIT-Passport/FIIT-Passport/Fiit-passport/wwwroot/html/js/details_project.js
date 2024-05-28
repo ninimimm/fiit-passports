@@ -1,4 +1,4 @@
-fetch('http://51.250.123.70:8888/api/passport/get',
+fetch('http://localhost:8888/api/passport/get',
     {
         method: 'POST',
         headers: {
@@ -17,7 +17,7 @@ fetch('http://51.250.123.70:8888/api/passport/get',
 });
 
 async function UpdatePassport() {
-    await fetch('http://51.250.123.70:8888/api/passport/update',
+    await fetch('http://localhost:8888/api/passport/update',
     {
         method: 'POST',
         headers: {
