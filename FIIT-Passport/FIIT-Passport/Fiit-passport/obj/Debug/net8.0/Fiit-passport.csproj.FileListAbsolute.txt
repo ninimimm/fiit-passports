@@ -105,9 +105,6 @@
 /home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.pdb
 /home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/obj/Debug/net8.0/FIIT-Passport.genruntimeconfig.cache
 /home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/obj/Debug/net8.0/ref/FIIT-Passport.dll
-C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\Fiit-passport.dll
-C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\refint\Fiit-passport.dll
-C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\Fiit-passport.pdb
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\bin\Debug\net8.0\appsettings.json
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\bin\Debug\net8.0\Fiit-passport.staticwebassets.runtime.json
@@ -210,5 +207,8 @@ C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\scopedcss\bundle\Fiit-passport.styles.css
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\scopedcss\projectbundle\Fiit-passport.bundle.scp.css
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\Fiit-pas.42C355E5.Up2Date
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\Fiit-passport.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\refint\Fiit-passport.dll
+C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\Fiit-passport.pdb
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\Fiit-passport.genruntimeconfig.cache
 C:\Users\User\Documents\fiit-passports\FIIT-Passport\Fiit-passport\Fiit-passport\obj\Debug\net8.0\ref\Fiit-passport.dll

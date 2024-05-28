@@ -2728,24 +2728,32 @@
     ]
   },
   "packageFolders": {
-    "/home/user/.nuget/packages/": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/FIIT-Passport.csproj",
-      "projectName": "FIIT-Passport",
-      "projectPath": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/FIIT-Passport.csproj",
-      "packagesPath": "/home/user/.nuget/packages/",
-      "outputPath": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/obj/",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\Fiit-passport.csproj",
+      "projectName": "Fiit-passport",
+      "projectPath": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\Fiit-passport.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/user/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2808,7 +2816,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/user/Downloads/NET/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

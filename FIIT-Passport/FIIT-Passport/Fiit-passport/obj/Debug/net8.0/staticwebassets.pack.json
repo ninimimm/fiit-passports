@@ -1,576 +1,588 @@
 {
   "Files": [
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/obj/Debug/net8.0/scopedcss/projectbundle/FIIT-Passport.bundle.scp.css",
-      "PackagePath": "staticwebassets/FIIT-Passport.bundle.scp.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fiit-passport.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Fiit-passport.bundle.scp.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/about_project.html",
-      "PackagePath": "staticwebassets/html/about_project.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\about_project.html",
+      "PackagePath": "staticwebassets\\html\\about_project.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/accepted_requests.html",
-      "PackagePath": "staticwebassets/html/accepted_requests.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\accepted_requests.html",
+      "PackagePath": "staticwebassets\\html\\accepted_requests.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/admin_board.html",
-      "PackagePath": "staticwebassets/html/admin_board.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\admin_board.html",
+      "PackagePath": "staticwebassets\\html\\admin_board.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/admin_comments.html",
-      "PackagePath": "staticwebassets/html/admin_comments.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\admin_comments.html",
+      "PackagePath": "staticwebassets\\html\\admin_comments.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/check_request.html",
-      "PackagePath": "staticwebassets/html/check_request.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\check_request.html",
+      "PackagePath": "staticwebassets\\html\\check_request.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/contacts.html",
-      "PackagePath": "staticwebassets/html/contacts.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\contacts.html",
+      "PackagePath": "staticwebassets\\html\\contacts.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/accepted_requests.css",
-      "PackagePath": "staticwebassets/html/css/accepted_requests.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\accepted_requests.css",
+      "PackagePath": "staticwebassets\\html\\css\\accepted_requests.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/admin_board.css",
-      "PackagePath": "staticwebassets/html/css/admin_board.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\admin_board.css",
+      "PackagePath": "staticwebassets\\html\\css\\admin_board.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/admin_comments.css",
-      "PackagePath": "staticwebassets/html/css/admin_comments.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\admin_comments.css",
+      "PackagePath": "staticwebassets\\html\\css\\admin_comments.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/all_pages.css",
-      "PackagePath": "staticwebassets/html/css/all_pages.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\all_pages.css",
+      "PackagePath": "staticwebassets\\html\\css\\all_pages.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/font/golos-text_bold.woff2",
-      "PackagePath": "staticwebassets/html/css/font/golos-text_bold.woff2"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_bold.woff2",
+      "PackagePath": "staticwebassets\\html\\css\\font\\golos-text_bold.woff2"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/font/golos-text_demibold.woff2",
-      "PackagePath": "staticwebassets/html/css/font/golos-text_demibold.woff2"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_demibold.woff2",
+      "PackagePath": "staticwebassets\\html\\css\\font\\golos-text_demibold.woff2"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/font/golos-text_medium.woff2",
-      "PackagePath": "staticwebassets/html/css/font/golos-text_medium.woff2"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_medium.woff2",
+      "PackagePath": "staticwebassets\\html\\css\\font\\golos-text_medium.woff2"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/font/golos-text_regular.woff2",
-      "PackagePath": "staticwebassets/html/css/font/golos-text_regular.woff2"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\font\\golos-text_regular.woff2",
+      "PackagePath": "staticwebassets\\html\\css\\font\\golos-text_regular.woff2"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/forms.css",
-      "PackagePath": "staticwebassets/html/css/forms.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\forms.css",
+      "PackagePath": "staticwebassets\\html\\css\\forms.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/full_form.css",
-      "PackagePath": "staticwebassets/html/css/full_form.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\full_form.css",
+      "PackagePath": "staticwebassets\\html\\css\\full_form.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/head_forms.css",
-      "PackagePath": "staticwebassets/html/css/head_forms.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\head_forms.css",
+      "PackagePath": "staticwebassets\\html\\css\\head_forms.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/loading.css",
-      "PackagePath": "staticwebassets/html/css/loading.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\loading.css",
+      "PackagePath": "staticwebassets\\html\\css\\loading.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/request_checked_edit.css",
-      "PackagePath": "staticwebassets/html/css/request_checked_edit.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\request_checked_edit.css",
+      "PackagePath": "staticwebassets\\html\\css\\request_checked_edit.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/request_send_check.css",
-      "PackagePath": "staticwebassets/html/css/request_send_check.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\request_send_check.css",
+      "PackagePath": "staticwebassets\\html\\css\\request_send_check.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/site.css",
-      "PackagePath": "staticwebassets/html/css/site.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\site.css",
+      "PackagePath": "staticwebassets\\html\\css\\site.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/start.css",
-      "PackagePath": "staticwebassets/html/css/start.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\start.css",
+      "PackagePath": "staticwebassets\\html\\css\\start.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/css/styles.css",
-      "PackagePath": "staticwebassets/html/css/styles.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\css\\styles.css",
+      "PackagePath": "staticwebassets\\html\\css\\styles.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/details_project.html",
-      "PackagePath": "staticwebassets/html/details_project.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\details_project.html",
+      "PackagePath": "staticwebassets\\html\\details_project.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/edit_project.html",
-      "PackagePath": "staticwebassets/html/edit_project.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\edit_project.html",
+      "PackagePath": "staticwebassets\\html\\edit_project.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/edit_request.html",
-      "PackagePath": "staticwebassets/html/edit_request.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\edit_request.html",
+      "PackagePath": "staticwebassets\\html\\edit_request.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/arrow-c-left-32-regular-white.png",
-      "PackagePath": "staticwebassets/html/img/arrow-c-left-32-regular-white.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular-white.png",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-left-32-regular-white.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/arrow-c-left-32-regular.svg",
-      "PackagePath": "staticwebassets/html/img/arrow-c-left-32-regular.svg"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-left-32-regular.svg"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/arrow-c-left-32-regular_gray.png",
-      "PackagePath": "staticwebassets/html/img/arrow-c-left-32-regular_gray.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-left-32-regular_gray.png",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-left-32-regular_gray.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/arrow-c-right-32-regular-white.png",
-      "PackagePath": "staticwebassets/html/img/arrow-c-right-32-regular-white.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular-white.png",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-right-32-regular-white.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/arrow-c-right-32-regular.svg",
-      "PackagePath": "staticwebassets/html/img/arrow-c-right-32-regular.svg"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-right-32-regular.svg"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/arrow-c-right-32-regular_gray.png",
-      "PackagePath": "staticwebassets/html/img/arrow-c-right-32-regular_gray.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\arrow-c-right-32-regular_gray.png",
+      "PackagePath": "staticwebassets\\html\\img\\arrow-c-right-32-regular_gray.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/background.svg",
-      "PackagePath": "staticwebassets/html/img/background.svg"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\background.svg",
+      "PackagePath": "staticwebassets\\html\\img\\background.svg"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/brackets.png",
-      "PackagePath": "staticwebassets/html/img/brackets.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\brackets.png",
+      "PackagePath": "staticwebassets\\html\\img\\brackets.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/brackets.svg",
-      "PackagePath": "staticwebassets/html/img/brackets.svg"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\brackets.svg",
+      "PackagePath": "staticwebassets\\html\\img\\brackets.svg"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/comment-rect-plus-32-regular.png",
-      "PackagePath": "staticwebassets/html/img/comment-rect-plus-32-regular.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\comment-rect-plus-32-regular.png",
+      "PackagePath": "staticwebassets\\html\\img\\comment-rect-plus-32-regular.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/comment-rect-plus-32-regular.svg",
-      "PackagePath": "staticwebassets/html/img/comment-rect-plus-32-regular.svg"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\comment-rect-plus-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\comment-rect-plus-32-regular.svg"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/gradient.jpg",
-      "PackagePath": "staticwebassets/html/img/gradient.jpg"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\gradient.jpg",
+      "PackagePath": "staticwebassets\\html\\img\\gradient.jpg"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/major-logo/logo_dark.png",
-      "PackagePath": "staticwebassets/html/img/major-logo/logo_dark.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\logo_dark.png",
+      "PackagePath": "staticwebassets\\html\\img\\major-logo\\logo_dark.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/major-logo/major_logo.png",
-      "PackagePath": "staticwebassets/html/img/major-logo/major_logo.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo.png",
+      "PackagePath": "staticwebassets\\html\\img\\major-logo\\major_logo.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/major-logo/major_logo_dark.png",
-      "PackagePath": "staticwebassets/html/img/major-logo/major_logo_dark.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo_dark.png",
+      "PackagePath": "staticwebassets\\html\\img\\major-logo\\major_logo_dark.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/major-logo/major_logo_en.png",
-      "PackagePath": "staticwebassets/html/img/major-logo/major_logo_en.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\major-logo\\major_logo_en.png",
+      "PackagePath": "staticwebassets\\html\\img\\major-logo\\major_logo_en.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/minus-32-regular.png",
-      "PackagePath": "staticwebassets/html/img/minus-32-regular.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\minus-32-regular.png",
+      "PackagePath": "staticwebassets\\html\\img\\minus-32-regular.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/minus-32-regular.svg",
-      "PackagePath": "staticwebassets/html/img/minus-32-regular.svg"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\minus-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\minus-32-regular.svg"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/plus-32-regular-white.png",
-      "PackagePath": "staticwebassets/html/img/plus-32-regular-white.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\minus-circle-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\html\\img\\minus-circle-svgrepo-com.svg"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/plus-32-regular.png",
-      "PackagePath": "staticwebassets/html/img/plus-32-regular.png"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular-white.png",
+      "PackagePath": "staticwebassets\\html\\img\\plus-32-regular-white.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/plus-32-regular.svg",
-      "PackagePath": "staticwebassets/html/img/plus-32-regular.svg"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular.png",
+      "PackagePath": "staticwebassets\\html\\img\\plus-32-regular.png"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/about_project.js",
-      "PackagePath": "staticwebassets/html/js/about_project.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\img\\plus-32-regular.svg",
+      "PackagePath": "staticwebassets\\html\\img\\plus-32-regular.svg"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/add_comments.js",
-      "PackagePath": "staticwebassets/html/js/add_comments.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\about_project.js",
+      "PackagePath": "staticwebassets\\html\\js\\about_project.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/autoresize.js",
-      "PackagePath": "staticwebassets/html/js/autoresize.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\add_comments.js",
+      "PackagePath": "staticwebassets\\html\\js\\add_comments.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/check_authenticated.js",
-      "PackagePath": "staticwebassets/html/js/check_authenticated.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\autoresize.js",
+      "PackagePath": "staticwebassets\\html\\js\\autoresize.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/check_request.js",
-      "PackagePath": "staticwebassets/html/js/check_request.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\check_authenticated.js",
+      "PackagePath": "staticwebassets\\html\\js\\check_authenticated.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/check_validity.js",
-      "PackagePath": "staticwebassets/html/js/check_validity.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\check_request.js",
+      "PackagePath": "staticwebassets\\html\\js\\check_request.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/comments.js",
-      "PackagePath": "staticwebassets/html/js/comments.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\check_validity.js",
+      "PackagePath": "staticwebassets\\html\\js\\check_validity.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/contacts.js",
-      "PackagePath": "staticwebassets/html/js/contacts.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\comments.js",
+      "PackagePath": "staticwebassets\\html\\js\\comments.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/cookie.js",
-      "PackagePath": "staticwebassets/html/js/cookie.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\contacts.js",
+      "PackagePath": "staticwebassets\\html\\js\\contacts.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/create_comment.js",
-      "PackagePath": "staticwebassets/html/js/create_comment.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\cookie.js",
+      "PackagePath": "staticwebassets\\html\\js\\cookie.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/delete_comment.js",
-      "PackagePath": "staticwebassets/html/js/delete_comment.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\create_comment.js",
+      "PackagePath": "staticwebassets\\html\\js\\create_comment.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/details_project.js",
-      "PackagePath": "staticwebassets/html/js/details_project.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\delete_comment.js",
+      "PackagePath": "staticwebassets\\html\\js\\delete_comment.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/drag_and_drop.js",
-      "PackagePath": "staticwebassets/html/js/drag_and_drop.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\details_project.js",
+      "PackagePath": "staticwebassets\\html\\js\\details_project.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/edit_request.js",
-      "PackagePath": "staticwebassets/html/js/edit_request.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\drag_and_drop.js",
+      "PackagePath": "staticwebassets\\html\\js\\drag_and_drop.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/enter.js",
-      "PackagePath": "staticwebassets/html/js/enter.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\edit_request.js",
+      "PackagePath": "staticwebassets\\html\\js\\edit_request.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/examples.js",
-      "PackagePath": "staticwebassets/html/js/examples.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\enter.js",
+      "PackagePath": "staticwebassets\\html\\js\\enter.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/get_comments.js",
-      "PackagePath": "staticwebassets/html/js/get_comments.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\examples.js",
+      "PackagePath": "staticwebassets\\html\\js\\examples.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/max.js",
-      "PackagePath": "staticwebassets/html/js/max.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\get_comments.js",
+      "PackagePath": "staticwebassets\\html\\js\\get_comments.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/others_project.js",
-      "PackagePath": "staticwebassets/html/js/others_project.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\max.js",
+      "PackagePath": "staticwebassets\\html\\js\\max.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/phone_mask.js",
-      "PackagePath": "staticwebassets/html/js/phone_mask.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\others_project.js",
+      "PackagePath": "staticwebassets\\html\\js\\others_project.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/redirect.js",
-      "PackagePath": "staticwebassets/html/js/redirect.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\phone_mask.js",
+      "PackagePath": "staticwebassets\\html\\js\\phone_mask.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/site.js",
-      "PackagePath": "staticwebassets/html/js/site.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\redirect.js",
+      "PackagePath": "staticwebassets\\html\\js\\redirect.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/start.js",
-      "PackagePath": "staticwebassets/html/js/start.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\site.js",
+      "PackagePath": "staticwebassets\\html\\js\\site.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/update_comment.js",
-      "PackagePath": "staticwebassets/html/js/update_comment.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\start.js",
+      "PackagePath": "staticwebassets\\html\\js\\start.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/uploadAdminComments.js",
-      "PackagePath": "staticwebassets/html/js/uploadAdminComments.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\update_comment.js",
+      "PackagePath": "staticwebassets\\html\\js\\update_comment.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/uploadFullPassport.js",
-      "PackagePath": "staticwebassets/html/js/uploadFullPassport.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\uploadAdminComments.js",
+      "PackagePath": "staticwebassets\\html\\js\\uploadAdminComments.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/uploadUserComments.js",
-      "PackagePath": "staticwebassets/html/js/uploadUserComments.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\uploadFullPassport.js",
+      "PackagePath": "staticwebassets\\html\\js\\uploadFullPassport.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/LICENSE",
-      "PackagePath": "staticwebassets/html/lib/bootstrap"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\uploadUserComments.js",
+      "PackagePath": "staticwebassets\\html\\js\\uploadUserComments.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\js\\user_projects.js",
+      "PackagePath": "staticwebassets\\html\\js\\user_projects.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap.min.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.js",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.js.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.js.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.min.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "PackagePath": "staticwebassets/html/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "PackagePath": "staticwebassets/html/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets/html/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\html\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets/html/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery-validation/LICENSE.md",
-      "PackagePath": "staticwebassets/html/lib/jquery-validation/LICENSE.md"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery-validation/dist/additional-methods.js",
-      "PackagePath": "staticwebassets/html/lib/jquery-validation/dist/additional-methods.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery-validation/dist/additional-methods.min.js",
-      "PackagePath": "staticwebassets/html/lib/jquery-validation/dist/additional-methods.min.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery-validation/dist/jquery.validate.js",
-      "PackagePath": "staticwebassets/html/lib/jquery-validation/dist/jquery.validate.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery-validation/dist/jquery.validate.min.js",
-      "PackagePath": "staticwebassets/html/lib/jquery-validation/dist/jquery.validate.min.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/html/lib/jquery/LICENSE.txt"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/html/lib/jquery/dist/jquery.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/html/lib/jquery/dist/jquery.min.js"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/html/lib/jquery/dist/jquery.min.map"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/loading.html",
-      "PackagePath": "staticwebassets/html/loading.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/others_project.html",
-      "PackagePath": "staticwebassets/html/others_project.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\html\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/request_check.html",
-      "PackagePath": "staticwebassets/html/request_check.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\loading.html",
+      "PackagePath": "staticwebassets\\html\\loading.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/request_checked.html",
-      "PackagePath": "staticwebassets/html/request_checked.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\others_project.html",
+      "PackagePath": "staticwebassets\\html\\others_project.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/request_send.html",
-      "PackagePath": "staticwebassets/html/request_send.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_check.html",
+      "PackagePath": "staticwebassets\\html\\request_check.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/start.html",
-      "PackagePath": "staticwebassets/html/start.html"
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_checked.html",
+      "PackagePath": "staticwebassets\\html\\request_checked.html"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FIIT-Passport.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\request_send.html",
+      "PackagePath": "staticwebassets\\html\\request_send.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\start.html",
+      "PackagePath": "staticwebassets\\html\\start.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\fiit-passports\\FIIT-Passport\\Fiit-passport\\Fiit-passport\\wwwroot\\html\\user_projects.html",
+      "PackagePath": "staticwebassets\\html\\user_projects.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Fiit-passport.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FIIT-Passport.props",
-      "PackagePath": "build\\FIIT-Passport.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Fiit-passport.props",
+      "PackagePath": "build\\Fiit-passport.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FIIT-Passport.props",
-      "PackagePath": "buildMultiTargeting\\FIIT-Passport.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Fiit-passport.props",
+      "PackagePath": "buildMultiTargeting\\Fiit-passport.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FIIT-Passport.props",
-      "PackagePath": "buildTransitive\\FIIT-Passport.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Fiit-passport.props",
+      "PackagePath": "buildTransitive\\Fiit-passport.props"
     }
   ],
   "ElementsToRemove": []
