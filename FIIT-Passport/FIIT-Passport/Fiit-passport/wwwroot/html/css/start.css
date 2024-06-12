@@ -31,10 +31,12 @@
 
 .text_project {
     margin-top: 3vw;
+    width: 48vw;
 }
+
 .user_projects {
     color: #ffffff;
-    margin-left: 54vw;
+    margin-left: 68vw;
 }
 
 .block_business {
@@ -59,7 +61,7 @@
 }
 
 .text_business {
-    width: 28vw;
+    width: 32vw;
     margin-left: 9vw;
     margin-top: 3vw;
 }

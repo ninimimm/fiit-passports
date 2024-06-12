@@ -81,7 +81,7 @@ async function SubmitPassport() {
         return response.json();
     }).then(data => {
         if (data.message === "Ok") {
-            window.location.href = '../request_send.html';
+            window.location.href = '../userPagesHTML/request_send.html';
         }
         else {
             toastr.error(data.message);

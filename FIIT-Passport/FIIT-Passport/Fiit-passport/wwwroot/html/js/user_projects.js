@@ -18,14 +18,15 @@ window.onload = function() {
             let pageName = '';
             let status = data.status;
             if (status === 3){
-                pageName = 'edit_request.html';
+                pageName = 'userPagesHTML/edit_request.html';
             }
             else if (status === 2){
-                pageName  = "request_check.html";
+                pageName  = "userPagesHTML/request_check.html";
             }
             else {
-                pageName = 'request_send.html';
+                pageName = 'userPagesHTML/passport_send.html';
             }
+            pageName  = "userPagesHTML/edit_request.html";
             requestDiv.addEventListener('click', function() {
                 let currentDate = new Date();
                 currentDate.setFullYear(currentDate.getFullYear() + 10);

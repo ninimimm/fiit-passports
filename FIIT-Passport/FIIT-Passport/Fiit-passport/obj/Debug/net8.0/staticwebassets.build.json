@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XRsDg5TtY0JKvc5PYjQf067gwpbn89K7Mat+VW/UZbg=",
+  "Hash": "pPyAhdmLBwG8+w2MUljo09TfkJGMf2UFO9t5hMN2hOI=",
   "Source": "FIIT-Passport",
   "BasePath": "_content/FIIT-Passport",
   "Mode": "Default",
@@ -587,6 +587,25 @@
       "OriginalItemSpec": "wwwroot/html/edit_request.html"
     },
     {
+      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/edit_send.html",
+      "SourceId": "FIIT-Passport",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/",
+      "BasePath": "_content/FIIT-Passport",
+      "RelativePath": "html/edit_send.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/html/edit_send.html"
+    },
+    {
       "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/arrow-c-left-32-regular_gray.png",
       "SourceId": "FIIT-Passport",
       "SourceType": "Discovered",
@@ -1119,25 +1138,6 @@
       "OriginalItemSpec": "wwwroot/html/js/autoresize.js"
     },
     {
-      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/check_authenticated.js",
-      "SourceId": "FIIT-Passport",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/",
-      "BasePath": "_content/FIIT-Passport",
-      "RelativePath": "html/js/check_authenticated.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/html/js/check_authenticated.js"
-    },
-    {
       "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/check_validity.js",
       "SourceId": "FIIT-Passport",
       "SourceType": "Discovered",
@@ -1442,6 +1442,25 @@
       "OriginalItemSpec": "wwwroot/html/js/redirect.js"
     },
     {
+      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/request_checked.js",
+      "SourceId": "FIIT-Passport",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/",
+      "BasePath": "_content/FIIT-Passport",
+      "RelativePath": "html/js/request_checked.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/html/js/request_checked.js"
+    },
+    {
       "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/start.js",
       "SourceId": "FIIT-Passport",
       "SourceType": "Discovered",
@@ -1461,12 +1480,12 @@
       "OriginalItemSpec": "wwwroot/html/js/start.js"
     },
     {
-      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/uploadAdminComments.js",
+      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/upload_admin_comments.js",
       "SourceId": "FIIT-Passport",
       "SourceType": "Discovered",
       "ContentRoot": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/",
       "BasePath": "_content/FIIT-Passport",
-      "RelativePath": "html/js/uploadAdminComments.js",
+      "RelativePath": "html/js/upload_admin_comments.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1477,15 +1496,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/html/js/uploadAdminComments.js"
+      "OriginalItemSpec": "wwwroot/html/js/upload_admin_comments.js"
     },
     {
-      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/uploadFullPassport.js",
+      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/upload_full_passport.js",
       "SourceId": "FIIT-Passport",
       "SourceType": "Discovered",
       "ContentRoot": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/",
       "BasePath": "_content/FIIT-Passport",
-      "RelativePath": "html/js/uploadFullPassport.js",
+      "RelativePath": "html/js/upload_full_passport.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1496,15 +1515,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/html/js/uploadFullPassport.js"
+      "OriginalItemSpec": "wwwroot/html/js/upload_full_passport.js"
     },
     {
-      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/uploadUserComments.js",
+      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/upload_user_comments.js",
       "SourceId": "FIIT-Passport",
       "SourceType": "Discovered",
       "ContentRoot": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/",
       "BasePath": "_content/FIIT-Passport",
-      "RelativePath": "html/js/uploadUserComments.js",
+      "RelativePath": "html/js/upload_user_comments.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1515,7 +1534,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/html/js/uploadUserComments.js"
+      "OriginalItemSpec": "wwwroot/html/js/upload_user_comments.js"
     },
     {
       "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/js/user_projects.js",
@@ -2637,6 +2656,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/html/loading.html"
+    },
+    {
+      "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/passport_page.html",
+      "SourceId": "FIIT-Passport",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/",
+      "BasePath": "_content/FIIT-Passport",
+      "RelativePath": "html/passport_page.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/html/passport_page.html"
     },
     {
       "Identity": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/request_check.html",

@@ -49,7 +49,7 @@ function goToPassportPage(id, status) {
     const date = currentDate.toUTCString();
     document.cookie = `idSession=${id}; expires=${date}`;
     if (status === "checked"){
-        window.location.href = 'edit_request.html';
+        window.location.href = 'userPagesHTML/edit_request.html';
     }
     else if (status === "checking"){
         window.location.href  = "edit_project.html";

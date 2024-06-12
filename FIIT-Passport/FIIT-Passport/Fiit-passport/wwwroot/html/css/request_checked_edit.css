@@ -80,6 +80,31 @@ aside {
     }
 }
 
+.button_edit_checked {
+
+    box-sizing: border-box;
+    padding: 1vw 4vw;
+    background-color: #FE25A7;
+    border-radius: 50px;
+    color: #ffffff;
+    font: 2vw FontDemiBold;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow 0.2s;
+    margin-left: 13vw;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #ff54bb;
+        box-shadow: 0 10px 50px 15px rgb(3, 8, 27, 0.15);
+    }
+
+    &:active {
+        background-color: #B31E7D;
+    }
+}
+
 .selected_text {
     background-color: #FE25A7;
     color: #ffffff;
