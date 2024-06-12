@@ -1,3 +1,35 @@
+function Notification(message, state) {
+    const last = document.querySelector('.notification');
+    if (last !== null){
+        last.classList.add('hide');
+        setTimeout(() => {
+            last.remove();
+        }, 1000);
+    }
+    const isSuccess = state === 'success';
+    const notification = document.createElement('div');
+    notification.classList.add('notification', state);
+    const img = document.createElement('img');
+    img.src = isSuccess ? "../img/check_mark.svg" : "../img/delete_mark.svg";
+    img.alt = isSuccess ? 'Галочка' : 'Крест';
+    notification.appendChild(img);
+    const text = document.createElement('span');
+    text.textContent = message;
+    notification.appendChild(text);
+    document.body.appendChild(notification);
+    setTimeout(() => {
+        notification.classList.add('show');
+    }, 10);
+    setTimeout(() => {
+        notification.classList.remove('show');
+        notification.classList.add('hide');
+        setTimeout(() => {
+            notification.remove();
+        }, 1000);
+    }, 2000);
+}
+
+
 function uploadInputFields(data) {
     document.querySelector('.name_customer_input').value = data.ordererName;
     document.querySelector('.name_project_input').value = data.projectName;
@@ -59,12 +91,7 @@ async function CheckAuthenticate() {
     await authenticate(createSendObject()).then(response => {
         return response.json();
     }).then(data => {
-        if (data.state === "error") {
-            toastr.error(data.message);
-        }
-        else{
-            toastr.success(data.message);
-        }
+        Notification(data.message, data.state);
     });
 }
 
@@ -84,7 +111,7 @@ async function SubmitPassport() {
             window.location.href = '../userPagesHTML/request_send.html';
         }
         else {
-            toastr.error(data.message);
+            Notification(data.message, data.state);
         }
     });
 }

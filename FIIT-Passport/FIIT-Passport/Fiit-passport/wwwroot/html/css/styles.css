@@ -1482,3 +1482,46 @@ aside {
     padding: 0.2vw 1vw;
     margin-top: 1vw;
 }
+
+.notification {
+    position: fixed;
+    width: 20vw;
+    height: 10vh;
+    top: 1vh;
+    right: 1vw;
+    font: 1.2vw FontRegular;
+    color: white;
+    border-radius: 0.5vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: normal;
+    overflow: visible;
+    word-wrap: break-word;
+}
+
+.success {
+    background-color: rgb(77, 197, 77);
+}
+
+.error {
+    background-color: red;
+}
+
+.notification.show {
+    opacity: 0.75;
+}
+
+.notification.hide {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.notification img {
+    margin-right: 0.3vw;
+    opacity: 0.9;
+    vertical-align: middle;
+}
