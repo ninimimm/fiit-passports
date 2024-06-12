@@ -113,10 +113,6 @@
       "PackagePath": "staticwebassets/html/edit_project.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/edit_request.html",
-      "PackagePath": "staticwebassets/html/edit_request.html"
-    },
-    {
       "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/edit_send.html",
       "PackagePath": "staticwebassets/html/edit_send.html"
     },
@@ -157,12 +153,20 @@
       "PackagePath": "staticwebassets/html/img/brackets.svg"
     },
     {
+      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/check_mark.svg",
+      "PackagePath": "staticwebassets/html/img/check_mark.svg"
+    },
+    {
       "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/comment-rect-plus-32-regular.png",
       "PackagePath": "staticwebassets/html/img/comment-rect-plus-32-regular.png"
     },
     {
       "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/comment-rect-plus-32-regular.svg",
       "PackagePath": "staticwebassets/html/img/comment-rect-plus-32-regular.svg"
+    },
+    {
+      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/delete_mark.svg",
+      "PackagePath": "staticwebassets/html/img/delete_mark.svg"
     },
     {
       "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/img/gradient.jpg",
@@ -553,24 +557,28 @@
       "PackagePath": "staticwebassets/html/loading.html"
     },
     {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/passport_page.html",
-      "PackagePath": "staticwebassets/html/passport_page.html"
-    },
-    {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/request_check.html",
-      "PackagePath": "staticwebassets/html/request_check.html"
-    },
-    {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/request_checked.html",
-      "PackagePath": "staticwebassets/html/request_checked.html"
-    },
-    {
-      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/request_send.html",
-      "PackagePath": "staticwebassets/html/request_send.html"
-    },
-    {
       "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/start.html",
       "PackagePath": "staticwebassets/html/start.html"
+    },
+    {
+      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/userPagesHTML/edit_request.html",
+      "PackagePath": "staticwebassets/html/userPagesHTML/edit_request.html"
+    },
+    {
+      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/userPagesHTML/passport_send.html",
+      "PackagePath": "staticwebassets/html/userPagesHTML/passport_send.html"
+    },
+    {
+      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/userPagesHTML/request_check.html",
+      "PackagePath": "staticwebassets/html/userPagesHTML/request_check.html"
+    },
+    {
+      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/userPagesHTML/request_checked.html",
+      "PackagePath": "staticwebassets/html/userPagesHTML/request_checked.html"
+    },
+    {
+      "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/userPagesHTML/request_send.html",
+      "PackagePath": "staticwebassets/html/userPagesHTML/request_send.html"
     },
     {
       "Id": "/home/user/Projects/fiit-passports/FIIT-Passport/FIIT-Passport/Fiit-passport/wwwroot/html/user_projects.html",

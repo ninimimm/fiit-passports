@@ -16,7 +16,7 @@ window.onload = function() {
             block.appendChild(requestDiv);
 
             let pageName = '';
-            let status = data.status;
+            let status = passport.status;
             if (status === 3){
                 pageName = 'userPagesHTML/edit_request.html';
             }

@@ -1,2 +1,2 @@
-const ip = '51.250.123.70';
+const ip = 'localhost';
 const port = '8888';
