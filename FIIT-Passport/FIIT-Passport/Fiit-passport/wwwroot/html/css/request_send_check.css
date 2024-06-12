@@ -27,6 +27,10 @@
 .name_customer_value, .name_project_value, .description_project_value, .goal_project_value, .result_project_value, .criteria_project_value, .max_value, .address_value, .name_value, .last_name_value, .telegram_value, .email_value, .phone_value {
     width: 46vw;
     margin-left: 7vw;
+    display: block;
+    white-space: normal;
+    overflow: visible;
+    word-wrap: break-word;
 }
 
 .name_customer_head, .name_project_head, .description_project_head, .goal_project_head, .result_project_head, .criteria_project_head, .max_head, .address_head, .name_head, .last_name_head, .telegram_head, .email_head, .phone_head {
@@ -45,4 +49,27 @@
     padding-bottom: 3.5vw;
     margin-top:4vw;
     margin-bottom: 7vw;
+}
+
+.fill_form {
+    box-sizing: border-box;
+    padding: 2vw 6vw;
+    background-color: #1AB3D5;
+    border-radius: 50px;
+    color: #ffffff;
+    font: 2vw FontDemiBold;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow 0.2s;
+    margin-bottom: 7vw;
+
+    &:hover {
+        background-color: #5FCAE2;
+        box-shadow: 0 10px 50px 15px rgb(3, 8, 27, 0.1);
+    }
+
+    &:active {
+        background-color: #0C4C65;
+    }
 }

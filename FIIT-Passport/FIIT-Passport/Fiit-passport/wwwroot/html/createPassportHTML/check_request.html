@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проверьте вашу анкету</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
-    <link rel="preload" href="css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
     <header>
@@ -27,12 +27,12 @@
         </section>
     </header>
     <section class="check_request">
-        <button class="button_back" onclick="Redirect('contacts.html')">
-            <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
+        <button class="button_back" onclick="RedirectNotValidation('contacts.html')">
+            <img src="../img/arrow-c-left-32-regular-white.png" alt="Назад">
         </button>
         <form class="check_request_block">
             <div class="head_form">
-                <img src="img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+                <img src="../img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
                 <h1 class="head_form_text">Проверьте вашу анкету</h1>
             </div>
             <div class="name_customer_form">
@@ -62,11 +62,11 @@
             <div class="max_form">
                 <label for="max_input" class="max_label">Максимальное количество экземпляров проекта</label>
                 <button type="button" class="max_minus" id="max_minus">
-                    <img src="img/minus-32-regular.png">
+                    <img src="../img/minus-32-regular.png">
                 </button>
                 <input type="number" name="max" id="max_input" value="1" min="1" class="max_input">
                 <button type="button" class="max_plus" id="max_plus">
-                    <img src="img/plus-32-regular.png">
+                    <img src="../img/plus-32-regular.png">
                 </button>
             </div>
             <p class="max_text">По умолчанию мы ставим 1. Поменяйте количество, если вы готовы работать более чем с одной командой. Это более затратно по времени, но из преимуществ — несколько вариантов продукта, из которых можно выбрать лучший</p>
@@ -88,7 +88,7 @@
                 <input type="text" name="telegram" id="telegram_input" class="telegram_input" placeholder="@user" minlength ="1" maxlength="33" pattern='@[0-9a-zA-Z_]+' title="Строка должна начинаться с @@ и не содержать спецсимволы" required>
             </div>
             <button type="button" class="button_send" onclick="CheckAuthenticate()" style="margin-top: 1vw; margin-bottom: 1vw; margin-left: 37.5vw">Проверить личность</button>
-            <p style="font-family: FontMedium; margin-left: 29vw; margin-right: 5vw;">Для подтверждения личности:<br/>
+            <p style="font-family: FontMedium; font-size: 1.3vw; margin-left: 29vw; margin-right: 5vw;">Для подтверждения личности:<br/>
                 - перейдите в нашего <a href="https://t.me/FIIT_Projects_bot">телеграмм бота</a>, выполните команду /start<br/>
                 - нажмите кнопку "Проверить личность" ниже<br/>
                 - нажмите кнопку, отправленную ботом
@@ -104,14 +104,16 @@
         </form>
         <button class="button_send" onclick="SubmitPassport()">Отправить</button>
     </section>
-<script src="js/cookie.js"></script>
-<script src="js/phone_mask.js"></script>
-<script src="js/enter.js"></script>
-<script src="js/autoresize.js"></script>
-<script src="js/max.js"></script>
-<script src="js/check_request.js"></script>
-<script src="js/redirect.js"></script>
-<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="../js/apiFunctions/params.js"></script>
+<script src="../js/apiFunctions/passportFuncs.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/phone_mask.js"></script>
+<script src="../js/enter.js"></script>
+<script src="../js/max.js"></script>
+<script src="../js/autoresize.js"></script>
+<script src="../js/createPassportJS/check_request.js"></script>
+<script src="../js/redirect.js"></script>
+<script src="../lib/jquery/dist/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 </body>
 </html>

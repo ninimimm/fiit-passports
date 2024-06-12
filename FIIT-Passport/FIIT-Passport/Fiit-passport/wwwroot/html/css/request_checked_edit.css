@@ -49,6 +49,10 @@ aside {
 .name_customer_value_cr, .name_project_value_cr, .description_project_value_cr, .goal_project_value_cr, .result_project_value_cr, .criteria_project_value_cr, .max_value_cr, .address_value_cr, .name_value_cr, .last_name_value_cr, .telegram_value_cr, .email_value_cr, .phone_value_cr {
     width: 38vw;
     margin-left: 6vw;
+    display: block;
+    white-space: normal;
+    overflow: visible;
+    word-wrap: break-word;
 }
 
 .button_edit, .send_button {
@@ -64,6 +68,7 @@ aside {
     transition: box-shadow 0.2s;
     margin-bottom: 5vw;
     margin-left: 27vw;
+    text-decoration: none;
 
     &:hover {
         background-color: #ff54bb;
@@ -226,7 +231,10 @@ aside {
     border: 3px solid #a5a4a4;
     outline: none;
     resize: none;
+    display: block;
     overflow-y: hidden;
+    white-space: normal;
+    word-wrap: break-word;
 
     &:focus {
         border-color: #FE25A7;

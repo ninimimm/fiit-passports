@@ -12,7 +12,7 @@ document.body.querySelectorAll('[name]').forEach(element => {
         nameToNum[name] = 10 ** 6 * (++num);
     }
 })
-GetComments().then(allComments => {
+GetPassportAndComments().then(allComments => {
     allComments.sort(function(a, b) {
         if (a.fieldName === b.fieldName) {
             return a.startIndex - b.startIndex;
@@ -134,11 +134,10 @@ function CreateAdminComment(span, commentText, id){
         }
     });
     
-    commentInput.addEventListener('blur', function(event) {
-        UpdateComment(commentItem.id, commentInput.value);
+    commentInput.addEventListener('blur', async function(event) {
+        await updateComment(commentItem.id, commentInput.value);
     });
     let bigger = null;
-    console.log(weight);
     fieldCommentBlock.childNodes.forEach(element => {
         if (weight[element.id] > weight[commentItem.id] && bigger == null){
             bigger = element;
@@ -152,7 +151,7 @@ function CreateAdminComment(span, commentText, id){
 
     img.addEventListener('click', async function(event) {
         event.stopPropagation();
-        DeleteComment(id);
+        await deleteComment(id);
         delete weight[id];
         commentItem.parentNode.removeChild(commentItem);
         let allText = '';

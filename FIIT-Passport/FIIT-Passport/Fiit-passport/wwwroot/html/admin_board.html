@@ -12,15 +12,15 @@
     <link rel="preload" href="css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
-<header class="header_admin">
-    <form action="" method="post" class="head_buttons">
-        <button type="submit" class="accept_request" formaction="">Согласованные заявки</button>
-        <button type="submit" class="add_person" formaction="">
-            <img src="img/plus-32-regular-white.png" alt="Добавить">
-            Добавить пользователя
-        </button>
-    </form>
-</header>
+    <header class="header_admin">
+        <form action="" method="post" class="head_buttons">
+            <button type="submit" class="accept_request" formaction="">Согласованные заявки</button>
+            <button type="submit" class="add_person" formaction="">
+                <img src="img/plus-32-regular-white.png" alt="Добавить">
+                Добавить пользователя
+            </button>
+        </form>
+    </header>
     <section class="admin_board">
         <h1 class="head_admin">Все заявки:</h1>
         <section class="send column">
@@ -45,6 +45,8 @@
             <ul class="checked_list list"></ul>
         </section>
     </section>
+<script src="js/apiFunctions/params.js"></script>
+<script src="js/apiFunctions/numberFuncs.js"></script>
 <script src="js/drag_and_drop.js"></script>
 </body>
 </html>

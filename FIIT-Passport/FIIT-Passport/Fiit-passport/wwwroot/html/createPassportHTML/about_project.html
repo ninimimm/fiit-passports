@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О проекте</title>
-    <link rel="stylesheet" href="css/forms.css">
-    <link rel="stylesheet" href="css/all_pages.css">
-    <link rel="stylesheet" href="css/head_forms.css">
-    <link rel="preload" href="css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/forms.css">
+    <link rel="stylesheet" href="../css/all_pages.css">
+    <link rel="stylesheet" href="../css/head_forms.css">
+    <link rel="preload" href="../css/font/golos-text_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_demibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../css/font/golos-text_bold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
     <header>
@@ -27,12 +27,12 @@
         </section>
     </header>
     <section class="about_project">
-        <button type="button" class="button_back" onclick="Redirect('start.html')">
-            <img src="img/arrow-c-left-32-regular-white.png" alt="Назад">
+        <button type="button" class="button_back" onclick="RedirectNotValidation('../start.html')">
+            <img src="../img/arrow-c-left-32-regular-white.png" alt="Назад">
         </button>
         <form id="about_project_id" class="about_project_block">
             <div class="head_form">
-                <img src="img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
+                <img src="../img/major-logo/major_logo_dark.png" alt="Логотип ФИИТ" class="fiit_logo_head">
                 <h1 class="head_form_text">О проекте</h1>
             </div>
             <div class="name_customer_form">
@@ -49,7 +49,7 @@
             </div>
         </form>
         <button type="button" class="button_next" onclick="Redirect('details_project.html')">
-            <img src="img/arrow-c-right-32-regular-white.png" alt="Вперед">
+            <img src="../img/arrow-c-right-32-regular-white.png" alt="Вперед">
         </button>
     </section>
     <section class="examples">
@@ -57,7 +57,7 @@
         <div class="example_blocks">
             <form>
                 <button type="button" class="ex_left_block">
-                    <img src="img/arrow-c-left-32-regular_gray.png" class="back_block" alt="Предыдущий блок">
+                    <img src="../img/arrow-c-left-32-regular_gray.png" class="back_block" alt="Предыдущий блок">
                 </button>
             </form>
             <div class="example_block">
@@ -122,16 +122,18 @@
             </div>
             <form>
                 <button type="button" class="ex_right_block">
-                    <img src="img/arrow-c-right-32-regular_gray.png" class="next_block" alt="Следующий блок">
+                    <img src="../img/arrow-c-right-32-regular_gray.png" class="next_block" alt="Следующий блок">
                 </button>
             </form>
         </div>
     </section>
 </body>
-<script src="js/cookie.js"></script>
-<script src="js/enter.js"></script>
-<script src="js/autoresize.js"></script>
-<script src="js/examples.js"></script>
-<script src="js/about_project.js"></script>
-<script src="js/redirect.js"></script>
+<script src="../js/apiFunctions/params.js"></script>
+<script src="../js/apiFunctions/passportFuncs.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/enter.js"></script>
+<script src="../js/examples.js"></script>
+<script src="../js/autoresize.js"></script>
+<script src="../js/createPassportJS/about_project.js"></script>
+<script src="../js/redirect.js"></script>
 </html>

@@ -74,18 +74,21 @@
                   <p name="phone" class="phone_value_cr">+7 (987) 654-32-10</p>
               </span>
           </div>
-          <form action="" method="post">
-            <button type="submit" class="button_edit">Редактировать</button>
+          <form action="edit_request.html">
+            <button type="submit" class="button_edit" >Редактировать</button>
         </form>
     </main>
     <aside>
         <ul class="comment_list"></ul>
     </aside>
 </section>
+<script src="js/apiFunctions/params.js"></script>
+<script src="js/apiFunctions/passportFuncs.js"></script>
+<script src="js/apiFunctions/commentFuncs.js"></script>
 <script src="js/cookie.js"></script>
-<script src="js/uploadFullPassport.js"></script>
-<script src="js/get_comments.js"></script>
-<script src="js/uploadComments.js"></script>
-<script>uploadComments('div');</script>
+<script src="js/get_passport_and_comments.js"></script>
+<script src="js/upload_user_comments.js"></script>
+<script src="js/autoresize.js"></script>
+<script src="js/request_checked.js"></script> 
 </body>
 </html>

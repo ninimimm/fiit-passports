@@ -4,7 +4,13 @@
         form.reportValidity();
         return false;
     }
-    await UpdatePassport();
+    saveFields();
+    await Update();
     window.location.href = page;
-    return false;
+    return true;
+}
+
+async function RedirectNotValidation(page) {
+    saveFields();
+    window.location.href = page;
 }

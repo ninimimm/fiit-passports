@@ -12,7 +12,7 @@ document.body.querySelectorAll('[name]').forEach(element => {
         nameToNum[name] = 10 ** 6 * (++num);
     }
 })
-GetComments().then(allComments => {
+GetPassportAndComments().then(allComments => {
     allComments.sort(function(a, b) {
         if (a.fieldName === b.fieldName) {
             return a.startIndex - b.startIndex;
@@ -30,27 +30,22 @@ GetComments().then(allComments => {
                 createAText(paragraph, textHtml.substring(lastEnd));
             }
             lastName = element.fieldName;
-            console.log(document.title);
-            if (document.title === 'Редактировать анкету') {
-                fieldCommentBlock = document.createElement('div');
-                fieldCommentBlock.classList.add('comment_block');
-                commentList.appendChild(fieldCommentBlock);
-                paragraph = document.createElement('div');
-                let input = document.querySelector(`[name='${element.fieldName}']`);
-                let position = input.getBoundingClientRect().top + window.pageYOffset;
-                fieldCommentBlock.style.marginTop = `calc(${position}px - 5vw)`;
-                fieldCommentBlock.id = element.fieldName;
-                paragraph.classList.add(`${input.className}`);
-                paragraph.style.display = 'none';
-                input.insertAdjacentElement('afterend', paragraph);
+            fieldCommentBlock = document.createElement('div');
+            fieldCommentBlock.classList.add('comment_block');
+            commentList.appendChild(fieldCommentBlock);
+            paragraph = document.createElement('div');
+            let input = document.querySelector(`[name='${element.fieldName}']`);
+            let position = input.getBoundingClientRect().top + window.pageYOffset;
+            fieldCommentBlock.style.marginTop = `calc(${position}px - 5vw)`;
+            fieldCommentBlock.id = element.fieldName;
+            paragraph.classList.add(`${input.className}`);
+            paragraph.style.display = 'none';
+            input.insertAdjacentElement('afterend', paragraph);
+            if (input instanceof HTMLInputElement || input instanceof HTMLTextAreaElement) {
                 textHtml = input.value;
             } else {
+                textHtml = input.textContent;
                 paragraph = document.querySelector(`[name='${element.fieldName}']`);
-                if (paragraph instanceof HTMLInputElement) {
-                    textHtml = paragraph.value;
-                } else {
-                    textHtml = paragraph.textContent;
-                }
             }
             paragraph.innerHTML = '';
             lastEnd = 0;
@@ -66,6 +61,7 @@ GetComments().then(allComments => {
         createAText(paragraph, textHtml.substring(lastEnd));
         SortComments();
     }
+    
 });
 
 function createAText(paragraph, text){
@@ -137,16 +133,11 @@ function CreateUserComment(span, commentText, id) {
             commentItem.classList.remove('active');
         }
     });
-    commentItem.addEventListener('blur', function(event) {
-        UpdateComment(commentItem.id, commentItem.value);
+    commentItem.addEventListener('blur', async function(event) {
+        await updateComment(commentItem.id, commentItem.value);
     });
     let position = span.getBoundingClientRect().top + window.pageYOffset;
-    if (document.title === "Редактировать анкету") {
-        fieldCommentBlock.appendChild(commentItem);
-    } else {
-        commentList.appendChild(commentItem);
-        commentItem.style.marginTop = `calc(${position}px - 5vw)`;
-    }
+    fieldCommentBlock.appendChild(commentItem);
 }
 
 function CreateSpan(id, selectedText) {
@@ -159,18 +150,10 @@ function CreateSpan(id, selectedText) {
 
 function SortComments() {
     let comments = null;
-    if (document.title === "Редактировать анкету") {
-        comments = Array.prototype.slice.call(document.querySelectorAll('.comment_block'));
-    } else {
-        comments = Array.prototype.slice.call(document.querySelectorAll('.comment'));
-    }
+    comments = Array.prototype.slice.call(document.querySelectorAll('.comment_block'));
     if (comments.length > 1) {
         comments.sort(function(a, b) {
-            if (document.title === "Редактировать анкету") {
-                return nameToNum[a.id] - nameToNum[b.id];
-            } else {
-                return weight[a.id] - weight[b.id];
-            }
+            return nameToNum[a.id] - nameToNum[b.id];
         });
         for (let i = 1; i < comments.length; i++) {
             if (comments[i].getBoundingClientRect().top < comments[i - 1].getBoundingClientRect().bottom) {

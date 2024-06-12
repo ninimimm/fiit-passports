@@ -1,16 +1,4 @@
-fetch('http://localhost:8888/api/passport/get',
-    {
-        method: 'POST',
-        headers: {
-          'Content-Type' : 'application/json'  
-        },
-        body: JSON.stringify({ sessionId: getCookie("idSession") })
-    }).then(response => {
-    if (!response.ok) {
-        throw new Error('Не получилось получить паспорт');
-    }
-    return response.json();
-}).then(data => {
+getPassport().then(data => {
     document.querySelector('.name_customer_value_cr').textContent = data.ordererName;
     document.querySelector('.name_project_value_cr').textContent = data.projectName;
     document.querySelector('.description_project_value_cr').textContent = data.projectDescription;
@@ -24,7 +12,7 @@ fetch('http://localhost:8888/api/passport/get',
     document.querySelector('.telegram_value_cr').textContent = data.telegramTag;
     document.querySelector('.email_value_cr').textContent = data.email;
     document.querySelector('.phone_value_cr').textContent = data.phoneNumber;
-});
+})
 
 document.addEventListener('mouseup', function(event) {
     let selection = window.getSelection();
@@ -60,12 +48,10 @@ document.addEventListener('mouseup', function(event) {
             }
             if (prev && prev.tagName.toLowerCase() === "span") {
                 let offset = weight[prev.id] - nameToNum[passportName];
-                console.log(offset);
                 leftBound += offset;
                 rightBound += offset;
             }
-            console.log(leftBound, rightBound, passportName);
-            id = await CreateComment(leftBound, rightBound, passportName);
+            id = await createComment(leftBound, rightBound, passportName);
             weight[id] = rightBound + nameToNum[passportName];
             let selectedText = range.toString();
             let span = CreateSpan(id, selectedText);

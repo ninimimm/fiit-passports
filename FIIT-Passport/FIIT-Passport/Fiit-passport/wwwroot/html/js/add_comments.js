@@ -82,13 +82,13 @@ document.addEventListener('selectionchange', () => {
     }
 });
 
-function autoResizeTextarea(textarea) {
-    textarea.style.height = "auto";
-    textarea.style.height = textarea.scrollHeight + "px";
-}
-
+resizeTextares();
 document.body.addEventListener('input', function(event) {
     if (event.target.tagName === 'TEXTAREA') {
         autoResizeTextarea(event.target);
     }
+});
+
+window.addEventListener('resize', function(event) {
+    resizeTextares(event.target);
 });

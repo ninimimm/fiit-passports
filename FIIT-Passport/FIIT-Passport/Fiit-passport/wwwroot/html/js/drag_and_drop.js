@@ -16,18 +16,7 @@ function countItemsAndUpdateCount(list, countElement) {
     countElement.textContent = list.children.length;
 }
 
-fetch('http://localhost:8888/api/number/get', {
-	method: 'POST',
-	headers: {
-		'Content-Type': 'application/json',
-	},
-})
-.then(response => {
-    if (!response.ok) {
-        throw new Error('Не получилось получить номера')
-    }
-    return response.json();
-})
+getNumbers()
 .then(data => {
     console.log(data)
     data.sort(function (a, b) {
@@ -66,7 +55,7 @@ function goToPassportPage(id, status) {
         window.location.href  = "edit_project.html";
     }
     else{
-        window.location.href = 'request_send.html';
+        window.location.href = 'edit_send.html';
     }
 }
 
@@ -270,13 +259,7 @@ function onMouseUp(event) {
                 projects[element.id] = {"number": `${count}`, "status": `${nextStatus}`, 'name': element.textContent};
             })
         };
-        fetch('http://localhost:8888/api/number/update', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(projects)
-        });
+        updateNumbers(projects);
     } else {
         goToPassportPage(dragged.id, homeColumn.classList[0]);
     }

@@ -32,6 +32,10 @@
 .text_project {
     margin-top: 3vw;
 }
+.user_projects {
+    color: #ffffff;
+    margin-left: 54vw;
+}
 
 .block_business {
     background-image: linear-gradient(270.00deg, rgba(254, 37, 167, 0.5) 0.018%, rgb(254, 37, 167) 0.018%, rgb(163, 12, 255) 99.982%);

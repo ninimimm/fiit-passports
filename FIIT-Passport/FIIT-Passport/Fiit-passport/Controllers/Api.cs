@@ -10,19 +10,17 @@ namespace Fiit_passport.Controllers;
 [ApiController]
 public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTools) : ControllerBase
 {
-    [HttpPost("passport/update")]
-    public async Task Update([FromBody] Dictionary<string, string> request)
+    [HttpPost("update/passport")]
+    public async Task UpdatePassport([FromBody] Dictionary<string, string> request)
     {
-        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var passport = new Passport().UpdateByDictionary(request);
         if (ApiTools.CheckValidity(passport))
             await repo.UpdatePassport(passport);
     }
 
-    [HttpPost("passport/authenticate")]
+    [HttpPost("authenticate")]
     public async Task<IActionResult> Authenticate([FromBody] Dictionary<string, string> request)
     {
-        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var passport = new Passport().UpdateByDictionary(request);
         var response = new Dictionary<string, string>();
         var correctPassport = await repo.GetPassport(passport.SessionId);
@@ -35,7 +33,7 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         {
             await botTools.SendButton(await repo.GetUserId(passport.TelegramTag!), passport.SessionId!);
             response["state"] = "error";
-            response["message"] = $"{passport.TelegramTag} нажмите подтвердить \"Подтвердить\"";
+            response["message"] = $"{passport.TelegramTag} нажмите \"Подтвердить\"";
         }
         else
         {
@@ -47,10 +45,9 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         return Ok(response);
     }
     
-    [HttpPost("passport/confirm")]
-    public async Task<IActionResult> Confirm([FromBody] Dictionary<string, string> request)
+    [HttpPost("confirm/passport")]
+    public async Task<IActionResult> ConfirmPassport([FromBody] Dictionary<string, string> request)
     {
-        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var passport = new Passport().UpdateByDictionary(request);
         var correctPassport = await repo.GetPassport(passport.SessionId);
         var response = new Dictionary<string, string>
@@ -83,10 +80,9 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         return Ok(response);
     }
 
-    [HttpPost("passport/create")]
-    public async Task<IActionResult> Create()
+    [HttpPost("create/passport")]
+    public async Task<IActionResult> CreatePassport()
     {
-        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var sessionId = Guid.NewGuid().ToString();
         await repo.CreatePassport(sessionId);
         var json = new Dictionary<string, string>
@@ -96,49 +92,55 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
         return Ok(json);
     }
 
-    [HttpPost("passport/get")]
-    public async Task<IActionResult> Get([FromBody] Dictionary<string, string> request)
+    [HttpPost("get/passport")]
+    public async Task<IActionResult> GetPassport([FromBody] Dictionary<string, string> request)
     {
-        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var sessionId = request["sessionId"];
         var passport = await repo.GetPassport(sessionId);
         return Ok(passport);
     }
     
-    [HttpPost("number/update")]
+    [HttpPost("get/passports")]
+    public async Task<IActionResult> GetPassports([FromBody] Dictionary<string, string> request)
+    {
+        var sessionId = request["sessionId"];
+        var passport = await repo.GetPassport(sessionId);
+        var passports = await repo.GetPassports(passport!.AuthenticatedTelegramTag!);
+        return Ok(passports);
+    }
+    
+    [HttpPost("update/numbers")]
     public async Task UpdateNumber([FromBody] Dictionary<string, Dictionary<string, string>> request)
     {
-        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         foreach (var sessionNumber in request)
             await repo.UpdateSessionNumber(sessionNumber.Key, int.Parse(sessionNumber.Value["number"]),
                 (Status)int.Parse(sessionNumber.Value["status"]), sessionNumber.Value["name"]);
     }
 
-    [HttpPost("number/get")]
+    [HttpPost("get/numbers")]
     public async Task<IActionResult> GetNumber()
     {
-        Response.Headers.Append("Access-Control-Allow-Origin", "*");
         var sessionNumbers = await repo.GetAllSessionNumbers();
         return Ok(sessionNumbers);
     }
     
-    [HttpPost("comment/create")]
+    [HttpPost("create/comment")]
     public async Task<IActionResult> CreateComment([FromBody] Dictionary<string, string> request) =>
         Ok(await repo.CreateComment(request["sessionId"], request["fieldName"], 
             int.Parse(request["start"]), int.Parse(request["end"]), request["text"]));
     
-    [HttpPost("comment/get")]
+    [HttpPost("get/comment")]
     public async Task<IActionResult> GetComments([FromBody] Dictionary<string, string> request) =>
         Ok(await repo.GetCommentsBySessionId(request["sessionId"]));
 
-    [HttpPost("comment/update")]
+    [HttpPost("update/comment")]
     public async Task<IActionResult> UpdateComment([FromBody] Dictionary<string, string> request)
     {
         await repo.UpdateComment(int.Parse(request["id"]), request["text"]);
         return Ok();
     }
 
-    [HttpPost("comment/delete")]
+    [HttpPost("delete/comment")]
     public async Task<IActionResult> DeleteComment([FromBody] Dictionary<string, string> request)
     {
         await repo.DeleteComment(int.Parse(request["id"]));
