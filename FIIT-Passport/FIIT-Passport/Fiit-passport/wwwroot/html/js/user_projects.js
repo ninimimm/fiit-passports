@@ -26,7 +26,6 @@ window.onload = function() {
             else {
                 pageName = 'userPagesHTML/passport_send.html';
             }
-            pageName  = "userPagesHTML/edit_request.html";
             requestDiv.addEventListener('click', function() {
                 let currentDate = new Date();
                 currentDate.setFullYear(currentDate.getFullYear() + 10);
