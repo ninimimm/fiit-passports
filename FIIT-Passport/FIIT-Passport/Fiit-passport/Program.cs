@@ -25,7 +25,10 @@ var app = builder.Build();
 var host = new WebHostBuilder()
     .UseKestrel(options =>
     {
-        options.ListenAnyIP(8888);
+        options.ListenAnyIP(8888, listenOptions =>
+        {
+            listenOptions.UseHttps("certs/fullchain.pem", "certs/privkey.pem");
+        });
     })
     .ConfigureServices(services =>
     {
