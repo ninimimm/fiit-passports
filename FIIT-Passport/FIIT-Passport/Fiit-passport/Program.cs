@@ -1,3 +1,4 @@
+using System.Security.Cryptography.X509Certificates;
 using Fiit_passport.Database;
 using Microsoft.EntityFrameworkCore;
 using Telegram.Bot;
@@ -23,11 +24,17 @@ builder.Services.AddSingleton<ITelegramBotClient>(provider =>
 
 var app = builder.Build();
 var host = new WebHostBuilder()
+    .UseContentRoot(Directory.GetCurrentDirectory())
     .UseKestrel(options =>
     {
+        var certPath = Path.Combine(Directory.GetCurrentDirectory(), "certs", "fullchain.pem");
+        var keyPath = Path.Combine(Directory.GetCurrentDirectory(), "certs", "privkey.pem");
+        var pass = Guid.NewGuid().ToString();
+        var certificate = X509Certificate2.CreateFromPemFile(certPath, keyPath);
+        var f =  new X509Certificate2(certificate.Export(X509ContentType.Pfx, pass), pass);
         options.ListenAnyIP(8888, listenOptions =>
         {
-            listenOptions.UseHttps("certs/fullchain.pem", "certs/privkey.pem");
+            listenOptions.UseHttps(f);
         });
     })
     .ConfigureServices(services =>
