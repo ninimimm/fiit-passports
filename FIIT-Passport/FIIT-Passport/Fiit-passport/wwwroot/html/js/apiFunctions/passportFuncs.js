@@ -1,5 +1,5 @@
 async function createPassport() {
-    return await fetch(`http://${ip}:${port}/api/create/passport`,
+    return await fetch(`${security}://${ip}:${port}/api/create/passport`,
         {
             method: 'POST'
         }).then(response => {
@@ -11,7 +11,7 @@ async function createPassport() {
 }
 
 async function getPassport() {
-    return await fetch(`http://${ip}:${port}/api/get/passport`,
+    return await fetch(`${security}://${ip}:${port}/api/get/passport`,
     {
         method: 'POST',
         headers: {
@@ -27,7 +27,7 @@ async function getPassport() {
 }
 
 async function getPassports() {
-    return await fetch(`http://${ip}:${port}/api/get/passports`,
+    return await fetch(`${security}://${ip}:${port}/api/get/passports`,
     {
         method: 'POST',
         headers: {
@@ -43,7 +43,7 @@ async function getPassports() {
 }
 
 async function updatePassport(data) {
-    return await fetch(`http://${ip}:${port}/api/update/passport`,
+    return await fetch(`${security}://${ip}:${port}/api/update/passport`,
     {
         method: 'POST',
         headers: {
@@ -59,7 +59,7 @@ async function updatePassport(data) {
 }
 
 async function authenticate(data) {
-    return await fetch(`http://${ip}:${port}/api/authenticate`,
+    return await fetch(`${security}://${ip}:${port}/api/authenticate`,
     {
         method: 'POST',
         headers: {
@@ -75,7 +75,7 @@ async function authenticate(data) {
 }
 
 async function confirm(data) {
-    return await fetch(`http://${ip}:${port}/api/confirm/passport`,
+    return await fetch(`${security}://${ip}:${port}/api/confirm/passport`,
     {
         method: 'POST',
         headers: {

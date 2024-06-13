@@ -1,5 +1,5 @@
 async function createComment(leftBound, rightBound, fieldName) {
-    return await fetch(`http://${ip}:${port}/api/create/comment`,
+    return await fetch(`${security}://${ip}:${port}/api/create/comment`,
         {
             method: 'POST',
             headers: {
@@ -22,7 +22,7 @@ async function createComment(leftBound, rightBound, fieldName) {
 }
 
 async function getComments() {
-    return await fetch(`http://${ip}:${port}/api/get/comment`,
+    return await fetch(`${security}://${ip}:${port}/api/get/comment`,
         {
             method: 'POST',
             headers: {
@@ -38,7 +38,7 @@ async function getComments() {
 }
 
 async function updateComment(id, text) {
-    fetch(`http://${ip}:${port}/api/update/comment`,
+    fetch(`${security}://${ip}:${port}/api/update/comment`,
         {
             method: 'POST',
             headers: {
@@ -56,7 +56,7 @@ async function updateComment(id, text) {
 }
 
 async function deleteComment(id) {
-    return await fetch(`http://${ip}:${port}/api/delete/comment`,
+    return await fetch(`${security}://${ip}:${port}/api/delete/comment`,
         {
             method: 'POST',
             headers: {

@@ -1,5 +1,5 @@
 async function getNumbers() {
-    return await fetch(`http://${ip}:${port}/api/get/numbers`, {
+    return await fetch(`${security}://${ip}:${port}/api/get/numbers`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -14,7 +14,7 @@ async function getNumbers() {
 }
 
 async function updateNumbers(projects) {
-    return await fetch(`http://${ip}:${port}/api/update/numbers`, {
+    return await fetch(`${security}://${ip}:${port}/api/update/numbers`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
