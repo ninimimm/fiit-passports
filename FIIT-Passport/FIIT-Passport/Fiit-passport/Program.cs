@@ -84,4 +84,4 @@ bot.StartReceiving(new DefaultUpdateHandler(telegramBot.HandleUpdateAsync, Teleg
 var thread = new Thread(host.Run);
 thread.Start();
 
-app.Run();
+// app.Run();
