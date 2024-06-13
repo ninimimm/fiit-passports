@@ -1,8 +1,5 @@
 window.onload = function() {
-    if (localStorage.getItem('auth') === null || localStorage.getItem('auth') === undefined) {
-        return;
-    }
-    getPassports(localStorage.getItem('auth')).then(data => {
+    getPassports(getCookie('idSession')).then(data => {
         const block = document.querySelector('.all_requests');
         let index = 1;
         data.forEach(passport => {

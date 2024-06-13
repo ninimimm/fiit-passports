@@ -108,7 +108,6 @@ async function SubmitPassport() {
         return response.json();
     }).then(data => {
         if (data.message === "Ok") {
-            localStorage.setItem('auth', document.querySelector('.telegram_input').value);
             window.location.href = '../userPagesHTML/request_send.html';
         }
         else {
