@@ -29,12 +29,10 @@ var host = new WebHostBuilder()
     {
         var certPath = Path.Combine(Directory.GetCurrentDirectory(), "certs", "fullchain.pem");
         var keyPath = Path.Combine(Directory.GetCurrentDirectory(), "certs", "privkey.pem");
-        var pass = Guid.NewGuid().ToString();
         var certificate = X509Certificate2.CreateFromPemFile(certPath, keyPath);
-        var f =  new X509Certificate2(certificate.Export(X509ContentType.Pfx, pass), pass);
         options.ListenAnyIP(8888, listenOptions =>
         {
-            listenOptions.UseHttps(f);
+            listenOptions.UseHttps(certificate);
         });
     })
     .ConfigureServices(services =>
