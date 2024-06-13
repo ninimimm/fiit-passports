@@ -1,5 +1,16 @@
 window.onload = function() {
-    getPassports(getCookie('idSession')).then(data => {
+    let idSession = null;
+    for (let key in localStorage) {
+        const item = JSON.parse(localStorage.getItem(key));
+        if (item && item.status > 0) {
+            idSession = key;
+            break;
+        }
+    }
+    if (idSession === null) {
+        return;
+    }
+    getPassports(idSession).then(data => {
         const block = document.querySelector('.all_requests');
         let index = 1;
         data.forEach(passport => {
