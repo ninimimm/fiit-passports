@@ -1,6 +1,6 @@
 window.onload = function() {
     let idSession = null;
-    for (let key in localStorage) {
+    for (let key of localStorage) {
         const item = JSON.parse(localStorage.getItem(key));
         if (item && item.status > 0) {
             idSession = key;
