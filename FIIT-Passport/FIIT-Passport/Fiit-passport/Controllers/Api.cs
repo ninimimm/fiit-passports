@@ -103,9 +103,9 @@ public class ApiController(TelegramDbContext repo, TelegramBot.TelegramBot botTo
     [HttpPost("get/passports")]
     public async Task<IActionResult> GetPassports([FromBody] Dictionary<string, string> request)
     {
-        var sessionId = request["sessionId"];
-        var passport = await repo.GetPassport(sessionId);
-        var passports = await repo.GetPassports(passport!.AuthenticatedTelegramTag!);
+        // var sessionId = request["sessionId"];
+        // var passport = await repo.GetPassport(sessionId);
+        var passports = await repo.GetPassports(request["auth"]);
         return Ok(passports);
     }
     

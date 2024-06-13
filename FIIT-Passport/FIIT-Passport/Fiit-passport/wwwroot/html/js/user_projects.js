@@ -1,16 +1,8 @@
 window.onload = function() {
-    let idSession = null;
-    for (let key of localStorage) {
-        const item = JSON.parse(localStorage.getItem(key));
-        if (item && item.status > 0) {
-            idSession = key;
-            break;
-        }
-    }
-    if (idSession === null) {
+    if (localStorage.getItem('auth') === null || localStorage.getItem('auth') === undefined) {
         return;
     }
-    getPassports(idSession).then(data => {
+    getPassports(localStorage.getItem('auth')).then(data => {
         const block = document.querySelector('.all_requests');
         let index = 1;
         data.forEach(passport => {

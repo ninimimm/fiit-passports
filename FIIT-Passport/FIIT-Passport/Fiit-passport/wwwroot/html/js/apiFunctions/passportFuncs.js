@@ -26,14 +26,14 @@ async function getPassport() {
     });
 }
 
-async function getPassports() {
+async function getPassports(a) {
     return await fetch(`${security}://${ip}:${port}/api/get/passports`,
     {
         method: 'POST',
         headers: {
           'Content-Type' : 'application/json'  
         },
-        body: JSON.stringify({ sessionId: getCookie("idSession") })
+        body: JSON.stringify({ auth: a })
     }).then(response => {
     if (!response.ok) {
         throw new Error('Не получилось получить паспорта');
